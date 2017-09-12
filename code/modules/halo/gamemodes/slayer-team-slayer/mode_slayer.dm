@@ -31,8 +31,6 @@
 	for(var/mob/living/carbon/human/i in GLOB.player_list)
 		if(i.stat == DEAD) continue
 		var/health = i.maxHealth - i.getBruteLoss() - i.getFireLoss() - i.getToxLoss() - i.getCloneLoss()
-		world << health
-		world << (-i.maxHealth/2)
 		if(health <= (i.maxHealth/2))
 			i.adjustBrainLoss(i.health+1)
 	if(world.time >= nextrespawn)
