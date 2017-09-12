@@ -27,20 +27,26 @@
 		return 1
 	return 0
 
-/datum/game_mode/slayer/process() //Used to allow respawns after few minutes. Also auto-kills people after a threshold.
+/datum/game_mode/slayer/proc/auto_respawn()
+	for(var/mob/observer/ghost/G in GLOB.ghost_mob_list)
+		if(G.client)
+			if(G.can_reenter_corpse != CORPSE_CAN_REENTER_AND_RESPAWN)
+				to_chat(G,"<span class = 'danger'>You may now respawn.</span>")
+				G.can_reenter_corpse = CORPSE_CAN_REENTER_AND_RESPAWN
+				G.timeofdeath = 0
+				nextrespawn = world.time + RESPAWN_TIME
+
+/datum/game_mode/slayer/proc/auto_kill()
 	for(var/mob/living/carbon/human/i in GLOB.player_list)
 		if(i.stat == DEAD) continue
 		var/health = i.maxHealth - i.getBruteLoss() - i.getFireLoss() - i.getToxLoss() - i.getCloneLoss()
 		if(health <= (i.maxHealth/2))
 			i.adjustBrainLoss(i.health+1)
+
+/datum/game_mode/slayer/process() //Used to allow respawns after few minutes. Also auto-kills people after a threshold.
 	if(world.time >= nextrespawn)
-		for(var/mob/observer/ghost/G in GLOB.ghost_mob_list)
-			if(G.client)
-				if(G.can_reenter_corpse != CORPSE_CAN_REENTER_AND_RESPAWN)
-					to_chat(G,"<span class = 'danger'>You may now respawn.</span>")
-					G.can_reenter_corpse = CORPSE_CAN_REENTER_AND_RESPAWN
-					G.timeofdeath = 0
-					nextrespawn = world.time + RESPAWN_TIME
+		auto_respawn()
+		auto_kill()
 
 /datum/game_mode/slayer/declare_completion()
 	var/out_message = "<h1>The round is over! The scores were:</h1>"
