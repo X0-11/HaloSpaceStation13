@@ -73,6 +73,7 @@
 		if(killer.name != victim.name)
 			team_scores_unsorted[team_name] += 1
 			to_world("<h1>[victim.real_name] has been killed by [killer.name]: [team_name] ([team_scores_unsorted[team_name]] kills)</h1>")
+	return 1
 	/*if(!scores_with_names[killer.name]) //Can be used later for by-name scoring, commented out seeing as it's probably not needed right now.
 		scores_with_names[killer.name] = 0
 	if(killer.name == victim.name)
