@@ -37,6 +37,8 @@
 	//TODO: Move controls to UI based.
 	if(!land_point)
 		return
+	if(launching == LAUNCH_UNDERWAY)
+		return
 	if(launching == LAUNCH_ABORTED)
 		to_chat(user,"<span class='notice'>Launch Initiated. 20 seconds to launch.</span>")
 		start_launch()
@@ -57,9 +59,7 @@
 		if(O.anchored) //Obliterate anything anchored down.
 			qdel(O)
 			continue
-		var/new_x = O.x + rand(-5,5)
-		var/new_y = O.y + rand(-5,5)
-		O.loc = locate(new_x,new_y,O.z)
+		step_away(O,newloc,4,64)
 
 /obj/machinery/podcontrol/proc/check_if_turf_then_translate(var/i,var/turf/newloc)
 	if(isturf(i)) //Turfs can't have their .loc set.
@@ -76,7 +76,7 @@
 /obj/machinery/podcontrol/proc/launch()
 	var/translation = calc_translation(land_point)
 	for(var/mob/m in view(7,land_point))
-		to_chat(m,"<span class='userdanger'>A concussive blast throws everything aside!</span>") //Tell everyone things were thrown away.
+		to_chat(m,"<span class='danger'>A concussive blast throws everything aside!</span>") //Tell everyone things were thrown away.
 
 	for(var/i in contained_area.contents)
 		var/atom/I = i //Typecast to atom
@@ -107,6 +107,15 @@
 			explosion(land_point.loc,0,0,5,10) //A very weak explosion to announce the arrival.
 			spawn(2)
 				launch()//Then actually arrive.
+
+/obj/effect/landmark/innie_bomb
+	name = "innie bomb spawn"
+
+/obj/payload/innie
+	anchored = 1
+
+/obj/payload/innie/toggle_anchor()
+	return
 
 #undef LAUNCH_ABORTED
 #undef LAUNCH_UNDERWAY
