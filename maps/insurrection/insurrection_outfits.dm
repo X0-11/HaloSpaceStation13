@@ -1,10 +1,10 @@
 
-/decl/hierarchy/outfit/UNSC_Assault
+/decl/hierarchy/outfit/job/UNSC_Assault
 	name = "UNSC Assault"
 
 	uniform = /obj/item/clothing/under/pj/red
 
-/decl/hierarchy/outfit/Insurrectionist
+/decl/hierarchy/outfit/job/Insurrectionist
 	name = "Insurrectionist"
 
 	mask = /obj/item/clothing/mask/balaclava

@@ -6,9 +6,6 @@
 
 
 //engineering
-/area/asteroid_base/tcomms
-	name = "\improper Telecommunications Server Room"
-	icon_state = "tcomsatcham"
 
 /area/asteroid_base/engine
 	name = "\improper Base Power Generators"
@@ -54,9 +51,6 @@
 
 
 //misc
-/area/asteroid_base/storage_primary
-	name = "\improper Primary Storage"
-	icon_state = "primarystorage"
 
 /area/asteroid_base/armoury_1
 	name = "\improper Armoury 1"

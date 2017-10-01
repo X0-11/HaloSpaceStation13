@@ -12,7 +12,7 @@
 
 	loadout_allowed = TRUE
 	announced = FALSE
-	outfit_type = /decl/hierarchy/outfit/Insurrectionist
+	outfit_type = /decl/hierarchy/outfit/job/Insurrectionist
 
 	latejoin_at_spawnpoints = TRUE
 
@@ -29,7 +29,7 @@
 
 	loadout_allowed = FALSE
 	announced = FALSE
-	outfit_type = /decl/hierarchy/outfit/UNSC_Assault
+	outfit_type = /decl/hierarchy/outfit/job/UNSC_Assault
 
 	latejoin_at_spawnpoints = TRUE
 
@@ -47,7 +47,7 @@
 
 	loadout_allowed = FALSE
 	announced = FALSE
-	outfit_type = /decl/hierarchy/outfit/UNSC_Assault
+	outfit_type = /decl/hierarchy/outfit/job/UNSC_Assault
 
 	latejoin_at_spawnpoints = TRUE
 
@@ -63,6 +63,6 @@
 
 	loadout_allowed = FALSE
 	announced = FALSE
-	outfit_type = /decl/hierarchy/outfit/UNSC_Assault
+	outfit_type = /decl/hierarchy/outfit/job/UNSC_Assault
 
 	latejoin_at_spawnpoints = TRUE

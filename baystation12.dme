@@ -2491,7 +2491,7 @@
 #include "maps\example\example_define.dm"
 #include "maps\insurrection\innie_base.dm"
 #include "maps\insurrection\innie_base_map.dm"
-#include "maps\insurrection\insurrection_items.dm"
+#include "maps\insurrection\innie_unit_test.dm"
 #include "maps\overmap_example\overmap_example_define.dm"
 #include "maps\torch\torch_define.dm"
 #include "maps\~mapsystem\map_preferences.dm"
