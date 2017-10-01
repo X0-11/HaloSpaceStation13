@@ -72,4 +72,16 @@
 
 	can_hold = list(/obj/item/ammo_magazine)
 
+/obj/item/weapon/storage/belt/marine_medic
+	name = "Medical Supplies Storage Belt"
+	desc = "A belt with multiple hooks to hold medical kits, alongside a few small ammunition pouches"
+	icon_state = "medicalbelt"
+	/*icon = ITEM_INHAND //Using normal medical belt sprites for now.
+	icon_override = MARINE_OVERRIDE
+	icon_state = "UNSC Marine Medical Belt item"
+	item_state = "UNSC Marine Medical Belt"*/
+	storage_slots = 5
+
+	can_hold = list(/obj/item/ammo_magazine/m5,/obj/item/ammo_magazine/m127_saphp,/obj/item/ammo_magazine/m127_saphe,/obj/item/weapon/storage/firstaid/unsc)
+
 #undef MARINE_OVERRIDE

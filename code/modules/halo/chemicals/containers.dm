@@ -20,10 +20,8 @@
 
 /obj/item/weapon/reagent_containers/syringe/biofoam
 	name = "Biofoam Syringe"
-	desc = "A syringe filled with biofoam, used to quick;y fix internal and external injuries."
+	desc = "A syringe filled with biofoam, used to quickly fix internal and external injuries."
 	amount_per_transfer_from_this = 10
-	volume = 10
-	time = 30
 
 	New()
 		..()
