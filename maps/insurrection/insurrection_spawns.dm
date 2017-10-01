@@ -1,4 +1,10 @@
 
+/datum/map/innie_base
+	allowed_jobs = list(/datum/job/Insurrectionist,/datum/job/UNSC_assault,/datum/job/UNSC_Squad_Lead,/datum/job/UNSC_Team_Lead)
+
+	allowed_spawns = list("Insurrectionist","UNSC Assault Squad Member","UNSC Assault Squad Lead","UNSC Assault Team Lead")
+
+
 /datum/spawnpoint/insurrectionist
 	display_name = "Insurrectionist"
 	restrict_job = list(/datum/job/Insurrectionist) //Implement when job created.

@@ -4,7 +4,7 @@
 	total_positions = 46
 	selection_color = "#ffff00"
 
-	supervisors = list("Insurrectionist Leader")
+	supervisors = " the Insurrectionist Leader"
 
 	create_record = 0
 	account_allowed = 0
@@ -21,7 +21,7 @@
 	total_positions = 40
 	selection_color = "#ffff00"
 
-	supervisors = list("UNSC Assault Team Lead","UNSC Assault Squad Lead")
+	supervisors = "the UNSC Assault Team Lead and the UNSC Assault Squad Lead"
 
 	create_record = 0
 	account_allowed = 0
@@ -39,7 +39,7 @@
 	total_positions = 5
 	selection_color = "#ffff00"
 
-	supervisors = list("UNSC Assault Team Lead")
+	supervisors = "the UNSC Assault Team Lead"
 
 	create_record = 0
 	account_allowed = 0
