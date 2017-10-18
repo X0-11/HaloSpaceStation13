@@ -40,6 +40,8 @@
 	startswith = list(
 		/obj/item/stack/medical/bruise_pack,
 		/obj/item/stack/medical/ointment,
+		/obj/item/weapon/storage/pill_bottle/inaprovaline,
+		/obj/item/weapon/reagent_containers/syringe/biofoam,
 		/obj/item/weapon/reagent_containers/syringe/biofoam,
 		/obj/item/weapon/reagent_containers/syringe/biofoam,
 		/obj/item/weapon/reagent_containers/syringe/biofoam,

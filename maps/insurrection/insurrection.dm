@@ -1,5 +1,5 @@
 
-#define UNSC_ROLES list("UNSC Assault Squad Member","UNSC Assault Squad Lead","UNSC Assault Team Lead")
+#define UNSC_ROLES list("ODST Assault Squad Member","ODST Assault Squad Lead","ODST Assault Team Lead")
 #define INNIE_ROLES list("Insurrectionist")
 
 #define LAUNCH_ABORTED -1
@@ -15,7 +15,7 @@
 	votable = 1
 	var/obj/payload/bombs = list("timer" = 0)
 	var/list/remaining_pods = list()
-	var/prepare_time =  3 MINUTES //The amount of time the insurrectionists have to prepare for the UNSC assault, in ticks
+	var/prepare_time =  3 MINUTES //The amount of time the insurrectionists have to prepare for the ODST assault, in ticks
 	var/last_assault = 0 //This is also set to -1 when a bomb is active.
 
 	//required_players = 2

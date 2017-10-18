@@ -85,3 +85,4 @@
 	can_hold = list(/obj/item/ammo_magazine/m5,/obj/item/ammo_magazine/m127_saphp,/obj/item/ammo_magazine/m127_saphe,/obj/item/weapon/storage/firstaid/unsc)
 
 #undef MARINE_OVERRIDE
+#undef ITEM_INHAND

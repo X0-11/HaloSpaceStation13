@@ -114,7 +114,7 @@
 /obj/payload/innie
 	anchored = 1
 
-/obj/payload/innie/toggle_anchor()
+/obj/payload/innie/set_anchor()
 	return
 
 #undef LAUNCH_ABORTED

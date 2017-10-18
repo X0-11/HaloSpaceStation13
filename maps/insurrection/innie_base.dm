@@ -9,7 +9,7 @@
 	#include "innie_base_areas.dm"
 	#include "innie_base2.dmm"
 	#include "innie_base1.dmm"
-	#include "UNSC_staging.dmm"
+	#include "ODST_staging.dmm"
 
 	#define using_map_DATUM /datum/map/innie_base
 
