@@ -90,9 +90,6 @@
 	name = "\improper Shuttle Dock"
 	icon_state = "aux_hangar"
 
-/area/asteroid_base/cv_comet
-	name = "\improper CCV Comet"
-
 
 //hallways
 /area/asteroid_base/central_hallway_1

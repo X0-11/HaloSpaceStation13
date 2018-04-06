@@ -190,9 +190,6 @@
 /area/planets/Geminus/outdoor/space_elevator
 	name = "\improper Space Elevator"
 
-/area/planets/Geminus/outdoor/star
-	name = "\improper CCV Star"
-
 //COLONY MAC//
 /area/planets/Geminus/outdoor/MAC
 	name = "\improper Geminus MAC"
