@@ -3,6 +3,12 @@
 
 	var/obj/effect/projectile/ship_damage_projectile = /obj/item/projectile/overmap_test_round //This is the projectile used when this impacts a ship on the overmap. This is spawned in a random connected z-level of that overmap ship object.
 	step_delay = 1 SECOND //These will only be traversing overmap tiles.
+	var/obj/effect/overmap/overmap_fired_by
+
+/obj/item/projectile/overmap/New(var/obj/spawner)
+	if(map_sectors["[spawner.z]"])
+		overmap_fired_by = map_sectors["[spawner.z]"]
+	//used for later-down-the-line overrides.
 
 /obj/item/projectile/overmap/Move(var/newloc,var/dir)
 	if(istype(newloc,/turf/unsimulated/map/edge))
@@ -43,13 +49,13 @@
 		return co_ords
 
 /obj/item/projectile/overmap/proc/do_sector_hit(var/z_level,var/obj/effect/overmap/object_hit)
-	if(prob(33)) //33% chance we miss the populated area entirely
-		visible_message("<span class = 'notice'>[src] misses the vital parts of [object_hit]</span>")
-		return
-	var/list/hit_bounds = list(1,255,255,1)
-	if(prob(35))
+	var/list/hit_bounds = object_hit.map_bounds
+	if(prob(15))
 		hit_bounds  = pick(object_hit.weapon_locations)
 
+	sector_hit_effects(z_level,object_hit,hit_bounds)
+
+/obj/item/projectile/overmap/proc/sector_hit_effects(var/z_level,var/obj/effect/overmap/hit,var/list/hit_bounds)
 	var/turf/turf_to_explode = locate(rand(hit_bounds[1],hit_bounds[3]),rand(hit_bounds[2],hit_bounds[4]),z_level)
 	explosion(turf_to_explode,3,5,7,10)
 
@@ -78,8 +84,10 @@
 	if(istype(impacted,/obj/effect/overmap/ship/npc_ship))
 		var/obj/effect/overmap/ship/npc_ship/ship = impacted
 		if(ship.unload_at)
+			ship.take_projectiles(src,0)
 			chosen_impact_z = pick(overmap_object.map_z)
 			do_z_level_proj_spawn(chosen_impact_z,overmap_object)
+			qdel(src)
 		else
 			ship.take_projectiles(src)
 			return 0
