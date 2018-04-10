@@ -192,7 +192,7 @@
 "dJ" = (/obj/structure/closet/secure_closet/security,/turf/simulated/floor/tiled/dark,/area/om_ships/Niflheim)
 "dK" = (/obj/structure/sign/warning/biohazard{pixel_x = -32},/turf/simulated/floor/tiled/dark,/area/om_ships/NiflheimXBlock)
 "dL" = (/obj/structure/sign/warning/detailed{desc = "For Prisoners who are convincted by the UEG of belonging to a terrorist or insurrgent organization."; name = "X-BLOCK"; pixel_x = 32},/turf/simulated/floor/tiled/dark,/area/om_ships/NiflheimXBlock)
-"dM" = (/obj/machinery/light{icon_state = "tube1"; dir = 4; step_y = 31},/turf/simulated/wall/r_wall,/area/om_ships/NiflheimXBlock)
+"dM" = (/obj/machinery/light{icon_state = "tube1"; dir = 4},/turf/simulated/wall/r_wall,/area/om_ships/NiflheimXBlock)
 "dN" = (/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled/dark,/area/om_ships/Niflheim)
 "dO" = (/obj/machinery/portable_atmospherics/canister/empty/sleeping_agent,/obj/machinery/light,/turf/simulated/floor/plating,/area/om_ships/Niflheim)
 "dP" = (/obj/machinery/vending/engineering,/obj/machinery/light,/turf/simulated/floor/plating,/area/om_ships/Niflheim)
