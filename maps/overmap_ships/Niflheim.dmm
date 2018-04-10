@@ -219,7 +219,7 @@
 "ek" = (/obj/structure/closet/secure_closet/security,/turf/simulated/floor/tiled/dark,/area/om_ships/Niflheim)
 "el" = (/obj/structure/sign/warning/biohazard{pixel_x = -32},/turf/simulated/floor/tiled/dark,/area/om_ships/NiflheimXBlock)
 "em" = (/obj/structure/sign/warning/detailed{desc = "For Prisoners who are convincted by the UEG of belonging to a terrorist or insurrgent organization."; name = "X-BLOCK"; pixel_x = 32},/turf/simulated/floor/tiled/dark,/area/om_ships/NiflheimXBlock)
-"en" = (/obj/machinery/light{icon_state = "tube1"; dir = 4; step_y = 31},/turf/simulated/wall/r_wall,/area/om_ships/NiflheimXBlock)
+"en" = (/obj/machinery/light{icon_state = "tube1"; dir = 4},/turf/simulated/wall/r_wall,/area/om_ships/NiflheimXBlock)
 "eo" = (/obj/machinery/light,/obj/structure/fitness/punchingbag,/turf/simulated/floor/grass,/area/om_ships/Niflheim)
 "ep" = (/obj/structure/fitness/punchingbag,/turf/simulated/floor/grass,/area/om_ships/Niflheim)
 "eq" = (/obj/machinery/light,/turf/simulated/floor/grass,/area/om_ships/Niflheim)
