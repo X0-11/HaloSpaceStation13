@@ -207,7 +207,7 @@
 "dY" = (/obj/machinery/door/firedoor/border_only,/obj/machinery/door/airlock/glass{name = "Dormitory"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor{icon_state = "neutral"; dir = 4},/area/om_ships/star)
 "dZ" = (/obj/machinery/door/firedoor/border_only,/obj/machinery/door/airlock{name = "Head"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor,/area/om_ships/star)
 "ea" = (/obj/machinery/door/airlock/glass_medical{name = "Medbay"; req_one_access = list(65,5)},/obj/machinery/door/firedoor/border_only{dir = 2},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor,/area/om_ships/star)
-"eb" = (/obj/machinery/power/smes,/obj/structure/cable/yellow{d2 = 2; icon_state = "0-2"},/obj/structure/cable,/turf/simulated/floor/plating,/area/om_ships/star)
+"eb" = (/obj/structure/cable/yellow{d2 = 2; icon_state = "0-2"},/obj/structure/cable,/obj/machinery/power/smes/buildable/max_cap_in_out,/turf/simulated/floor/plating,/area/om_ships/star)
 "ec" = (/obj/structure/closet/crate,/obj/item/stack/material/phoron,/obj/item/stack/material/phoron,/turf/simulated/floor/plating,/area/om_ships/star)
 "ed" = (/obj/structure/closet/crate,/obj/item/stack/material/phoron,/turf/simulated/floor/plating,/area/om_ships/star)
 "ee" = (/obj/structure/closet/crate,/obj/item/stack/material/steel,/obj/item/stack/material/glass,/obj/item/stack/material/glass,/turf/simulated/floor/plating,/area/om_ships/star)
