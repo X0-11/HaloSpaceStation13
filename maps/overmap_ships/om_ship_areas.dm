@@ -41,5 +41,11 @@
 	name = "Niflheim X-Block"
 	icon_state = "yellow"
 
+/area/om_ships/Elivagar
+	name = "CMV Elivagar"
+
+/area/om_ships/Hvergelmir
+	name = "CMV Hvergelmir"
+
 /area/om_ships/unscpatrol
 	name = "UNSC Patrol Vessel"
