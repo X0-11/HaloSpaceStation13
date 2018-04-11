@@ -58,6 +58,7 @@
 	display_name = "boot knife"
 	path = /obj/item/weapon/material/kitchen/utensil/knife/boot
 	cost = 3
+	allowed_roles = ALL_COMBAT_ROLES
 
 /datum/gear/lunchbox
 	display_name = "lunchbox"

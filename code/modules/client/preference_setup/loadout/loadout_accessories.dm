@@ -3,29 +3,35 @@
 	path = /obj/item/clothing/accessory/locket
 	slot = slot_tie
 	sort_category = "Accessories"
+	allowed_roles = NON_MILITARY_ROLES
 
 /datum/gear/accessory/vest
 	display_name = "black vest"
 	path = /obj/item/clothing/accessory/toggleable/vest
+	allowed_roles = NON_MILITARY_ROLES
 
 
 /datum/gear/accessory/suspenders
 	display_name = "suspenders"
 	path = /obj/item/clothing/accessory/suspenders
+	allowed_roles = NON_MILITARY_ROLES
 
 /datum/gear/accessory/wcoat
 	display_name = "waistcoat"
 	path = /obj/item/clothing/accessory/wcoat
+	allowed_roles = NON_MILITARY_ROLES
 
 
 /datum/gear/accessory/zhongshan
 	display_name = "zhongshan jacket"
 	path = /obj/item/clothing/accessory/toggleable/zhongshan
 	flags = GEAR_HAS_COLOR_SELECTION
+	allowed_roles = NON_MILITARY_ROLES
 
 /datum/gear/accessory/dashiki
 	display_name = "dashiki selection"
 	path = /obj/item/clothing/accessory/dashiki
+	allowed_roles = NON_MILITARY_ROLES
 
 
 /datum/gear/accessory/dashiki/New()
@@ -35,42 +41,50 @@
 /datum/gear/accessory/thawb
 	display_name = "thawb"
 	path = /obj/item/clothing/accessory/thawb
+	allowed_roles = NON_MILITARY_ROLES
 
 
 /datum/gear/accessory/sherwani
 	display_name = "sherwani"
 	path = /obj/item/clothing/accessory/sherwani
 	flags = GEAR_HAS_COLOR_SELECTION
+	allowed_roles = NON_MILITARY_ROLES
 
 /datum/gear/accessory/qipao
 	display_name = "qipao blouse"
 	path = /obj/item/clothing/accessory/qipao
 	flags = GEAR_HAS_COLOR_SELECTION
+	allowed_roles = NON_MILITARY_ROLES
 
 /datum/gear/accessory/sweater
 	display_name = "turtleneck sweater"
 	path = /obj/item/clothing/accessory/sweater
 	flags = GEAR_HAS_COLOR_SELECTION
+	allowed_roles = NON_MILITARY_ROLES
 
 /datum/gear/accessory/tangzhuang
 	display_name = "tangzhuang jacket"
 	path = /obj/item/clothing/accessory/tangzhuang
 	flags = GEAR_HAS_COLOR_SELECTION
+	allowed_roles = NON_MILITARY_ROLES
 
 /datum/gear/accessory/necklace
 	display_name = "necklace"
 	path = /obj/item/clothing/accessory/necklace
 	flags = GEAR_HAS_COLOR_SELECTION
+	allowed_roles = NON_MILITARY_ROLES
 
 /datum/gear/accessory/bowtie
 	display_name = "bowtie, horrible"
 	path = /obj/item/clothing/accessory/bowtie/ugly
+	allowed_roles = NON_MILITARY_ROLES
 
 
 /datum/gear/accessory/bowtie/color
 	display_name = "bowtie, colored"
 	path = /obj/item/clothing/accessory/bowtie/color
 	flags = GEAR_HAS_COLOR_SELECTION
+	allowed_roles = NON_MILITARY_ROLES
 
 //have to break up armbands to restrict access
 /datum/gear/accessory/armband_security
@@ -80,6 +94,7 @@
 /datum/gear/accessory/armband_mp
 	display_name = "military police armband"
 	path = /obj/item/clothing/accessory/armband/mp
+	allowed_roles = ALL_MILITARY_ROLES
 
 /datum/gear/accessory/armband_cargo
 	display_name = "cargo armband"
@@ -96,6 +111,7 @@
 /datum/gear/accessory/armband_corpsman
 	display_name = "medical corps armband"
 	path = /obj/item/clothing/accessory/armband/medblue
+	allowed_roles = ALL_MILITARY_ROLES
 
 /datum/gear/accessory/armband_engineering
 	display_name = "engineering armband"
@@ -112,6 +128,7 @@
 /datum/gear/accessory/armband_solgov
 	display_name = "peacekeeper armband"
 	path = /obj/item/clothing/accessory/armband/bluegold
+	allowed_roles = ALL_MILITARY_ROLES
 
 /datum/gear/accessory/wallet
 	display_name = "wallet"
@@ -127,6 +144,7 @@
 	display_name = "holster selection"
 	path = /obj/item/clothing/accessory/holster
 	cost = 3
+	allowed_roles = ALL_COMBAT_ROLES
 
 /datum/gear/accessory/holster/New()
 	..()
@@ -135,6 +153,7 @@
 /datum/gear/accessory/ubac
 	display_name = "ubac selection"
 	path = /obj/item/clothing/accessory/ubac
+	allowed_roles = ALL_COMBAT_ROLES
 
 /datum/gear/accessory/ubac/New()
 	..()
@@ -167,6 +186,7 @@
 	display_name = "bandolier"
 	path = /obj/item/clothing/accessory/storage/bandolier
 	cost = 3
+	allowed_roles = ALL_COMBAT_ROLES
 
 /datum/gear/accessory/hawaii
 	display_name = "hawaii shirt"
@@ -192,6 +212,7 @@
 	description = "A medal or ribbon awarded to UNSC personnel for significant accomplishments."
 	path = /obj/item/clothing/accessory/medal/iron/star
 	cost = 8
+	allowed_roles = ALL_MILITARY_ROLES
 
 
 /datum/gear/accessory/solawardmajor/New()
@@ -212,6 +233,7 @@
 	description = "A medal or ribbon awarded to UNSC personnel for minor accomplishments."
 	path = /obj/item/clothing/accessory/medal/iron/sol
 	cost = 5
+	allowed_roles = ALL_MILITARY_ROLES
 
 /datum/gear/accessory/solawardminor/New()
 	..()
@@ -225,10 +247,12 @@
 /datum/gear/accessory/tags
 	display_name = "dog tags"
 	path = /obj/item/clothing/accessory/badge/tags
+	allowed_roles = ALL_COMBAT_ROLES
 
 /datum/gear/accessory/kneepads
 	display_name = "kneepads"
 	path = /obj/item/clothing/accessory/kneepads
+	allowed_roles = ALL_COMBAT_ROLES
 
 /datum/gear/accessory/flannel
 	display_name = "flannel (colorable)"
@@ -236,3 +260,4 @@
 	slot = slot_tie
 	flags = GEAR_HAS_COLOR_SELECTION
 	sort_category = "Accessories"
+	allowed_roles = NON_MILITARY_ROLES

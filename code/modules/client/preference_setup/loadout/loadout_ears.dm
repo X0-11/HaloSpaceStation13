@@ -4,8 +4,10 @@
 	display_name = "earmuffs"
 	path = /obj/item/clothing/ears/earmuffs
 	sort_category = "Earwear"
+	allowed_roles = NON_MILITARY_ROLES
 
 /datum/gear/headphones
 	display_name = "headphones"
 	path = /obj/item/clothing/ears/earmuffs/headphones
 	sort_category = "Earwear"
+	allowed_roles = NON_MILITARY_ROLES
