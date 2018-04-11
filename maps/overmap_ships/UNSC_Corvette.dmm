@@ -60,7 +60,7 @@
 "bh" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 10},/obj/machinery/light{tag = "icon-tube1 (EAST)"; icon_state = "tube1"; dir = 4},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
 "bi" = (/obj/machinery/food_replicator,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
 "bj" = (/obj/machinery/light,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"bk" = (/obj/machinery/power/apc/super{name = "UNSC Corvette central power controller"; step_y = 30},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"bk" = (/obj/machinery/power/apc/super{name = "UNSC Corvette central power controller"; pixel_y = 32},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
 "bl" = (/obj/structure/cable/blue{dir = 2; icon_state = "1-2"},/obj/structure/cable/blue{icon_state = "1-8"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
 "bm" = (/obj/machinery/atmospherics/pipe/simple/visible/blue{dir = 6},/obj/machinery/light{tag = "icon-tube1 (NORTH)"; icon_state = "tube1"; dir = 1},/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
 "bn" = (/obj/machinery/atmospherics/pipe/simple/visible/blue{dir = 4},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
