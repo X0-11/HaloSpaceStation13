@@ -120,51 +120,52 @@
 "cp" = (/obj/effect/floor_decal/industrial/hatch,/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
 "cq" = (/obj/machinery/computer/helm,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
 "cr" = (/obj/structure/cable/blue{icon_state = "2-8"},/obj/structure/bed/chair{dir = 8},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"cs" = (/obj/machinery/door/airlock/multi_tile/halo{dir = 1; name = "Bridge"; req_access = list(300)},/obj/machinery/door/blast/atmos_close/regular{id = "deck1bridge1"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"ct" = (/obj/machinery/door/airlock/multi_tile/halo{dir = 1},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"cu" = (/obj/structure/cable/blue{icon_state = "2-8"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"cv" = (/obj/structure/bed/chair,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"cw" = (/obj/machinery/button/remote/blast_door{id = "abull"; name = "Armored Bull"},/turf/simulated/wall/r_wall,/area/om_ships/unscpatrol)
-"cx" = (/obj/vehicles/air/overmap/pelican/unsc{tag = "icon-base (EAST)"; icon_state = "base"; dir = 4},/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
-"cy" = (/obj/item/modular_computer/console/preset/sysadmin,/obj/structure/cable/blue{icon_state = "4-8"},/obj/machinery/light,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"cz" = (/obj/item/modular_computer/console/preset/sysadmin,/obj/structure/cable/blue{icon_state = "4-8"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"cA" = (/obj/machinery/computer/engines,/obj/structure/cable/blue{icon_state = "1-8"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"cB" = (/obj/machinery/atmospherics/pipe/simple/visible{icon_state = "intact"; dir = 6},/obj/structure/cable/blue{icon_state = "0-4"},/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
-"cC" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 10},/obj/structure/cable/blue{icon_state = "1-8"},/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
-"cD" = (/obj/machinery/door/airlock/halo{name = "Cell 2"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"cE" = (/obj/machinery/atmospherics/pipe/tank/oxygen{dir = 1},/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
-"cF" = (/obj/structure/closet/emcloset/legacy,/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
-"cG" = (/obj/machinery/atmospherics/pipe/tank/empty{dir = 1; icon_state = "air_map"; tag = "icon-air_map (NORTH)"},/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
-"cH" = (/obj/structure/table/steel_reinforced,/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
-"cI" = (/obj/machinery/shower{dir = 4; icon_state = "shower"; pixel_x = 5},/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
-"cJ" = (/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
-"cK" = (/obj/structure/curtain/open,/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
-"cL" = (/obj/machinery/light{tag = "icon-tube1 (NORTH)"; icon_state = "tube1"; dir = 1},/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
-"cM" = (/obj/structure/cable/blue{icon_state = "0-2"},/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
-"cN" = (/obj/structure/sink{dir = 1; pixel_y = 16},/obj/structure/mirror{pixel_x = 0; pixel_y = 30},/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
-"cO" = (/obj/structure/toilet{dir = 8},/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
-"cP" = (/obj/structure/table/standard,/obj/item/weapon/reagent_containers/syringe/ld50_syringe/triadrenaline,/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
-"cQ" = (/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
-"cR" = (/obj/structure/cable/blue{icon_state = "0-2"},/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
-"cS" = (/obj/machinery/sleeper,/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
-"cT" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/medical,/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
-"cU" = (/obj/structure/cable/blue{dir = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
-"cV" = (/obj/machinery/light{icon_state = "tube1"; dir = 8},/obj/structure/bed/chair/office/dark{dir = 1},/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
-"cW" = (/obj/structure/cable/blue{dir = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
-"cX" = (/obj/machinery/light{dir = 4; icon_state = "tube1"},/obj/machinery/iv_drip,/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
-"cY" = (/obj/machinery/vending/armory/armor,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"cZ" = (/obj/structure/table/rack,/obj/item/weapon/gun/projectile/ma5b_ar,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"da" = (/obj/machinery/vending/medical,/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
-"db" = (/obj/machinery/vending/wallmed1{name = "NanoMed Wall"; pixel_y = -32},/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
-"dc" = (/obj/machinery/light,/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
-"dd" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 9},/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"de" = (/obj/machinery/vending/armory/hybrid,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"df" = (/obj/machinery/door/airlock/halo,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"dg" = (/obj/structure/cable/blue,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"dh" = (/obj/docking_umbilical/south{name = "Starboard Docking Umbilical"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"di" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"dj" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 10},/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
-"dk" = (/obj/machinery/portable_atmospherics/canister/oxygen,/obj/machinery/light,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"cs" = (/obj/effect/landmark/ship_captain_ghost_spawn,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"ct" = (/obj/machinery/door/airlock/multi_tile/halo{dir = 1; name = "Bridge"; req_access = list(300)},/obj/machinery/door/blast/atmos_close/regular{id = "deck1bridge1"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"cu" = (/obj/machinery/door/airlock/multi_tile/halo{dir = 1},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"cv" = (/obj/structure/cable/blue{icon_state = "2-8"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"cw" = (/obj/structure/bed/chair,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"cx" = (/obj/machinery/button/remote/blast_door{id = "abull"; name = "Armored Bull"},/turf/simulated/wall/r_wall,/area/om_ships/unscpatrol)
+"cy" = (/obj/vehicles/air/overmap/pelican/unsc{tag = "icon-base (EAST)"; icon_state = "base"; dir = 4},/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
+"cz" = (/obj/item/modular_computer/console/preset/sysadmin,/obj/structure/cable/blue{icon_state = "4-8"},/obj/machinery/light,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"cA" = (/obj/item/modular_computer/console/preset/sysadmin,/obj/structure/cable/blue{icon_state = "4-8"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"cB" = (/obj/machinery/computer/engines,/obj/structure/cable/blue{icon_state = "1-8"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"cC" = (/obj/machinery/atmospherics/pipe/simple/visible{icon_state = "intact"; dir = 6},/obj/structure/cable/blue{icon_state = "0-4"},/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
+"cD" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 10},/obj/structure/cable/blue{icon_state = "1-8"},/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
+"cE" = (/obj/machinery/door/airlock/halo{name = "Cell 2"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"cF" = (/obj/machinery/atmospherics/pipe/tank/oxygen{dir = 1},/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
+"cG" = (/obj/structure/closet/emcloset/legacy,/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
+"cH" = (/obj/machinery/atmospherics/pipe/tank/empty{dir = 1; icon_state = "air_map"; tag = "icon-air_map (NORTH)"},/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
+"cI" = (/obj/structure/table/steel_reinforced,/turf/simulated/floor/plating,/area/om_ships/unscpatrol)
+"cJ" = (/obj/machinery/shower{dir = 4; icon_state = "shower"; pixel_x = 5},/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
+"cK" = (/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
+"cL" = (/obj/structure/curtain/open,/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
+"cM" = (/obj/machinery/light{tag = "icon-tube1 (NORTH)"; icon_state = "tube1"; dir = 1},/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
+"cN" = (/obj/structure/cable/blue{icon_state = "0-2"},/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
+"cO" = (/obj/structure/sink{dir = 1; pixel_y = 16},/obj/structure/mirror{pixel_x = 0; pixel_y = 30},/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
+"cP" = (/obj/structure/toilet{dir = 8},/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
+"cQ" = (/obj/structure/table/standard,/obj/item/weapon/reagent_containers/syringe/ld50_syringe/triadrenaline,/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
+"cR" = (/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
+"cS" = (/obj/structure/cable/blue{icon_state = "0-2"},/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
+"cT" = (/obj/machinery/sleeper,/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
+"cU" = (/obj/structure/bed/padded,/obj/item/weapon/bedsheet/medical,/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
+"cV" = (/obj/structure/cable/blue{dir = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
+"cW" = (/obj/machinery/light{icon_state = "tube1"; dir = 8},/obj/structure/bed/chair/office/dark{dir = 1},/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
+"cX" = (/obj/structure/cable/blue{dir = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
+"cY" = (/obj/machinery/light{dir = 4; icon_state = "tube1"},/obj/machinery/iv_drip,/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
+"cZ" = (/obj/machinery/vending/armory/armor,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"da" = (/obj/structure/table/rack,/obj/item/weapon/gun/projectile/ma5b_ar,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"db" = (/obj/machinery/vending/medical,/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
+"dc" = (/obj/machinery/vending/wallmed1{name = "NanoMed Wall"; pixel_y = -32},/turf/simulated/floor/tiled/white,/area/om_ships/unscpatrol)
+"dd" = (/obj/machinery/light,/turf/simulated/floor/tiled/freezer,/area/om_ships/unscpatrol)
+"de" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 9},/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"df" = (/obj/machinery/vending/armory/hybrid,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"dg" = (/obj/machinery/door/airlock/halo,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"dh" = (/obj/structure/cable/blue,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"di" = (/obj/docking_umbilical/south{name = "Starboard Docking Umbilical"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"dj" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"dk" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 10},/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
+"dl" = (/obj/machinery/portable_atmospherics/canister/oxygen,/obj/machinery/light,/turf/simulated/floor/tiled,/area/om_ships/unscpatrol)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -217,22 +218,22 @@ aaaaaaaaaaaaaaaaaaaaaabNbNbNababababaCasasasasaCaHasaCbObPbQaCaeaeabbRaeaeaeaeae
 aaaaaaaaaaaaaaaaaaaaaabNaUaVbTbUbVabaCbWbXbWbXaCbqasaCbYbZcacbaeaeabccaeaeaeaeaeaeaebSaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaabNbNcdasascecdabaCaCaCaCaCaCcfasaCaCaCbdaCaCaCabccaeaeaeaeaeaeaebSaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaabNcgchasasascicjaVaVckaVaVaVclaVaVcmaVcnckaVaVascoaeaeaeaeaeaeaebScpcpaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaabNcqcrasasascdcsasasasasasctaHasctbwaVcuasasasctaeaeaeaeaeaeaeaebScpcpaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaabNbNcdasascvcdcwaCaCaCaCaCaCcfasaCaCaCbdaCaCaCabaeaecxaeaeaeaeaebSaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaabNbwaVcyczcAabaCbtbubvbuaCbqasaCcBbZcCcDaeaeabaeaeaeaeaeaeaeaebSaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaabNcqcrascsascdctasasasasascuaHascubwaVcvasasascuaeaeaeaeaeaeaeaebScpcpaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaabNbNcdasascwcdcxaCaCaCaCaCaCcfasaCaCaCbdaCaCaCabaeaecyaeaeaeaeaebSaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaabNbwaVczcAcBabaCbtbubvbuaCbqasaCcCbZcDcEaeaeabaeaeaeaeaeaeaeaebSaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaabNbNbNababababaCasasasasaCaHasaCbObPbQaCaeaeabaeaeaeaeaeaeaeaebSaeaeaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaCbaaVaVaVbHblasaCcEcFcGaCcHbMababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaCasasasasaCaHasaCaCaCaCaCaCaCaCcIcJcKcLcMcNcKcOabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaCbWbXbWbXaCaHasaCcPcQcRcScQcTaCcIcJaCcJcUcJaCaCabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaCaCaCaCaCaCbqasaCcVcQcWcQcQcXaCcIcJaCcJcUcJcKcOababababababacadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabcYcZcZcZcZaCaHasaCdacQcWcQdbcTaCcIdccKcJcUdcaCaCabaiaiaiaiabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbaaVaVaVaVbbblasaCaCaCbdaCaCaCaCaCaCaCaCbdaCaCaCabaoapaqddabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabasasasasasaCbwaVaVaVaVcnaVaVaVaVaVaVaVaVcnaVaVaVaVcuasayasabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabdecZcZcZcZaCasasasbjasasasasbjasasasasbjasasasasctaHasaPaQaRaSadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababaAaBaAababababababababababaCdfaCaCaCabaHasaIasabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabasasasabaaaaaaaaaaaaaaaaabasasasasasabdgasayazabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababdhababaaaaaaaaaaaaaaaaabdididididiabbfbgaqdjabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababaaaaaaaaaaaaaaaaabdididkdidiabbpbpbpbpabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaCbaaVaVaVbHblasaCcFcGcHaCcIbMababababababababababaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaCasasasasaCaHasaCaCaCaCaCaCaCaCcJcKcLcMcNcOcLcPabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaCbWbXbWbXaCaHasaCcQcRcScTcRcUaCcJcKaCcKcVcKaCaCabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaCaCaCaCaCaCbqasaCcWcRcXcRcRcYaCcJcKaCcKcVcKcLcPababababababacadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabcZdadadadaaCaHasaCdbcRcXcRdccUaCcJddcLcKcVddaCaCabaiaiaiaiabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbaaVaVaVaVbbblasaCaCaCbdaCaCaCaCaCaCaCaCbdaCaCaCabaoapaqdeabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabasasasasasaCbwaVaVaVaVcnaVaVaVaVaVaVaVaVcnaVaVaVaVcvasayasabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabdfdadadadaaCasasasbjasasasasbjasasasasbjasasasascuaHasaPaQaRaSadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababababaAaBaAababababababababababaCdgaCaCaCabaHasaIasabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabasasasabaaaaaaaaaaaaaaaaabasasasasasabdhasayazabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababdiababaaaaaaaaaaaaaaaaabdjdjdjdjdjabbfbgaqdkabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabababababaaaaaaaaaaaaaaaaabdjdjdldjdjabbpbpbpbpabajadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaababababababababababababbsadaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
