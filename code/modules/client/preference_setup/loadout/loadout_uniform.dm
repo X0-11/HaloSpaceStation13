@@ -9,12 +9,12 @@
 	display_name = "short jumpskirt"
 	path = /obj/item/clothing/under/shortjumpskirt
 	flags = GEAR_HAS_COLOR_SELECTION
-	allowed_roles = NON_MILITARY_ROLES
+
 
 /datum/gear/uniform/jumpsuit
 	display_name = "generic jumpsuits"
 	path = /obj/item/clothing/under/color/grey
-	allowed_roles = NON_MILITARY_ROLES
+
 
 /datum/gear/uniform/jumpsuit/New()
 	..()
@@ -23,7 +23,7 @@
 /datum/gear/uniform/suit
 	display_name = "clothes selection"
 	path = /obj/item/clothing/under/sl_suit
-	allowed_roles = NON_MILITARY_ROLES
+
 
 /datum/gear/uniform/suit/New()
 	..()
@@ -70,7 +70,7 @@
 /datum/gear/uniform/dress
 	display_name = "dress selection"
 	path = /obj/item/clothing/under/sundress_white
-	allowed_roles = NON_MILITARY_ROLES
+
 
 /datum/gear/uniform/dress/New()
 	..()
@@ -88,18 +88,18 @@
 	display_name = "cheongsam"
 	path = /obj/item/clothing/under/cheongsam
 	flags = GEAR_HAS_COLOR_SELECTION
-	allowed_roles = NON_MILITARY_ROLES
+
 
 /datum/gear/uniform/abaya
 	display_name = "abaya"
 	path = /obj/item/clothing/under/abaya
 	flags = GEAR_HAS_COLOR_SELECTION
-	allowed_roles = NON_MILITARY_ROLES
+
 
 /datum/gear/uniform/skirt
 	display_name = "skirt selection"
 	path = /obj/item/clothing/under/skirt
-	allowed_roles = NON_MILITARY_ROLES
+
 
 /datum/gear/uniform/skirt/New()
 	..()
@@ -112,7 +112,6 @@
 /datum/gear/uniform/casual_pants
     display_name = "casual pants selection"
     path = /obj/item/clothing/under/casual_pants
-    allowed_roles = NON_MILITARY_ROLES
 
 
 /datum/gear/uniform/casual_pants/New()
@@ -122,7 +121,7 @@
 /datum/gear/uniform/formal_pants
     display_name = "formal pants selection"
     path = /obj/item/clothing/under/formal_pants
-    allowed_roles = NON_MILITARY_ROLES
+
 
 /datum/gear/uniform/formal_pants/New()
 	..()
@@ -141,29 +140,29 @@
 	display_name = "sweater"
 	path = /obj/item/clothing/under/rank/psych/turtleneck/sweater
 	flags = GEAR_HAS_COLOR_SELECTION
-	allowed_roles = NON_MILITARY_ROLES
+
 
 /datum/gear/uniform/tacticool
 	display_name = "tacticool turtleneck"
 	path = /obj/item/clothing/under/syndicate/tacticool
-	allowed_roles = NON_MILITARY_ROLES
+
 
 /datum/gear/uniform/sterile
 	display_name = "sterile jumpsuit"
 	path = /obj/item/clothing/under/sterile
-	allowed_roles = NON_MILITARY_ROLES
+
 
 /datum/gear/uniform/hazard
 	display_name = "hazard jumpsuit"
 	path = /obj/item/clothing/under/hazard
-	allowed_roles = NON_MILITARY_ROLES
+
 
 /datum/gear/uniform/utility
 	display_name = "Contractor Utility Uniform"
 	path = /obj/item/clothing/under/utility
-	allowed_roles = NON_MILITARY_ROLES
+
 
 /datum/gear/uniform/frontier
 	display_name = "frontier clothes"
 	path = /obj/item/clothing/under/frontier
-	allowed_roles = NON_MILITARY_ROLES
+

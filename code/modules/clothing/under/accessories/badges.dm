@@ -22,14 +22,11 @@
 	stored_name = new_name
 	name = "[initial(name)] ([stored_name])"
 
-/obj/item/clothing/accessory/badge/proc/set_desc(var/mob/living/carbon/human/H)
-
 /obj/item/clothing/accessory/badge/attack_self(mob/user as mob)
 
 	if(!stored_name)
-		to_chat(user, "You inspect your [src.name]. Everything seems to be in order and you give it a quick cleaning with your hand.")
+		to_chat(user, "You polish your [src.name] fondly, shining up the surface.")
 		set_name(user.real_name)
-		set_desc(user)
 		return
 
 	if(isliving(user))
@@ -40,12 +37,7 @@
 
 /obj/item/clothing/accessory/badge/attack(mob/living/carbon/human/M, mob/living/user)
 	if(isliving(user))
-		user.visible_message("<span class='danger'>[user] invades [M]'s personal space, thrusting \the [src] into their face insistently.</span>","<span class='danger'>You invade [M]'s personal space, thrusting \the [src] into their face insistently.</span>")
-
-/obj/item/clothing/accessory/badge/PI
-	name = "private investigator's badge"
-	badge_string = "Private Investigator"
-
+		user.visible_message("<span class='danger'>[user] invades [M]'s personal space, thrusting [src] into their face insistently.</span>","<span class='danger'>You invade [M]'s personal space, thrusting [src] into their face insistently.</span>")
 
 //.Holobadges.
 /obj/item/clothing/accessory/badge/holo
@@ -119,7 +111,7 @@
 	desc = "A silver law enforcement badge. Stamped with the words 'Master at Arms'."
 	icon_state = "silverbadge"
 	slot_flags = SLOT_TIE
-	badge_string = "United Earth Government"
+	badge_string = "Sol Central Government"
 
 /obj/item/clothing/accessory/badge/marshal
 	name = "marshal's badge"
@@ -132,28 +124,15 @@
 	desc = "Plain identification tags made from a durable metal. Stamped with a variety of informational details."
 	gender = PLURAL
 	icon_state = "tags"
-	badge_string = "United Earth Government"
+	badge_string = "Sol Central Government"
 	slot_flags = SLOT_MASK | SLOT_TIE
-
-/obj/item/clothing/accessory/badge/solgov/tags/Initialize()
-	. = ..()
-	var/mob/living/carbon/human/H
-	H = get_holder_of_type(src, /mob/living/carbon/human)
-	if(H)
-		set_name(H.real_name)
-		set_desc(H)
-
-/obj/item/clothing/accessory/badge/solgov/tags/set_desc(var/mob/living/carbon/human/H)
-	if(!istype(H))
-		return
-	desc = "[initial(desc)]\nName: [H.real_name]\nReligion: [H.religion]\nBlood type: [H.b_type]"
 
 /obj/item/clothing/accessory/badge/defenseintel
 	name = "investigator's badge"
 	desc = "A leather-backed silver badge bearing the crest of the Defense Intelligence Agency."
 	icon_state = "diabadge"
 	slot_flags = SLOT_TIE
-	badge_string = "Office of Naval Intelligence, Office of Investigations"
+	badge_string = "Defense Intelligence Agency"
 
 /obj/item/clothing/accessory/badge/interstellarintel
 	name = "agent's badge"

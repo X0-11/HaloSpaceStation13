@@ -2,12 +2,10 @@
 	display_name = "purple comb"
 	path = /obj/item/weapon/haircomb
 	sort_category = "Cosmetics"
-	allowed_roles = NON_MILITARY_ROLES
 
 /datum/gear/cosmetic/lipstick
 	display_name = "lipstick selection"
 	path = /obj/item/weapon/lipstick/black
-	allowed_roles = NON_MILITARY_ROLES
 
 /datum/gear/cosmetic/lipstick/New()
 	..()
