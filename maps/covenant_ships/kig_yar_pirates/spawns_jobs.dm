@@ -136,3 +136,6 @@ GLOBAL_LIST_EMPTY(unggoy_pirate_spawns)
 	outfit_type = /decl/hierarchy/outfit/unggoy_deacon_observer
 	access = list(230,250)
 	spawnpoint_override = "Unggoy Pirate Spawn"
+
+/turf/simulated/floor/covenant/unggoy_den
+	initial_gas = list("methane" = (101.325*2500/(293.15*8.31)))
