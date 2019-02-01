@@ -55,6 +55,11 @@
 	L.radiation += 10
 	. = ..()
 
+/obj/item/projectile/bullet/covenant/beamrifle/do_supression_aoe(var/location)
+	. = ..()
+	for(var/mob/living/carbon/human/h in orange(1,location))
+		h.adjustBurn(damage/2)
+
 /obj/effect/projectile/beam_rifle
 	icon = 'code/modules/halo/icons/Covenant_Projectiles.dmi'
 	icon_state = "beam_rifle_trail"
