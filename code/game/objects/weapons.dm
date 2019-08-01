@@ -24,7 +24,6 @@
 	if(istype(damage_source,/obj/item/projectile))
 		if(parry_projectiles)
 			parry_chance_divisor = 4
-			force_half_damage = 1
 		else
 			return 0
 	if(!prob((BASE_WEAPON_PARRYCHANCE * (w_class - 1))/parry_chance_divisor)) //Do our base parrychance calculation.
