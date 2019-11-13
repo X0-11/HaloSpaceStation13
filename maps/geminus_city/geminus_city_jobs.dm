@@ -18,6 +18,23 @@
 /datum/job/colonist/get_email_domain()
 	return "geminus.net"
 
+/datum/job/HISC_worker
+	title = "HISC Worker"
+	total_positions = -1
+	spawnpoint_override = "HISC Warehouse"
+	selection_color = "#000000"
+	spawn_faction = "Human Colony"
+	supervisors = "the HISC Corporate Hierarchy"
+	account_allowed = 1
+	generate_email = 1
+	loadout_allowed = TRUE
+	//OUTFIT GOES HERE
+	whitelisted_species = list(/datum/species/human)
+	latejoin_at_spawnpoints = TRUE
+
+/datum/job/HISC_worker/get_email_domain()
+	return "HISC.corp"
+
 /datum/job/colonist_mayor
 	title = "Mayor"
 	department_flag = COM
