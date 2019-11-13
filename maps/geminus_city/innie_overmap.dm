@@ -1,8 +1,8 @@
 
 /obj/effect/overmap/sector/rabbit_hole_base
 	name = "Rabbit Hole Base"
-	icon = 'maps/geminus_city/sector_icon.dmi'
-	icon_state = "rabbit hole base"
+	icon = 'code/modules/halo/icons/overmap/faction_bases.dmi'
+	icon_state = "base_innie"
 	desc = "A secret base under the surface of Geminus. You shouldn't be able to see this..."
 
 	faction = "Insurrection"

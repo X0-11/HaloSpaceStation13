@@ -1,6 +1,6 @@
 
 /datum/job/geminus_innie
-	title = "Insurrectionist"
+	title = "Horsch and Ivanov Security Corp. Worker"
 	spawn_faction = "Insurrection"
 	latejoin_at_spawnpoints = 1
 	total_positions = -1
@@ -11,36 +11,13 @@
 	outfit_type = /decl/hierarchy/outfit/job/colonist/geminus_innie
 	selection_color = "#ff0000"
 	spawnpoint_override = "Geminus Innie"
-	alt_titles = list(\
-	"Insurrectionist Ship Crew",
-	"Insurrectionist Technician",
-	"Insurrectionist Machine Gunner",
-	"Insurrectionist Field Medic",
-	"Insurrectionist Bartender",
-	"Insurrectionist Janitor",
-	"Insurrectionist Breacher",
-	"Insurrectionist Engineer",
-	"Insurrectionist Guard",
-	"Insurrectionist Negotiator",
-	"Insurrectionist Interrogator",
-	"Insurrectionist Tracker",
-	"Insurrectionist Trainer",
-	"Insurrectionist Bombmaker",
-	"Insurrectionist Mechanic",
-	"Insurrectionist Pilot",
-	"Insurrectionist Marksman",
-	"Insurrectionist Trooper",
-	"Insurrectionist Smuggler",\
-	"Insurrectionist Broker",\
-	"Insurrectionist Recruiter",\
-	"Insurrectionist Saboteur",\
-	"Insurrectionist Infiltrator")
+	alt_titles = list()
 	whitelisted_species = list(/datum/species/human)
 	loadout_allowed = TRUE
 	var/datum/antagonist/geminus_insurrectionist/antag
 
 /datum/job/geminus_innie/get_email_domain()
-	return "geminus.net"
+	return "HISC.corp"
 
 /datum/job/geminus_innie/New()
 	. = ..()
@@ -52,7 +29,7 @@
 	antag.add_antagonist_mind(H.mind, 1, 1)
 
 /datum/job/geminus_innie/officer
-	title = "Insurrectionist Officer"
+	title = "Horsch and Ivanov Security Corp. Manager"
 	spawn_faction = "Insurrection"
 	open_slot_on_death = 1
 	track_players = 1
@@ -71,7 +48,7 @@
 		to_chat(player.current,"<span class='info'>[title] [H] has arrived at the base.</span>")
 
 /datum/job/geminus_innie/commander
-	title = "Insurrectionist Commander"
+	title = "Horsch and Ivanov Security Corp. Board Director"
 	department_flag = COM
 	spawn_faction = "Insurrection"
 	latejoin_at_spawnpoints = 1

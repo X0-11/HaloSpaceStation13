@@ -1,6 +1,6 @@
 
 /decl/hierarchy/outfit/job/geminus_innie
-	name = "Insurrectionist"
+	name = "Horsch and Ivanov Security Corp. Worker"
 
 	head = /obj/item/clothing/head/helmet/tactical
 	glasses = /obj/item/clothing/glasses/hud/tactical
@@ -14,17 +14,17 @@
 
 	flags = 0
 
-/decl/hierarchy/outfit/job/geminus_innie/equip_id(mob/living/carbon/human/H, rank, assignment)
+/*/decl/hierarchy/outfit/job/geminus_innie/equip_id(mob/living/carbon/human/H, rank, assignment)
 	. = ..()
 
 	var/obj/item/weapon/card/id/W = .
 	if(W)
 		W.rank = "Colonist"
 		W.assignment = "Colonist"
-		W.update_name()
+		W.update_name()*/
 
 /decl/hierarchy/outfit/job/geminus_innie_leader
-	name = "Insurrectionist Captain"
+	name = "Horsch and Ivanov Security Corp. Manager"
 
 	head = /obj/item/clothing/head/helmet/tactical/mirania
 	glasses =/obj/item/clothing/glasses/hud/tactical
@@ -38,14 +38,14 @@
 
 	flags = 0
 
-/decl/hierarchy/outfit/job/geminus_innie_leader/equip_id(mob/living/carbon/human/H, rank, assignment)
+/*/decl/hierarchy/outfit/job/geminus_innie_leader/equip_id(mob/living/carbon/human/H, rank, assignment)
 	. = ..()
 
 	var/obj/item/weapon/card/id/W = .
 	if(W)
 		W.rank = "Colonist"
 		W.assignment = "Colonist"
-		W.update_name()
+		W.update_name()*/
 
 /decl/hierarchy/outfit/job/colonist/geminus_innie
 	name = "Geminus Insurrectionist"

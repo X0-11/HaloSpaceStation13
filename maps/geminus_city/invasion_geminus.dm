@@ -14,8 +14,6 @@
 
 #include "../SOE_Argentum/includes.dm"
 
-#include "../Asteroid Listening Post/includes.dm"
-
 #include "../CRS_Unyielding_Transgression/includes.dm"
 
 #include "innie_overmap.dm"
