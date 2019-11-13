@@ -7,11 +7,12 @@
 	name = "Camp New Hope"
 	icon_state = "base_innie"
 	faction = "Insurrection"
-	defense_type = /obj/effect/overmap/ship/npc_ship/automated_defenses/innie
+	defense_type = null
 	base = 1
+	overmap_spawn_near_me = list(/obj/effect/overmap/ship/soe_argentum)
 
 
-GLOBAL_LIST_EMPTY(innie_base_spawns)
+/*GLOBAL_LIST_EMPTY(innie_base_spawns)
 
 /datum/spawnpoint/innie_base
 	display_name = "Innie Base Spawns"
@@ -30,7 +31,7 @@ GLOBAL_LIST_EMPTY(innie_base_spawns)
 
 /obj/effect/landmark/start/innie_base/New()
 	..()
-	GLOB.innie_base_spawns += loc
+	GLOB.innie_base_spawns += loc*/
 
 /area/faction_base/innie
 	name = "Insurrectionist Faction Base"
