@@ -44,7 +44,9 @@
 	#include "geminuscity_3.dmm"
 	#include "geminuscity_2.dmm"
 	#include "geminuscity_1.dmm"
-	#include "geminus_innie_base.dmm"
+	#include "maps/faction_bases/Innie_Base.dmm"
+	#include "maps/faction_bases/faction_base_innie.dm"
+	//#include "geminus_innie_base.dmm"
 
 #elif !defined(MAP_OVERRIDE)
 
