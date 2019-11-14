@@ -39,8 +39,8 @@
 	win_points = 100
 
 /datum/objective/overmap/innie_base
-	short_text = "Protect Rabbit Hole Base"
-	explanation_text = "Protect your hidden base. From there you can launch the campaign to take over Geminus and beyond!"
+	short_text = "Protect HISC HQ"
+	explanation_text = "Protect the HQ and your geminus warehouse. Ensure that HISC's cover is not blown, even if this requires hunting down a fellow insurrectionist."
 	target_faction_name = "Insurrection"
 	overmap_type = 0
 	lose_points = 100
