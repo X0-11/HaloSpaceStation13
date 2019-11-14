@@ -1,54 +1,56 @@
 "aM" = (/obj/machinery/door/airlock/maintenance_hatch/bolted,/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
-"bX" = (/obj/structure/window/reinforced/projresist,/obj/structure/window/reinforced/projresist{dir = 8},/obj/machinery/slipspace_engine/human,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
+"cm" = (/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
+"dk" = (/obj/structure/bed/chair/comfy/captain{tag = "icon-capchair_preview (WEST)"; icon_state = "capchair_preview"; dir = 8},/turf/simulated/floor/shuttle/red,/area/faction_base/innie_shuttle)
 "dn" = (/obj/machinery/light/spot{dir = 1},/obj/structure/window/reinforced/projresist{dir = 8},/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
-"ea" = (/obj/machinery/telecomms/relay/ship_relay,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
-"eZ" = (/obj/machinery/door/airlock/halo,/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
-"jf" = (/obj/machinery/light/spot{dir = 4},/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
+"el" = (/obj/machinery/light/spot{dir = 1},/obj/structure/closet,/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
+"ex" = (/obj/structure/window/reinforced/projresist{dir = 8},/obj/machinery/door/window/northleft,/turf/simulated/floor/shuttle/red,/area/faction_base/innie_shuttle)
+"ff" = (/obj/structure/closet/walllocker/emerglocker/east,/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
+"gb" = (/obj/structure/curtain,/turf/simulated/floor/shuttle/red,/area/faction_base/innie_shuttle)
+"gW" = (/obj/machinery/computer/navigation{tag = "icon-engine (WEST)"; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "engine"; dir = 8},/obj/structure/computerframe{anchored = 1; dir = 8; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "computer"; layer = 2; level = 1; tag = "icon-computer (WEST)"},/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
+"hF" = (/obj/machinery/door/airlock/glass,/turf/simulated/floor/shuttle/red,/area/faction_base/innie_shuttle)
+"iR" = (/obj/structure/window/reinforced/projresist,/obj/structure/window/reinforced/projresist{dir = 8},/obj/machinery/slipspace_engine/human,/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
 "jU" = (/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
 "kb" = (/obj/machinery/door/airlock/maintenance_hatch,/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
-"kj" = (/obj/machinery/door/airlock/glass,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
-"kC" = (/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
 "kM" = (/obj/machinery/light/spot{dir = 2},/obj/structure/window/reinforced/projresist{dir = 8},/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
-"me" = (/obj/structure/window/reinforced/projresist,/obj/structure/window/reinforced/projresist{dir = 4},/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
+"lS" = (/obj/machinery/telecomms/allinone,/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
 "mG" = (/obj/structure/window/reinforced/projresist{dir = 8},/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
+"mQ" = (/obj/structure/window/reinforced/projresist{dir = 4},/obj/machinery/door/window/northright,/turf/simulated/floor/shuttle/red,/area/faction_base/innie_shuttle)
 "nJ" = (/obj/structure/closet/crate/large,/turf/simulated/floor/plating,/area/space)
 "nK" = (/obj/structure/grille,/obj/structure/window/reinforced/treated{tag = "icon-fwindow (SOUTHWEST)"; icon_state = "fwindow"; dir = 10},/turf/space,/area/faction_base/innie_shuttle)
-"pd" = (/obj/structure/bed/chair/comfy/captain{tag = "icon-capchair_preview (WEST)"; icon_state = "capchair_preview"; dir = 8},/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
 "pH" = (/turf/simulated/wall/r_wall,/area/space)
 "pJ" = (/obj/structure/grille,/obj/structure/window/reinforced/treated{tag = "icon-fwindow (SOUTHWEST)"; icon_state = "fwindow"; dir = 10},/turf/space,/area/space)
-"qC" = (/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
-"sx" = (/obj/machinery/telecomms/allinone,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
-"uY" = (/obj/structure/bed,/obj/item/weapon/bedsheet/yellow,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
-"wv" = (/obj/machinery/light/spot{dir = 1},/obj/structure/closet,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
-"wC" = (/obj/machinery/light/spot{dir = 1},/obj/structure/curtain/open,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
+"qe" = (/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
+"uj" = (/obj/machinery/power/apc/infinite{dir = 4; icon_state = "apc0"; pixel_x = 32; tag = "icon-apc0 (EAST)"},/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
+"vB" = (/obj/machinery/telecomms/relay/ship_relay,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
+"wM" = (/obj/machinery/light/spot{dir = 1},/obj/structure/curtain/open,/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
 "wS" = (/obj/docking_umbilical/east{pixel_x = 0; pixel_y = -32},/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
-"xG" = (/obj/structure/closet/walllocker/emerglocker/west,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
-"ye" = (/obj/machinery/power/apc/infinite{dir = 4; icon_state = "apc0"; pixel_x = 32; tag = "icon-apc0 (EAST)"},/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
 "yE" = (/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
-"zA" = (/obj/structure/closet/walllocker/emerglocker/east,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
-"AK" = (/obj/structure/bed,/obj/item/weapon/bedsheet/blue,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
-"Cq" = (/obj/machinery/telecomms/relay/long_range_emergency,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
+"zB" = (/obj/machinery/nav_computer/npc/innie,/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
+"Dr" = (/obj/machinery/light/spot{dir = 2},/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
+"Dw" = (/obj/machinery/computer/helm{tag = "icon-nav (WEST)"; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "nav"; dir = 8; icon_keyboard = ""; icon_screen = "covie_console_overlay"},/obj/structure/computerframe{anchored = 1; dir = 8; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "computer"; layer = 2; level = 1; tag = "icon-computer (WEST)"},/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
 "DC" = (/obj/machinery/fusion_thruster/fueled,/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
 "ET" = (/obj/machinery/door/airlock/vault,/turf/simulated/floor/plating,/area/space)
-"Fj" = (/obj/machinery/light/spot{dir = 2},/obj/structure/closet,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
-"FS" = (/obj/structure/window/reinforced/projresist{dir = 4},/obj/machinery/door/window/northright,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
 "Gl" = (/turf/simulated/floor/plating,/area/space)
 "GQ" = (/obj/structure/closet/crate,/turf/simulated/floor/plating,/area/space)
 "HH" = (/obj/structure/lattice,/turf/space,/area/space)
-"HY" = (/obj/structure/curtain/open,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
+"HV" = (/obj/structure/window/reinforced/projresist,/obj/structure/window/reinforced/projresist{dir = 4},/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
 "Kk" = (/turf/space,/area/space)
-"KT" = (/obj/machinery/light/spot{dir = 2},/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
+"Kl" = (/obj/machinery/door/airlock/halo,/turf/simulated/floor/shuttle/red,/area/faction_base/innie_shuttle)
+"Lz" = (/obj/structure/curtain/open,/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
 "LL" = (/turf/simulated/wall/r_wall,/area/faction_base/innie_shuttle)
 "LY" = (/obj/machinery/light/spot{dir = 2},/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
-"Ok" = (/obj/machinery/computer/navigation{tag = "icon-engine (WEST)"; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "engine"; dir = 8},/obj/structure/computerframe{anchored = 1; dir = 8; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "computer"; layer = 2; level = 1; tag = "icon-computer (WEST)"},/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
-"On" = (/obj/machinery/computer/helm{tag = "icon-nav (WEST)"; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "nav"; dir = 8; icon_keyboard = ""; icon_screen = "covie_console_overlay"},/obj/structure/computerframe{anchored = 1; dir = 8; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "computer"; layer = 2; level = 1; tag = "icon-computer (WEST)"},/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
+"Mk" = (/obj/machinery/telecomms/relay/long_range_emergency,/obj/machinery/light/spot{dir = 8},/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
+"Nf" = (/obj/machinery/light/spot{dir = 1},/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
 "OK" = (/obj/structure/grille,/obj/structure/window/reinforced/treated{tag = "icon-fwindow (SOUTHWEST)"; icon_state = "fwindow"; dir = 10},/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
-"Pa" = (/obj/machinery/nav_computer/npc/innie,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
+"QX" = (/turf/simulated/floor/shuttle/red,/area/faction_base/innie_shuttle)
 "RQ" = (/obj/machinery/door/window/westright,/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
-"SH" = (/obj/structure/curtain,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
+"Sc" = (/obj/structure/bed,/obj/item/weapon/bedsheet/yellow,/turf/simulated/floor/shuttle/red,/area/faction_base/innie_shuttle)
 "SU" = (/obj/machinery/door/window/westleft,/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
-"UV" = (/obj/structure/window/reinforced/projresist{dir = 8},/obj/machinery/door/window/northleft,/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
-"WO" = (/obj/machinery/computer/engines{dir = 8; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "nav"; tag = "icon-nav (NORTH)"},/obj/structure/computerframe{anchored = 1; dir = 8; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "computer"; layer = 2; level = 1; tag = "icon-computer (WEST)"},/turf/simulated/floor/tiled,/area/faction_base/innie_shuttle)
+"TL" = (/obj/machinery/light/spot{dir = 2},/obj/structure/closet,/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
+"Vt" = (/obj/structure/curtain,/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
+"VV" = (/obj/machinery/computer/engines{dir = 8; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "nav"; tag = "icon-nav (NORTH)"},/obj/structure/computerframe{anchored = 1; dir = 8; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "computer"; layer = 2; level = 1; tag = "icon-computer (WEST)"},/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
+"WA" = (/obj/structure/bed,/obj/item/weapon/bedsheet/blue,/turf/simulated/floor/shuttle/red,/area/faction_base/innie_shuttle)
+"XS" = (/obj/structure/closet/walllocker/emerglocker/west,/turf/simulated/floor/shuttle/black,/area/faction_base/innie_shuttle)
 "YV" = (/obj/machinery/fusion_thruster/fueled,/obj/machinery/fusion_thruster/fueled,/turf/simulated/floor/plating,/area/faction_base/innie_shuttle)
 
 (1,1,1) = {"
@@ -62,17 +64,17 @@ KkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkpHpHGlGlnJpHpHKkpHpHGlGlGlpHpHKkKk
 KkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkLLLLLLHHHHHHpHnJGlGlGlGlpHHHpHGlGQGlGlGQpHKkKkKkKkKkKkKkKkKkKk
 KkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkLLdnYVKkKkKkpHGlGlGQGlGlpHKkpHGlGlGlGlGQpHKkKkKkKkKkKkKkKkKkKk
 KkKkKkKkKkKkKkKkKkKkKkKkKkLLLLLLLLLLmGDCKkKkKkpHGlGlGlGQGlpHKkpHGQGlGlGQGlpHKkKkKkKkKkKkKkKkKkKk
-KkKkKkKkKkKkKkKkKkLLLLOKLLLLkCqCqCwCRQDCKkKkKkpHpHGQGlGlpHpHKkpHpHGlGlGlpHpHKkKkKkKkKkKkKkKkKkKk
-KkKkKkKkKkKkKkKkKkLLwvqCkCLLqCuYAKSHmGDCKkKkKkKkpHpHETpHpHKkKkKkpHpHETpHpHKkKkKkKkKkKkKkKkKkKkKk
-KkKkKkKkKkKkKkKkKkOKOkpdzALLHYSHSHSHmGDCKkKkKkKkKknKjUnKKkKkKkKkKknKjUnKKkKkKkKkKkKkKkKkKkKkKkKk
-KkKkKkKkKkKkKkKkKkOKqCqCqCLLxGqCqCsxLLLLHHLLLLLLOKLLkbLLOKLLLLLLOKLLkbLLOKLLLLLLKkKkKkKkKkKkKkKk
-KkKkKkKkKkKkKkKkKkOKqCqCyeLLCqqCqCjfLLnKnKLLjUjUjUyEjUyEjUjUjUjUjUyEjUyEjUjUjULLKkKkKkKkKkKkKkKk
-KkKkKkKkKkKkKkKkKkOKOnpdqCkjqCqCqCqCeZjUjUjUjUjUjUjUjUjUjUjUjUjUjUjUjUjUjUjUwSLLKkKkKkKkKkKkKkKk
-KkKkKkKkKkKkKkKkKkOKqCqCqCLLeaqCqCjfLLnKnKLLjUjUjULYjULYjUjUjUjUjULYjULYjUjUjULLKkKkKkKkKkKkKkKk
-KkKkKkKkKkKkKkKkKkOKqCqCqCLLxGqCqCPaLLLLHHLLLLLLOKLLkbLLOKLLLLLLOKLLaMLLOKLLLLLLKkKkKkKkKkKkKkKk
-KkKkKkKkKkKkKkKkKkOKWOpdzALLqCqCqCqCmGDCKkKkKkKkKknKjUnKKkKkKkKkKkpJGlpJKkKkKkKkKkKkKkKkKkKkKkKk
-KkKkKkKkKkKkKkKkKkLLFjqCKTLLqCUVFSqCmGDCKkKkKkKkpHpHETpHpHKkKkKkHHHHHHHHHHKkKkKkKkKkKkKkKkKkKkKk
-KkKkKkKkKkKkKkKkKkLLLLOKLLLLKTbXmeKTSUDCKkKkKkpHpHGQGlGlpHpHKkHHHHKkKkKkHHHHKkKkKkKkKkKkKkKkKkKk
+KkKkKkKkKkKkKkKkKkLLLLOKLLLLNfqeqewMRQDCKkKkKkpHpHGQGlGlpHpHKkpHpHGlGlGlpHpHKkKkKkKkKkKkKkKkKkKk
+KkKkKkKkKkKkKkKkKkLLelqeNfLLqeScWAVtmGDCKkKkKkKkpHpHETpHpHKkKkKkpHpHETpHpHKkKkKkKkKkKkKkKkKkKkKk
+KkKkKkKkKkKkKkKkKkOKgWdkffLLLzgbgbVtmGDCKkKkKkKkKknKjUnKKkKkKkKkKknKjUnKKkKkKkKkKkKkKkKkKkKkKkKk
+KkKkKkKkKkKkKkKkKkOKqeQXqeLLXSQXQXlSLLLLHHLLLLLLOKLLkbLLOKLLLLLLOKLLkbLLOKLLLLLLKkKkKkKkKkKkKkKk
+KkKkKkKkKkKkKkKkKkOKqeQXujLLMkQXQXcmLLnKnKLLjUjUjUyEjUyEjUjUjUjUjUyEjUyEjUjUjULLKkKkKkKkKkKkKkKk
+KkKkKkKkKkKkKkKkKkOKDwdkQXhFQXQXQXQXKljUjUjUjUjUjUjUjUjUjUjUjUjUjUjUjUjUjUjUwSLLKkKkKkKkKkKkKkKk
+KkKkKkKkKkKkKkKkKkOKqeQXqeLLvBQXQXcmLLnKnKLLjUjUjULYjULYjUjUjUjUjULYjULYjUjUjULLKkKkKkKkKkKkKkKk
+KkKkKkKkKkKkKkKkKkOKqeQXqeLLXSQXQXzBLLLLHHLLLLLLOKLLkbLLOKLLLLLLOKLLaMLLOKLLLLLLKkKkKkKkKkKkKkKk
+KkKkKkKkKkKkKkKkKkOKVVdkffLLqeQXQXqemGDCKkKkKkKkKknKjUnKKkKkKkKkKkpJGlpJKkKkKkKkKkKkKkKkKkKkKkKk
+KkKkKkKkKkKkKkKkKkLLTLqeDrLLqeexmQqemGDCKkKkKkKkpHpHETpHpHKkKkKkHHHHHHHHHHKkKkKkKkKkKkKkKkKkKkKk
+KkKkKkKkKkKkKkKkKkLLLLOKLLLLDriRHVDrSUDCKkKkKkpHpHGQGlGlpHpHKkHHHHKkKkKkHHHHKkKkKkKkKkKkKkKkKkKk
 KkKkKkKkKkKkKkKkKkKkKkKkKkLLLLLLLLLLmGDCKkKkKkpHGlGlGQGlGlpHKkHHKkKkKkKkKkHHKkKkKkKkKkKkKkKkKkKk
 KkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkLLkMDCKkKkKkpHGlGlGlGlnJpHKkHHKkKkKkKkKkHHKkKkKkKkKkKkKkKkKkKk
 KkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkKkLLLLLLHHHHHHpHGlGQGlGlnJpHHHHHKkKkKkKkKkHHKkKkKkKkKkKkKkKkKkKk
