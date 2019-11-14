@@ -400,7 +400,7 @@
 
 	//Actual Commando gear is spawned on their ship.
 	//head = /obj/item/clothing/head/helmet/urfc
-	//suit = /obj/item/clothing/suit/armor/special/urfc
+	//suit = /obj/item/clothing/suit/storage/special/urfc
 	//gloves = /obj/item/clothing/gloves/thick/swat
 	l_ear = /obj/item/device/radio/headset/commando
 	uniform = /obj/item/clothing/under/tactical
@@ -413,7 +413,7 @@
 	name = "URF Commando Officer"
 
 	head = /obj/item/clothing/head/helmet/urfc/squadleader
-	suit = /obj/item/clothing/suit/armor/special/urfc/squadleader
+	suit = /obj/item/clothing/suit/storage/special/urfc/squadleader
 	gloves = /obj/item/clothing/gloves/thick/swat
 	l_ear = /obj/item/device/radio/headset/commando
 	uniform = /obj/item/clothing/under/urfc_jumpsuit

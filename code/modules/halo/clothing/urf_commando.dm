@@ -4,8 +4,8 @@
 //SUIT
 
 /obj/item/clothing/under/urfc_jumpsuit
-	name = "SOE Commando uniform"
-	desc = "Standard issue SOE Commando uniform, more badass than that, you die."
+	name = "HISC Security uniform"
+	desc = "Standard issue HISC Security uniform."
 	icon = 'code/modules/halo/clothing/urf_commando.dmi'
 	icon_override = 'code/modules/halo/clothing/urf_commando.dmi'
 	icon_state = "commando_uniform"
@@ -16,8 +16,8 @@
 //HELMET
 
 /obj/item/clothing/head/helmet/urfc
-	name = "SOE Rifleman Helmet"
-	desc = "A simple helmet. Despite the old age, a lot of work has been put into adding additional armor and refining the base processes. It's quite heavy, but a lot of soft material has been added to the inside to make the metal more comfy. Outdated, but can be expected in combat engagements to perform on par with modern equipment, due to the extensive modifications."
+	name = "HISC Security Helmet"
+	desc = "A simple helmet, modified for security work."
 	icon = 'code/modules/halo/clothing/urf_commando.dmi'
 	icon_override = 'code/modules/halo/clothing/urf_commando.dmi'
 	item_state = "rifleman_worn"
@@ -30,7 +30,7 @@
 	integrated_hud = /obj/item/clothing/glasses/hud/tactical
 
 /obj/item/clothing/head/helmet/urfccommander
-	name = "SOE Commander Hat"
+	name = "HISC Commander Hat"
 	desc = "A commander hat. Weirdly made of some kind of bulletproof material."
 	icon = 'code/modules/halo/clothing/urf_commando.dmi'
 	icon_override = 'code/modules/halo/clothing/urf_commando.dmi'
@@ -42,8 +42,8 @@
 	integrated_hud = /obj/item/clothing/glasses/hud/tactical
 
 /obj/item/clothing/head/helmet/soe
-	name = "SOE Space Helmet"
-	desc = "Non-Standard issue short-EVA capable helmet issued to commandos."
+	name = "HISC Space Helmet"
+	desc = "Non-Standard issue short-EVA capable helmet issued to security forces."
 	icon = 'code/modules/halo/clothing/urf_commando.dmi'
 	item_state = "soe_worn"
 	icon_state = "soe_helmet"
@@ -69,9 +69,9 @@
 
 //ARMOR
 
-/obj/item/clothing/suit/armor/special/urfc
-	name = "SOE Rifleman Armour"
-	desc = "A bulletproof vest. Filled with pouches and storage compartments, while still keeping a scary amount of both mobility and protection. An ideal collage of the strengths of the URF, but with the added protection found only in high tier UNSC equipment. It's quite comfy, probably won't last long in space."
+/obj/item/clothing/suit/storage/special/urfc
+	name = "HISC Security Armour"
+	desc = "A bulletproof vest. Filled with pouches and storage compartments, while still keeping a scary amount of both mobility and protection. It's quite comfy, probably won't last long in space."
 	icon = 'code/modules/halo/clothing/urf_commando.dmi'
 	item_state = "rifleman_a_worn"
 	icon_state = "rifleman_a_obj"
@@ -86,8 +86,8 @@
 	var/max_w_class = ITEM_SIZE_SMALL
 
 /obj/item/clothing/suit/armor/special/soe
-	name = "SOE Spacesuit"
-	desc = "Heavyweight, somewhat durable armour issued to commandos for increased survivability in space."
+	name = "HISC Spacesuit"
+	desc = "Heavyweight, somewhat durable armour issued to security forces for increased survivability in space."
 	icon = 'code/modules/halo/clothing/urf_commando.dmi'
 	item_state = "soe_spacesuit_worn"
 	icon_state = "soe_spacesuit"
@@ -108,7 +108,7 @@
 //SHOES
 
 /obj/item/clothing/shoes/magboots/urfc
-	name = "SOE Magboots"
+	name = "HISC Magboots"
 	desc = "Experimental black magnetic boots, used to ensure the user is safely attached to any surfaces during extra-vehicular operations. They're large enough to be worn over other footwear."
 	icon = 'code/modules/halo/clothing/urf_commando.dmi'
 	icon_override = 'code/modules/halo/clothing/urf_commando.dmi'
@@ -121,7 +121,7 @@
 //GLOVES
 
 /obj/item/clothing/gloves/soegloves/urfc
-	name = "SOE Gloves"
+	name = "HISC Gloves"
 	desc = "These  gloves are somewhat fire and impact-resistant."
 	icon = 'code/modules/halo/clothing/urf_commando.dmi'
 	icon_override = 'code/modules/halo/clothing/urf_commando.dmi'
@@ -134,7 +134,7 @@
 
 /obj/item/weapon/storage/backpack/cmdo
 	icon = 'code/modules/halo/clothing/commandopack.dmi'
-	name = "Commando Rifleman Backpack"
+	name = "HISC Security Backpack"
 	icon_override = 'code/modules/halo/clothing/commandopack.dmi'
 
 	icon_state = "c_packO_rif"
@@ -146,7 +146,7 @@
 	)
 
 /obj/item/weapon/storage/backpack/cmdo/cqc
-	name = "Commando CQC Backpack"
+	name = "Security CQC Backpack"
 
 	icon_state = "c_packO_cqc"
 	item_state = "c_pack_cqc_worn"
@@ -157,7 +157,7 @@
 	)
 
 /obj/item/weapon/storage/backpack/cmdo/eng
-	name = "Commando Engineer Backpack"
+	name = "Security Engineer Backpack"
 
 	icon_state = "c_packO_eng"
 	item_state = "c_pack_eng_worn"
@@ -168,7 +168,7 @@
 	)
 
 /obj/item/weapon/storage/backpack/cmdo/med
-	name = "Commando Medic Backpack"
+	name = "Security Medic Backpack"
 
 	icon_state = "c_packO_med"
 	item_state = "c_pack_med_worn"
@@ -182,7 +182,7 @@
 //JETPACK
 
 /obj/item/weapon/tank/jetpack/void/urfc
-	name = "SOE Jetpack (oxygen)"
+	name = "HISC Jetpack (oxygen)"
 	desc = "It works well in a void."
 	icon = 'code/modules/halo/clothing/urf_commando.dmi'
 	icon_override = 'code/modules/halo/clothing/urf_commando.dmi'
@@ -192,7 +192,7 @@
 //MASK
 
 /obj/item/clothing/mask/gas/soebalaclava
-	name = "SOE Balaclava"
+	name = "HISC Balaclava"
 	desc = "Designed to both hide identities and keep your face comfy and warm, a mask that can be connected to an air supply. Filters harmful gases from the air."
 	icon = ITEM_HAND
 	icon_override = URF_OVERRIDE

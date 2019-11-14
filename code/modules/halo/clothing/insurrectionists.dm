@@ -14,6 +14,41 @@
 		slot_r_hand_str = null,
 		)
 
+/obj/item/clothing/under/hiscuniform
+	desc = "Standard issue uniform for HISC employees."
+	name = "HISC Uniform"
+	icon = INNIE_OVERRIDE
+	icon_override = INNIE_OVERRIDE
+	item_state = "hisc-uniform"
+	icon_state = "hisc-uniform"
+	worn_state = "hisc-uniform"
+
+/obj/item/clothing/head/soft/hisc
+	name = "HISC cap"
+	desc = "A soft cap to identify HISC employees."
+	icon = INNIE_OVERRIDE
+	icon_override = INNIE_OVERRIDE
+	icon_state = "hisc-cap"
+	item_state = "hisc-cap-obj"
+
+
+/obj/item/clothing/shoes/hisc
+	name = "HISC shoes"
+	icon = INNIE_OVERRIDE
+	icon_override = INNIE_OVERRIDE
+	desc = "The fastest delivery in the galaxy!"
+	icon_state = "hisc-shoes"
+	item_state = "hisc-shoes-obj"
+
+/obj/item/clothing/under/hiscuniform/skirt
+	desc = "Special uniform for HISC female employees."
+	name = "HISC Skirt Uniform"
+	icon = INNIE_OVERRIDE
+	icon_override = INNIE_OVERRIDE
+	item_state = "hisc-skirt"
+	icon_state = "hisc-skirt"
+	worn_state = "hisc-skirt"
+
 /obj/item/clothing/head/helmet/innie
 	name = "Armored Helmet"
 	desc = "An armored helmet composed of materials salvaged from a wide array of UNSC equipment"

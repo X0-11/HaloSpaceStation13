@@ -1,7 +1,7 @@
 
 /obj/effect/urfc_armour_set
 	var/helmet = /obj/item/clothing/head/helmet/urfc
-	var/armour = /obj/item/clothing/suit/armor/special/urfc
+	var/armour = /obj/item/clothing/suit/storage/special/urfc
 	var/jumpsuit = /obj/item/clothing/under/urfc_jumpsuit
 	var/gloves = /obj/item/clothing/gloves/soegloves/urfc
 	var/shoes = /obj/item/clothing/shoes/magboots/urfc
@@ -21,7 +21,7 @@
 
 /obj/effect/urfc_armour_set/squadleader
 	helmet = /obj/item/clothing/head/helmet/urfc/squadleader
-	armour = /obj/item/clothing/suit/armor/special/urfc/squadleader
+	armour = /obj/item/clothing/suit/storage/special/urfc/squadleader
 
 /obj/effect/urfc_armour_set/engineer
 	helmet = /obj/item/clothing/head/helmet/urfc/engineer
@@ -37,5 +37,5 @@
 
 /obj/effect/urfc_armour_set/commander
 	helmet = /obj/item/clothing/head/helmet/urfccommander
-	armour = /obj/item/clothing/suit/armor/special/urfc/squadleader
+	armour = /obj/item/clothing/suit/storage/special/urfc/squadleader
 	jumpsuit = /obj/item/clothing/under/urfc_jumpsuit/commander
