@@ -1,6 +1,7 @@
 
 /obj/machinery/vending/armory
 	icon = 'code/modules/halo/icons/machinery/gunvend.dmi'
+	ai_access_level = 3
 
 /obj/machinery/vending/armory/attackby(var/atom/A,var/mob/user)
 	if(A in products)
@@ -23,8 +24,8 @@
 	desc = "Storage for advanced weapons and ammunition"
 	icon_state = "ironhammer" //SPRITES
 	icon_deny = "ironhammer-deny"
-	req_access = list(308)
-	products = list(/obj/item/ammo_magazine/m145_ap = 2,/obj/item/ammo_magazine/a762_box_ap = 6,/obj/item/weapon/gun/projectile/m739_lmg = 2
+	req_access = list(308,311)
+	products = list(/obj/item/ammo_magazine/m145_ap = 4,/obj/item/ammo_magazine/a762_box_ap = 6,/obj/item/weapon/gun/projectile/m739_lmg = 2
 	,/obj/item/weapon/gun/projectile/srs99_sniper = 1, /obj/item/weapon/gun/projectile/m41 = 1, /obj/item/weapon/storage/box/spnkr = 2,/obj/item/weapon/plastique = 2,/obj/item/weapon/armor_patch = 2)
 
 /obj/machinery/vending/armory/police
@@ -45,12 +46,15 @@
 	/obj/item/clothing/head/helmet/marine = 8,
 	/obj/item/clothing/head/helmet/marine/brown = 8,
 	/obj/item/clothing/head/helmet/marine/medic = 6,
+	/obj/item/clothing/head/helmet/marine/medic/brown = 6,
 	/obj/item/clothing/head/helmet/marine/medic/visor = 6,
+	/obj/item/clothing/head/helmet/marine/medic/brownvisor = 6,
 	/obj/item/clothing/head/helmet/marine/visor = 8,
 	/obj/item/clothing/head/helmet/marine/brownvisor = 8,
 	/obj/item/clothing/suit/storage/marine = 5,
 	/obj/item/clothing/suit/storage/marine/brown = 5,
 	/obj/item/clothing/suit/storage/marine/medic = 3,
+	/obj/item/clothing/suit/storage/marine/medic/brown = 3,
 	/obj/item/clothing/shoes/marine = 8,
 	/obj/item/clothing/shoes/marine/brown = 8,
 	/obj/item/clothing/mask/marine = 5,
@@ -61,12 +65,27 @@
 	/obj/item/weapon/storage/backpack/marine = 6,
 	/obj/item/weapon/storage/backpack/marine/brown = 6)
 
+/obj/machinery/vending/armory/oni
+	name = "ONI Vendor"
+	desc = "A machine full of spare ONI guard equipment."
+	icon_state = "ironhammer"
+	icon_deny = "ironhammer-deny"
+	products = list(/obj/item/clothing/under/unsc/marine_fatigues/oni_uniform = 12,
+	/obj/item/clothing/head/helmet/oni_guard = 8,
+	/obj/item/clothing/head/helmet/oni_guard/visor = 8,
+	/obj/item/clothing/suit/storage/oni_guard = 5,
+	/obj/item/clothing/shoes/oni_guard = 8,
+	/obj/item/clothing/mask/marine = 5,
+	/obj/item/weapon/storage/belt/marine_ammo/oni = 8,
+	/obj/item/clothing/gloves/thick/oni_guard = 8,
+	/obj/item/weapon/armor_patch = 10)
+
 /obj/machinery/vending/armory/attachment
 	name = "Attachment Vendor"
 	desc = "A vendor full of attachments for the MA5B."
 	icon_state ="ironhammer"
 	icon_deny = "ironhammer-deny"
-	req_access = list(308)
+	req_access = list(308,311)
 	products = list(\
 	/obj/item/weapon_attachment/ma5_stock_butt/extended = 5,
 	/obj/item/weapon_attachment/ma5_upper_railed =5,
@@ -177,6 +196,7 @@
 	/obj/item/weapon/gun/projectile/ma5b_ar = 10,
 	/obj/item/weapon/gun/projectile/m7_smg/silenced = 5,
 	/obj/item/weapon/gun/projectile/shotgun/pump/m90_ts = 4,
+	/obj/item/weapon/gun/projectile/m6c_magnum_s = 6,
 	/obj/item/weapon/gun/projectile/ma5b_ar = 10,
 	/obj/item/weapon/gun/projectile/m392_dmr = 2,
 	/obj/item/weapon/gun/projectile/br55 = 2,
@@ -190,7 +210,7 @@
 	/obj/item/ammo_magazine/m5 = 24,
 	/obj/item/ammo_magazine/m95_sap/br55 = 10,
 	/obj/item/ammo_magazine/m762_ap/M392 = 16,
-	/obj/item/ammo_magazine/m145_ap = 2,
+	/obj/item/ammo_magazine/m145_ap = 4,
 	/obj/item/ammo_box/shotgun = 10,
 	/obj/item/ammo_box/shotgun/slug = 10,
 	/obj/item/weapon/grenade/smokebomb = 8,
@@ -207,33 +227,29 @@
 	req_access = list(117)
 	color = COLOR_DARK_GRAY
 	products = list(
-	/obj/item/clothing/under/spartan_internal = 4,
-	/obj/item/clothing/head/helmet/spartan = 4,
-	/obj/item/clothing/suit/armor/special/spartan = 4,
-	/obj/item/clothing/gloves/spartan = 4,
-	/obj/item/clothing/shoes/magboots/spartan = 4,
-	/obj/item/clothing/head/helmet/spartan/mkv = 4,
-	/obj/item/clothing/suit/armor/special/spartan/mkv = 4,
-	/obj/item/clothing/head/helmet/spartan/mkv_gungnir = 4,
-	/obj/item/clothing/suit/armor/special/spartan/mkv_gungnir = 4,
-	/obj/item/clothing/glasses/hud/tactical/odst_hud/medic = 4,
-	/obj/item/weapon/storage/backpack/odst/regular = 4,
-	/obj/item/weapon/storage/belt/marine_ammo = 4,
-	/obj/item/weapon/storage/belt/marine_medic = 4,
-	/obj/item/clothing/accessory/storage/odst = 4,
-	/obj/item/clothing/accessory/storage/bandolier = 4,
-	/obj/item/weapon/material/knife/combat_knife = 4,
-	/obj/item/weapon/material/machete = 2,
-	/obj/item/weapon/gun/projectile/m739_lmg = 4,
+	/obj/item/clothing/under/spartan_internal = 1,
+	/obj/item/clothing/head/helmet/spartan = 1,
+	/obj/item/clothing/suit/armor/special/spartan = 1,
+	/obj/item/clothing/gloves/spartan = 1,
+	/obj/item/clothing/shoes/magboots/spartan = 1,
+	/obj/item/clothing/glasses/hud/tactical/odst_hud/medic = 1,
+	/obj/item/weapon/storage/backpack/odst/regular = 2,
+	/obj/item/weapon/storage/belt/marine_ammo = 2,
+	/obj/item/weapon/storage/belt/marine_medic = 2,
+	/obj/item/clothing/accessory/storage/odst = 2,
+	/obj/item/clothing/accessory/storage/bandolier = 2,
+	/obj/item/weapon/material/knife/combat_knife = 1,
+	/obj/item/weapon/material/machete = 1,
+	/obj/item/weapon/gun/projectile/m739_lmg = 1,
 	/obj/item/weapon/gun/projectile/m7_smg/silenced = 4,
 	/obj/item/weapon/gun/projectile/shotgun/pump/m90_ts = 4,
 	/obj/item/weapon/gun/projectile/m392_dmr = 4,
-	/obj/item/weapon/gun/projectile/srs99_sniper = 4,
-	/obj/item/weapon/gun/projectile/m41 = 4,
+	/obj/item/weapon/gun/projectile/srs99_sniper = 1,
+	/obj/item/weapon/gun/projectile/m41 = 1,
 	/obj/item/weapon/gun/projectile/m6d_magnum = 15,
-	/obj/item/weapon/gun/projectile/ma5b_ar = 15,
+	/obj/item/weapon/gun/projectile/ma5b_ar = 4,
 	/obj/item/weapon/gun/projectile/br55 = 4,
-	/obj/item/weapon/gun/projectile/m7_smg = 8,
+	/obj/item/weapon/gun/projectile/m7_smg = 4,
 	/obj/item/weapon/plastique = 9,
 	/obj/item/weapon/storage/firstaid/unsc = 6,
 	/obj/item/device/binoculars = 4,

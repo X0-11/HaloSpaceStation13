@@ -90,7 +90,7 @@
 
 	pain_mod = 0.8
 	brute_mod = 1.2
-	slowdown = -2
+	slowdown = -1.5
 
 	total_health = 200
 	pixel_offset_x = -4
@@ -117,6 +117,9 @@
 	'code/modules/halo/sounds/species_pain_screams/kiggyscream_3.ogg',
 	'code/modules/halo/sounds/species_pain_screams/kiggyscream_4.ogg',
 	'code/modules/halo/sounds/species_pain_screams/kiggyscream_5.ogg')
+
+	roll_distance = 4
+	per_roll_delay = 1.5 //Slightly faster than a human's dodge roll
 
 /datum/species/kig_yar_skirmisher/get_random_name(var/gender)
 	return pick(GLOB.first_names_kig_yar)

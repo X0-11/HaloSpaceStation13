@@ -20,6 +20,7 @@
 	item_icon_offsets = list(0,0)
 	default_faction = "Covenant"
 	unarmed_types = list(/datum/unarmed_attack/grunt_punch)
+	can_operate_advanced_covenant = 0
 
 	breath_type = "methane"
 	exhale_type = "carbon_dioxide"
@@ -37,6 +38,8 @@
 	'code/modules/halo/sounds/species_pain_screams/gruntscream_5.ogg',
 	'code/modules/halo/sounds/species_pain_screams/gruntscream_6.ogg',
 	'code/modules/halo/sounds/species_pain_screams/gruntscream_7.ogg')
+
+	roll_distance = 1 //Stubby legs mean no long roll
 
 /datum/species/unggoy/create_organs(var/mob/living/carbon/human/H)
 	. = ..()

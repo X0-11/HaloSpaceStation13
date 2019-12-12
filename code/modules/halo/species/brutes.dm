@@ -23,6 +23,8 @@
 	brute_mod = 0.7 //receives 70% of brute damage
 	pain_mod = 0.25 //receives 25% pain damage.
 	burn_mod = 0.7  // receives 70% of burn damage
+	explosion_effect_mod = 0.5
+	can_force_door = 1
 	default_faction = "Covenant"
 	pixel_offset_x = -12
 	item_icon_offsets = list(5,4)
@@ -41,6 +43,8 @@
 	'code/modules/halo/sounds/species_pain_screams/brutescream6.ogg',
 	'code/modules/halo/sounds/species_pain_screams/brutescream7.ogg',
 	'code/modules/halo/sounds/species_pain_screams/brutescream8.ogg')
+
+	per_roll_delay = 3 //Slightly higher per roll delay than a human, because they're a bit bulkier
 
 /datum/species/brutes/equip_survival_gear(var/mob/living/carbon/human/H,var/extendedtank = 1)
 	return

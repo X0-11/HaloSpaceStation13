@@ -121,7 +121,7 @@
 /datum/armourspecials/shields/proc/reset_recharge(var/extra_delay = 0)
 	//begin counting down the recharge
 	if(armour_state == SHIELD_IDLE)
-		GLOB.processing_objects += src
+		GLOB.processing_objects |= src
 
 	//update the shield effect overlay
 	if(shieldstrength > 0)
@@ -169,6 +169,7 @@
 		armour_state = SHIELD_IDLE
 		GLOB.processing_objects -= src
 		update_overlay("shield_overlay")
+		user.update_icons()
 
 /datum/armourspecials/shields/tryemp(severity)
 	switch(severity)

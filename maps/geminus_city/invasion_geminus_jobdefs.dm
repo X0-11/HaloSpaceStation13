@@ -13,11 +13,14 @@
 		/datum/job/soe_commando_captain,\
 		/datum/job/geminus_x52/researcher,\
 		/datum/job/geminus_x52/research_director,\
+		/datum/job/unsc_ship_ai,\
 		/datum/job/unscbertels_co,\
 		/datum/job/unscbertels_xo,\
 		/datum/job/bertelsunsc_ship_marine,\
+		/datum/job/unsc_ship_marinesquad,\
 		/datum/job/unscbertels_ship_crew,\
 		/datum/job/unsc_ship_iwo,\
+		/datum/job/unsc_ship_marinesergeant,\
 		/datum/job/unsc_ship_marineplatoon,\
 		/datum/job/bertelsODST,\
 		/datum/job/bertelsODSTO,\
@@ -25,12 +28,17 @@
 		/datum/job/colonist_mayor,\
 		/datum/job/police,\
 		/datum/job/police_chief,\
+		/datum/job/covenant/huragok,\
+		/datum/job/covenant/AI,\
 		/datum/job/covenant/sangheili_minor,\
 		/datum/job/covenant/sangheili_major,\
 		/datum/job/covenant/sangheili_ultra,\
 		/datum/job/covenant/sangheili_shipmaster,\
 		/datum/job/covenant/kigyarminor,\
-		/datum/job/covenant/unggoy_minor,\
+		/datum/job/covenant/unggoy_minor,
+		/datum/job/covenant/unggoy_major,\
+		/datum/job/covenant/unggoy_ultra,\
+		/datum/job/covenant/unggoy_deacon,\
 		/datum/job/covenant/skirmmurmillo,\
 		/datum/job/covenant/skirmcommando,\
 		/datum/job/covenant/brute_minor,\
