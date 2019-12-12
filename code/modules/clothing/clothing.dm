@@ -687,13 +687,13 @@ BLIND     // can't see anything
 	..()
 	update_rolldown_status()
 	update_rollsleeves_status()
-	update_fitfemale_status() //ELUXOR
+	update_fitfemale_status()
 	if(rolled_down == -1)
 		verbs -= /obj/item/clothing/under/verb/rollsuit
 	if(rolled_sleeves == -1)
 		verbs -= /obj/item/clothing/under/verb/rollsleeves
 	if(fitfemale_down == -1)
-		verbs -= /obj/item/clothing/under/verb/fitfemale //mine
+		verbs -= /obj/item/clothing/under/verb/fitfemale
 
 /obj/item/clothing/under/get_mob_overlay(mob/user_mob, slot)
 	var/image/ret = ..()
