@@ -15,7 +15,7 @@
 	whitelisted_species = list(/datum/species/human)
 	loadout_allowed = TRUE
 	var/datum/antagonist/geminus_insurrectionist/antag
-	info_blurb = "You are an employee at HISC. As with many of your co-workers, you secretly serve the interests of the Insurrection. Treat your co-workers with respect and when performing illegal actions, make sure to remove all items linking you to HISC."
+	intro_blurb = "You are an employee at HISC. As with many of your co-workers, you secretly serve the interests of the Insurrection. Treat your co-workers with respect and when performing illegal actions, make sure to remove all items linking you to HISC."
 
 /datum/job/geminus_innie/get_email_domain()
 	return "HISC.corp"
@@ -41,7 +41,7 @@
 	selection_color = "#ff0000"
 	spawnpoint_override = "Geminus Innie"
 	alt_titles = null
-	info_blurb = "You are a HISC Manager. As with many employees of HISC, you secretly serve the Insurrection. Work with your fellow insurrection members to achieve your objectives, but don't break HISC's cover. Ensure you and your staff can be easily disavowed."
+	intro_blurb = "You are a HISC Manager. As with many employees of HISC, you secretly serve the Insurrection. Work with your fellow insurrection members to achieve your objectives, but don't break HISC's cover. Ensure you and your staff can be easily disavowed."
 
 /datum/job/geminus_innie/officer/equip(var/mob/living/carbon/human/H, var/alt_title, var/datum/mil_branch/branch)
 	. = ..()
@@ -62,7 +62,7 @@
 	spawnpoint_override = "Geminus Innie"
 	faction_whitelist = "Insurrection"
 	alt_titles = null
-	info_blurb = "Welcome to the board of HISC. Your role in this sector is to ensure that all insurrection operations are easily disavowed and that HISC's cover is not blown. Insurrection activities should NOT be traced back to the company at large. You will be used as a scapegoat if the need arises."
+	intro_blurb = "Welcome to the board of HISC. Your role in this sector is to ensure that all insurrection operations are easily disavowed and that HISC's cover is not blown. Insurrection activities should NOT be traced back to the company at large. You will be used as a scapegoat if the need arises."
 
 /datum/job/geminus_innie/commander/equip(var/mob/living/carbon/human/H, var/alt_title, var/datum/mil_branch/branch)
 	. = ..()
