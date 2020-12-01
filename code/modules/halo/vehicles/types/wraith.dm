@@ -29,7 +29,7 @@
 	min_speed = 13
 	max_speed = 4
 	acceleration = 4
-	drag = 5 //Hovertech = less drag
+	drag = 5
 
 /obj/vehicles/wraith/update_object_sprites()
 	. = ..()
