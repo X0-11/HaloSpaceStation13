@@ -47,7 +47,6 @@
 
 	#include "../../code/modules/halo/supply/unsc.dm"
 	#include "../../code/modules/halo/supply/oni.dm"
-	#include "../../code/modules/halo/supply/covenant.dm"
 
 	#include "../faction_bases/complex046/complex046.dm"
 
