@@ -295,8 +295,10 @@
 "fI" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/structure/faction_banner/unsc{name = "ONI Complex 046"; pixel_y = 32},/turf/simulated/floor/road{tag = "icon-road_empty (NORTH)"; icon_state = "road_empty"; dir = 1},/area/faction_base/oni/garage)
 "fJ" = (/obj/machinery/door/airlock/halo{name = "Armory"; req_access = list(142)},/turf/simulated/floor/tech/gray,/area/faction_base/oni/barracks)
 "fK" = (/obj/structure/ai_routing_node/unsc,/turf/simulated/floor/tiled/dark,/area/faction_base/oni/blacksite)
+"fL" = (/turf/simulated/wall/covenant/reinforced,/area/shuttle/covenant_onsite_supply)
 "fM" = (/obj/machinery/overmap_weapon_console/ship_scanning_console{name = "Holotable - Scanning"; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "holotable"; dir = 4},/obj/machinery/light,/turf/simulated/floor/tech,/area/faction_base/oni/research)
 "fN" = (/obj/machinery/overmap_weapon_console/ship_scanning_console{dir = 8; icon = 'code/modules/halo/icons/machinery/computer.dmi'; icon_state = "holotable"; name = "Holotable - Scanning"},/turf/simulated/floor/tech,/area/faction_base/oni/research)
+"fO" = (/turf/simulated/wall/covenant/reinforced,/area/shuttle/covenant_shuttle_supply)
 "fQ" = (/obj/structure/table/glass/white,/obj/item/weapon/storage/box/masks,/obj/item/weapon/storage/box/gloves,/turf/simulated/floor/tiled/white,/area/faction_base/oni/medbay)
 "fR" = (/obj/structure/sink{icon_state = "sink"; dir = 8; pixel_x = -12; pixel_y = 2},/turf/simulated/floor/tiled/white,/area/faction_base/oni/medbay)
 "fS" = (/obj/machinery/light{dir = 4; icon_state = "tube1"},/turf/simulated/floor/tech/white,/area/faction_base/oni/medbay)
@@ -396,6 +398,6 @@ aabhbCbCbCbCbCbCbCbCbhaabQbQbQbQbQbQbQbQaabRbRbRbRbRbRbRbRaaeEeEeEeEeEbFbFbFbFeE
 aabhbCbCbCbCbCbCbCbCbhaabQbQbQbQbQbQbQbQaabRbRbRbRbRbRbRbRaaeEeEeEeEeEeEeEeEeEeEeOeSffffffffffffffeSaa
 aabhbCbCbCbCbCbCbCbCbhaabQbQbQbQbQbQbQbQaabRbRbRbRbRbRbRbRaaeEeEeEeEeEeEeEeEeEeEeOeSffffffffffffffeSaa
 aabhcMbCbCbCbCbCbCbCbhaabQbQbQbQbQbQbQbQaabRbRbRbRbRbRbRbRaaeEeEeEeEeEeEeEeEeEeEeOeSffffffffffffffeSaa
-aafAbhbhbhbhbhbhbhbhbhaadbbQbQbQbQbQbQbQaaesbRbRbRbRbRbRbRaaeEeEeEeEeEeEeEeEeEeEeOeSeSeSeSeSeSeSeSeSaa
+aafAbhfLfObhbhbhbhbhbhaadbbQbQbQbQbQbQbQaaesbRbRbRbRbRbRbRaaeEeEeEeEeEeEeEeEeEeEeOeSeSeSeSeSeSeSeSeSaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
