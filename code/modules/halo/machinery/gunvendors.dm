@@ -102,8 +102,8 @@
 					/obj/item/weapon/plastique/breaching/longrange = 0
 					)
 	amounts = list(\
-		/obj/item/weapon/gun/projectile/m739_lmg = 1,
-		/obj/item/weapon/gun/projectile/srs99_sniper = 1,
+		/obj/item/weapon/gun/projectile/m545_lmg  = 1,
+		/obj/item/weapon/gun/projectile/heavysniper = 1,
 		/obj/item/weapon/gun/projectile/m41 = 1,
 		/obj/item/turret_deploy_kit/HMG = 2,
 		/obj/item/weapon/plastique = 8,
