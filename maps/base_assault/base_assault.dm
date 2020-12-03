@@ -37,6 +37,8 @@
 
 	#include "../Admin Planet/includes.dm"
 
+	#include "../faction_bases/complex046/complex046.dm"
+
 	#include "../faction_bases/CassiusMoonStation/cassiusmoon.dm"
 
 	#include "../CRS_Unyielding_Transgression/includes.dm"
@@ -47,8 +49,6 @@
 	#include "../../code/modules/halo/supply/unsc.dm"
 	#include "../../code/modules/halo/supply/oni.dm"
 	#include "../../code/modules/halo/supply/covenant.dm"
-
-	#include "../faction_bases/complex046/complex046.dm"
 
 #elif !defined(MAP_OVERRIDE)
 
