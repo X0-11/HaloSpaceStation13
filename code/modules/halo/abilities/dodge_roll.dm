@@ -44,7 +44,7 @@ mob/living/proc/getPerRollDelay()
 	return species.per_roll_delay
 
 /mob/living/carbon/human/getRollCooldown()
-	return species.per_roll_delay
+	return species.dodge_roll_delay
 
 /mob/living/proc/rollDir(var/dir_roll)
 	if(world.time < next_roll_at)
