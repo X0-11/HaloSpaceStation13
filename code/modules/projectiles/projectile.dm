@@ -233,8 +233,8 @@
 
 	return 1
 
-/obj/item/projectile/proc/do_suppression_aoe(var/location)
-	var/obj/effect/overmap/om = map_sectors["[z]"]
+/obj/item/projectile/proc/do_suppression_aoe(var/turf/location)
+	var/obj/effect/overmap/om = map_sectors["[location.z]"]
 	var/list/searchthrough
 	if(om)
 		searchthrough = GLOB.mobs_in_sectors[om]
@@ -244,7 +244,7 @@
 		if(h in permutated)
 			continue
 		if(om) //If we're not using the fallback, we need to check distance ourselves.
-			if(get_dist(loc,h) > 1)
+			if(get_dist(location,h) > 1)
 				continue
 		spawn()
 			h.suppression_act(src)
