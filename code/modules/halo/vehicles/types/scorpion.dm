@@ -8,8 +8,8 @@
 	anchored = 1
 
 	bound_height = 64
-	bound_width = 96
-
+	bound_width = 64
+	pixel_x = -16
 	comp_prof = /datum/component_profile/scorpion
 
 	ammo_containers = newlist(/obj/item/ammo_magazine/scorp_coax,/obj/item/ammo_magazine/scorp_shell)
