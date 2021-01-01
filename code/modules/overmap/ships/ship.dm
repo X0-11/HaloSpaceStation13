@@ -12,6 +12,7 @@
 	var/last_burn = 0					//worldtime when ship last acceleated
 	var/list/last_movement = list(0,0)	//worldtime when ship last moved in x,y direction
 	var/fore_dir = NORTH				//what dir ship flies towards for purpose of moving stars effect procs
+	var/is_boardable = 1 //Can boarding pods attack us?
 
 	var/obj/machinery/computer/helm/nav_control
 	var/obj/machinery/nav_computer/nav_comp

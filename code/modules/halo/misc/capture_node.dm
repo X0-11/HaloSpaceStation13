@@ -7,7 +7,7 @@ GLOBAL_LIST_EMPTY(capture_nodes)
 	icon_screen = "comm_monitor"
 	desc = "Used to determine who controls this area."
 	var/control_faction
-	var/comms_from = "Geminus Sovereignty Update"//The origin of comms messages sent by this console.
+	var/comms_from = "Sovereignty Update"//The origin of comms messages sent by this console.
 	var/list/capturing_factions = list("UNSC","Insurrection","Covenant")
 	var/list/faction_frequencies = list()
 	var/list/faction_languages = list()
@@ -134,14 +134,6 @@ GLOBAL_LIST_EMPTY(capture_nodes)
 /obj/machinery/computer/capture_node/attackby()
 	return
 
-
-
-
-
-
-
-
-
 /obj/structure/capture_marker
 	name = "Sovereignty Marker"
 	desc = "For displaying the logo and propoganda of who controls this area."
@@ -196,10 +188,6 @@ GLOBAL_LIST_EMPTY(capture_nodes)
 	overlays -= faction_logo
 	faction_logo.alpha = new_alpha
 	overlays += faction_logo
-
-
-
-
 
 /obj/effect/landmark/npc_capturespawn_marker
 	name = "Capture-Spawn marker"

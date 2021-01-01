@@ -19,9 +19,11 @@
 /datum/game_mode/base_assault/pre_setup()
 	. = ..()
 	stalemate_at = world.time + STALEMATE_TIMER
-	GLOB.COVENANT.has_flagship = 1
-	GLOB.UNSC.has_base = 1
+	do_flank_poplock()
 
+/datum/game_mode/base_assault/proc/do_flank_poplock()
+	if(flank_tags.len == 0)
+		return
 	var/flanks_close = 2
 	if(GLOB.clients.len > BASE_ASSAULT_ONEFLANK_THRESHOLD)
 		flanks_close = 1
