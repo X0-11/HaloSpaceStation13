@@ -5,12 +5,12 @@
 
 /datum/objective/colony_capture/unsc
 	short_text = "Capture and Hold the city"
-	explanation_text = "Orders are to take and hold critical points within this city"
+	explanation_text = "Take and hold the following parts of the city: Morgue(NE), Salon (NW), City Hall (Mid), Police Station (Mid), AI Core(SE), Church (SW)"
 	radio_name = "UNSC Overwatch"
 
 /datum/objective/colony_capture/cov
 	short_text = "Capture and Hold the city"
-	explanation_text = "Holy commands direct us to take and hold critical points within this city"
+	explanation_text = "Take and hold the following parts of the city: AI Core(SE), Church (SW), City Hall (Mid), Police Station (Mid), Morgue(NE), Salon (NW)"
 	radio_name = "Covenant Overwatch"
 	radio_language = LANGUAGE_SANGHEILI
 
