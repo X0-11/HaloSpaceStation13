@@ -1,7 +1,7 @@
 
 #include "../base_assault/base_assault_gm.dm"
 
-#define SCORE_DISPLAY_DELAY 3.5 MINUTES
+#define SCORE_DISPLAY_DELAY 2 MINUTES
 
 /datum/objective/colony_capture/unsc
 	short_text = "Capture and Hold the city"
@@ -45,7 +45,7 @@
 	. = ..()
 	GLOB.UNSC.setup_faction_objectives(list(/datum/objective/colony_capture/unsc))
 	GLOB.COVENANT.setup_faction_objectives(list(/datum/objective/colony_capture/cov))
-	next_score_display = world.time + SCORE_DISPLAY_DELAY
+	next_score_display = world.time + ship_lockdown_duration + SCORE_DISPLAY_DELAY
 
 /datum/game_mode/base_assault/neutral/proc/do_display(var/list/display_to,var/sender_name,var/percentile,var/enemy_percentile)
 	for(var/datum/mind/mind in display_to)

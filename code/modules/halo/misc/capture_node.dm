@@ -1,5 +1,5 @@
 GLOBAL_LIST_EMPTY(capture_nodes)
-#define FALLBACK_MOBSPAWN_AMOUNT 4
+#define FALLBACK_MOBSPAWN_AMOUNT 6
 
 /obj/machinery/computer/capture_node
 	name = "Sovereignty Console"
@@ -89,9 +89,13 @@ GLOBAL_LIST_EMPTY(capture_nodes)
 	if(defenders_spawn.len == 0)
 		return
 	if(capture_npc_spawnlocs.len == 0)
+		var/list/view_turfs = dview(7,src)
+		for(var/turf/t in view_turfs)
+			if(t.density == 1)
+				view_turfs -= t
 		for(var/i = 0,i < FALLBACK_MOBSPAWN_AMOUNT,i++)
 			var/to_spawn = pickweight(defenders_spawn)
-			new to_spawn (pick(view(7,src)))
+			new to_spawn (pick(view_turfs))
 		return
 	for(var/turf/t in capture_npc_spawnlocs)
 		var/to_spawn = pick(defenders_spawn)
