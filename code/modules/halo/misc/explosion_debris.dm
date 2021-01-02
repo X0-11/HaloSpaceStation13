@@ -4,15 +4,21 @@
 	name = "explosion debris"
 	desc = "Cover created by an explosion. Doesn't block your movement much, but can be useful."
 	flags = ON_BORDER
-	maxHealth = 250 //This might seem a bit high but remember that the cover will be taking damage anyway from the explosion.
-	health = 250
+	maxHealth = 300 //This might seem a bit high but remember that the cover will be taking damage anyway from the explosion.
+	health = 300
 	cover_rating = 45
 	explosion_damage_mult = 5
 	deconstruct_tools = list()
 	loot_types = list()
 	scrap_types = list()
 	bump_climb = 1
-	mob_climb_time = 1.5 SECONDS
+	mob_climb_time = 1 SECOND
+
+/obj/structure/destructible/explosion_debris/CanPass(var/obj/vehicles/vpass)
+	. = ..()
+	if(!.)
+		if(istype(vpass))
+			return 1
 
 //Debris Creation Code//
 /turf/simulated/floor
