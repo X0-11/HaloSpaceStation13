@@ -12,7 +12,7 @@
 	loot_types = list()
 	scrap_types = list()
 	bump_climb = 1
-	mob_climb_time = 1 SECOND
+	mob_climb_time = 0.7 SECONDS
 
 /obj/structure/destructible/explosion_debris/CanPass(var/obj/vehicles/vpass)
 	. = ..()
