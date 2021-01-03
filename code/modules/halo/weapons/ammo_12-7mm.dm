@@ -10,7 +10,7 @@
 /obj/item/projectile/bullet/m224
 	damage = 45
 	accuracy = 1
-	shield_damage = -10 //Unspecialised kinetics are less powerful vs shields
+	shield_damage = -5
 
 /* M224 TTR Rounds */
 
@@ -36,7 +36,7 @@
 
 /obj/item/projectile/bullet/m225
 	damage = 55
-	shield_damage = 10 //Unspecialised kinetics are less powerful vs shields
+	shield_damage = 10
 
 /* M228 Rounds */
 //used by: M6D, M6S
