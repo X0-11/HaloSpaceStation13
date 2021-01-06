@@ -113,12 +113,17 @@
 /obj/effect/overmap/ship/covenant_light_cruiser
 	occupy_range = 2
 
+/obj/effect/overmap/ship/unscDoO
+	occupy_range = 2
+
 /obj/effect/overmap/ship/covenant_light_cruiser/create_dropship_markers()
 	alpha = 0
 	is_boardable = 0
+	mouse_opacity = 0
 	return
 
 /obj/effect/overmap/ship/unscDoO/create_dropship_markers()
 	alpha = 0
 	is_boardable = 0
+	mouse_opacity = 0
 	return
