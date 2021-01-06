@@ -100,9 +100,6 @@
 /area/planets/neutralcity/inside/house_s
 	name = "City - South House"
 
-/area/planets/neutralcity/inside/house_sw
-	name = "City - West House"
-
 /area/planets/neutralcity/inside/bar_w
 	name = "City - West Bar"
 

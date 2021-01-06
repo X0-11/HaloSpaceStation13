@@ -983,7 +983,7 @@
 "sU" = (/obj/structure/closet/secure_closet/guncabinet{name = "M6D"},/turf/simulated/floor/tiled/dark,/area/planets/neutralcity/inside/police_station)
 "sV" = (/obj/machinery/shower{dir = 4; icon_state = "shower"; pixel_x = 5; pixel_y = 0},/turf/simulated/floor/tiled/white,/area/planets/neutralcity/inside/police_station)
 "sW" = (/obj/structure/mirror{pixel_y = 32},/turf/simulated/floor/tiled/white,/area/planets/neutralcity/inside/police_station)
-"sX" = (/obj/effect/landmark/dropship_land_point/covenant{name = "City Southeast"},/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/exterior_autolight)
+"sX" = (/obj/effect/landmark/dropship_land_point/covenant{name = "City Southeast"},/turf/simulated/floor/pavement/empty,/area/planets/neutralcity/exterior_autolight)
 "sY" = (/obj/structure/sink{dir = 4; icon_state = "sink"; pixel_x = 11; pixel_y = 0},/turf/simulated/floor/tiled/white,/area/planets/neutralcity/inside/police_station)
 "sZ" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/flora/pottedplant{tag = "icon-plant-22"; icon_state = "plant-22"},/turf/simulated/floor/tiled,/area/planets/neutralcity/inside/police_station)
 "ta" = (/obj/structure/window/reinforced{dir = 1},/obj/machinery/vending/coffee,/turf/simulated/floor/tiled,/area/planets/neutralcity/inside/police_station)
@@ -1023,17 +1023,11 @@
 "tI" = (/obj/machinery/cryopod{tag = "icon-body_scanner_0 (EAST)"; icon_state = "body_scanner_0"; dir = 4},/turf/simulated/floor/lino,/area/planets/neutralcity/inside/cryo)
 "tJ" = (/obj/machinery/cryopod,/turf/simulated/floor/lino,/area/planets/neutralcity/inside/cryo)
 "tK" = (/obj/structure/cryofeed,/turf/simulated/floor/lino,/area/planets/neutralcity/inside/cryo)
-"tL" = (/turf/simulated/wall/tech,/area/planets/neutralcity/inside/house_sw)
 "tM" = (/turf/simulated/wall/tech,/area/planets/neutralcity/inside/church)
 "tN" = (/turf/simulated/wall/tech,/area/planets/neutralcity/inside/aicore)
 "tO" = (/obj/machinery/door/airlock/highsecurity,/turf/simulated/floor/tiled/dark,/area/planets/neutralcity/inside/aicore)
 "tP" = (/obj/structure/window/framed,/turf/simulated/floor/tiled/dark,/area/planets/neutralcity/inside/church)
 "tQ" = (/turf/simulated/floor/stairs{icon_state = "ramptop"; dir = 1},/area/planets/neutralcity/inside/church)
-"tR" = (/obj/structure/closet/cabinet,/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_sw)
-"tS" = (/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_sw)
-"tT" = (/obj/structure/sink{dir = 8; icon_state = "sink"; pixel_x = -12},/turf/simulated/floor/tiled/freezer,/area/planets/neutralcity/inside/house_sw)
-"tU" = (/obj/structure/window/basic{icon_state = "window"; dir = 8},/obj/machinery/door/window/northleft{dir = 3; name = "Shower"},/turf/simulated/floor/tiled/freezer,/area/planets/neutralcity/inside/house_sw)
-"tV" = (/obj/machinery/shower{icon_state = "shower"; dir = 8},/obj/structure/window/basic,/turf/simulated/floor/tiled/freezer,/area/planets/neutralcity/inside/house_sw)
 "tW" = (/obj/structure/flora/pottedplant/flower,/turf/simulated/floor/decor{tag = "icon-dark"; icon_state = "dark"},/area/planets/neutralcity/inside/church)
 "tX" = (/obj/structure/grille/smallfence{tag = "icon-fence2"; icon_state = "fence2"},/turf/simulated/floor/planet/dirt,/area/planets/neutralcity/exterior_autolight)
 "tY" = (/turf/simulated/floor/planet/dirt,/area/planets/neutralcity/exterior_autolight)
@@ -1052,9 +1046,6 @@
 "ul" = (/turf/simulated/floor/holofloor/carpet,/area/planets/neutralcity/inside/church)
 "um" = (/turf/simulated/floor/tiled/dark,/area/planets/neutralcity/inside/church)
 "un" = (/obj/structure/flora/pottedplant/flower,/turf/simulated/floor/tiled/dark,/area/planets/neutralcity/inside/church)
-"uo" = (/obj/structure/bed,/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_sw)
-"up" = (/turf/simulated/floor/tiled/freezer,/area/planets/neutralcity/inside/house_sw)
-"uq" = (/obj/structure/toilet{icon_state = "toilet00"; dir = 8},/turf/simulated/floor/tiled/freezer,/area/planets/neutralcity/inside/house_sw)
 "ur" = (/obj/machinery/light/small{dir = 4; pixel_y = 8},/turf/simulated/floor/greengrid,/area/planets/neutralcity/inside/aicore)
 "us" = (/obj/structure/cable/cyan{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/effect/landmark/start{name = "Cyborg"},/turf/simulated/floor/greengrid,/area/planets/neutralcity/inside/aicore)
 "ut" = (/obj/machinery/door/airlock/highsecurity{name = "Messaging Server"},/turf/simulated/floor/greengrid,/area/planets/neutralcity/inside/aicore)
@@ -1064,8 +1055,6 @@
 "ux" = (/obj/effect/floor_decal/chapel,/obj/item/weapon/stool/padded,/turf/simulated/floor/decor{tag = "icon-dark"; icon_state = "dark"},/area/planets/neutralcity/inside/church)
 "uy" = (/obj/effect/floor_decal/chapel{tag = "icon-chapel (WEST)"; icon_state = "chapel"; dir = 8},/obj/item/weapon/stool/padded,/turf/simulated/floor/tiled/dark,/area/planets/neutralcity/inside/church)
 "uz" = (/obj/effect/floor_decal/chapel,/obj/item/weapon/stool/padded,/turf/simulated/floor/tiled/dark,/area/planets/neutralcity/inside/church)
-"uA" = (/obj/machinery/door/airlock,/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_sw)
-"uB" = (/obj/machinery/door/airlock,/turf/simulated/floor/tiled/freezer,/area/planets/neutralcity/inside/house_sw)
 "uC" = (/obj/machinery/blackbox_recorder,/turf/simulated/floor/bluegrid,/area/planets/neutralcity/inside/aicore)
 "uD" = (/obj/structure/capture_marker{pixel_y = -32},/turf/simulated/floor/bluegrid,/area/planets/neutralcity/inside/aicore)
 "uE" = (/obj/structure/capture_marker{pixel_y = -32},/turf/simulated/floor/tiled/dark,/area/planets/neutralcity/inside/aicore)
@@ -1080,19 +1069,15 @@
 "uN" = (/obj/effect/floor_decal/chapel{tag = "icon-chapel (NORTH)"; icon_state = "chapel"; dir = 1},/obj/item/weapon/stool/padded,/turf/simulated/floor/tiled/dark,/area/planets/neutralcity/inside/church)
 "uO" = (/obj/structure/grille/smallfence{tag = "icon-fence3"; icon_state = "fence3"},/turf/simulated/floor/planet/dirt,/area/planets/neutralcity/exterior_autolight)
 "uP" = (/obj/effect/floor_decal/chapel{tag = "icon-chapel (EAST)"; icon_state = "chapel"; dir = 4},/obj/item/weapon/stool/padded,/turf/simulated/floor/tiled/dark,/area/planets/neutralcity/inside/church)
-"uQ" = (/obj/structure/closet/secure_closet/freezer/kitchen,/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_sw)
 "uR" = (/obj/machinery/door/airlock/highsecurity,/turf/simulated/floor/greengrid,/area/planets/neutralcity/inside/aicore)
 "uS" = (/obj/effect/decal/cleanable/cobweb,/turf/simulated/floor/decor{tag = "icon-redyellowfull"; icon_state = "redyellowfull"},/area/planets/neutralcity/inside/ruins_southeast)
 "uT" = (/obj/structure/table/standard,/turf/simulated/floor/decor{tag = "icon-redyellowfull"; icon_state = "redyellowfull"},/area/planets/neutralcity/inside/ruins_southeast)
 "uU" = (/obj/machinery/light_construct/small{tag = "icon-bulb-construct-stage1 (NORTH)"; icon_state = "bulb-construct-stage1"; dir = 1},/turf/simulated/floor/decor{tag = "icon-redyellowfull"; icon_state = "redyellowfull"},/area/planets/neutralcity/inside/ruins_southeast)
 "uV" = (/obj/effect/decal/cleanable/dirt,/turf/simulated/floor/decor{tag = "icon-redyellowfull"; icon_state = "redyellowfull"},/area/planets/neutralcity/inside/ruins_southeast)
 "uW" = (/obj/structure/table/woodentable,/turf/simulated/floor/plating,/area/planets/neutralcity/inside/ruins_southeast)
-"uX" = (/obj/structure/table/steel,/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_sw)
-"uY" = (/obj/structure/table/steel,/obj/machinery/microwave,/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_sw)
 "uZ" = (/obj/item/weapon/stool/padded,/turf/simulated/floor/decor{tag = "icon-dark"; icon_state = "dark"},/area/planets/neutralcity/inside/church)
 "va" = (/obj/item/weapon/stool/padded,/turf/simulated/floor/tiled/dark,/area/planets/neutralcity/inside/church)
 "vb" = (/obj/machinery/portable_atmospherics/hydroponics,/obj/machinery/light{dir = 1},/turf/simulated/floor/decor{tag = "icon-old_tile_black_dirt"; icon_state = "old_tile_black_dirt"},/area/planets/neutralcity/inside/botany_w)
-"vc" = (/obj/structure/bed/chair,/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_sw)
 "vd" = (/obj/structure/table/steel,/obj/item/weapon/aiModule/reset,/obj/item/weapon/aiModule/freeformcore,/turf/simulated/floor/bluegrid,/area/planets/neutralcity/inside/aicore)
 "ve" = (/obj/structure/table/steel,/obj/item/weapon/aiModule/protectStation,/obj/item/weapon/aiModule/freeform,/turf/simulated/floor/bluegrid,/area/planets/neutralcity/inside/aicore)
 "vf" = (/turf/simulated/floor/plating,/area/planets/neutralcity/inside/ruins_southeast)
@@ -1106,8 +1091,6 @@
 "vn" = (/turf/simulated/wall/tech,/area/planets/neutralcity/inside/bar_s)
 "vo" = (/obj/structure/window/reinforced/polarized/full{id = "barwindow"},/obj/structure/grille/frame,/turf/simulated/floor/decor{icon_state = "square_black"; tag = "icon-tiled1"},/area/planets/neutralcity/inside/bar_s)
 "vp" = (/obj/machinery/door/airlock{name = "Bar Backroom"},/turf/simulated/floor/tiled/dark,/area/planets/neutralcity/inside/bar_s)
-"vq" = (/obj/structure/closet/secure_closet/freezer/meat,/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_sw)
-"vr" = (/obj/machinery/cooker/oven,/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_sw)
 "vs" = (/obj/effect/floor_decal/chapel{tag = "icon-chapel (NORTH)"; icon_state = "chapel"; dir = 1},/turf/simulated/floor/decor{tag = "icon-dark"; icon_state = "dark"},/area/planets/neutralcity/inside/church)
 "vt" = (/obj/effect/floor_decal/chapel{tag = "icon-chapel (EAST)"; icon_state = "chapel"; dir = 4},/turf/simulated/floor/decor{tag = "icon-dark"; icon_state = "dark"},/area/planets/neutralcity/inside/church)
 "vu" = (/obj/effect/floor_decal/carpet{tag = "icon-carpet_edges (NORTHWEST)"; icon_state = "carpet_edges"; dir = 9},/obj/effect/floor_decal/carpet{tag = "icon-carpet_edges (SOUTHEAST)"; icon_state = "carpet_edges"; dir = 6},/obj/effect/floor_decal/carpet{tag = "icon-carpet_edges (NORTHEAST)"; icon_state = "carpet_edges"; dir = 5},/obj/effect/floor_decal/carpet{tag = "icon-carpet_edges (SOUTHWEST)"; icon_state = "carpet_edges"; dir = 10},/turf/simulated/floor/lino,/area/planets/neutralcity/inside/church)
@@ -1137,7 +1120,6 @@
 "vS" = (/obj/structure/grille/smallfence{tag = "icon-fence2"; icon_state = "fence2"},/turf/simulated/floor/planet/dirt,/area/planets/neutralcity/inside/house_se)
 "vT" = (/obj/structure/window/reinforced,/obj/machinery/computer/capture_node,/turf/simulated/floor/bluegrid,/area/planets/neutralcity/inside/aicore)
 "vU" = (/obj/structure/table/steel,/obj/item/weapon/aiModule/oxygen,/obj/item/weapon/aiModule/oneHuman,/obj/machinery/door/window{base_state = "left"; dir = 8; icon_state = "left"; name = "High-Risk Modules"},/obj/structure/window/reinforced,/obj/item/weapon/aiModule/teleporterOffline,/turf/simulated/floor/bluegrid,/area/planets/neutralcity/inside/aicore)
-"vV" = (/obj/structure/window/reinforced/polarized/full{id = "barwindow"},/obj/structure/grille/frame,/turf/simulated/floor/decor{icon_state = "square_black"; tag = "icon-tiled1"},/area/planets/neutralcity/inside/house_sw)
 "vW" = (/obj/structure/table/woodentable,/obj/structure/flora/pottedplant/shoot{pixel_y = 10},/turf/simulated/floor/holofloor/carpet,/area/planets/neutralcity/inside/church)
 "vX" = (/obj/machinery/computer/capture_node,/turf/simulated/floor/holofloor/carpet,/area/planets/neutralcity/inside/church)
 "vY" = (/obj/machinery/door/morgue{tag = "icon-door1"; icon_state = "door1"; dir = 2},/turf/simulated/floor/lino,/area/planets/neutralcity/inside/church)
@@ -1352,10 +1334,6 @@
 "zZ" = (/obj/structure/table/woodentable,/obj/machinery/light,/turf/simulated/floor/wood,/area/planets/neutralcity/inside/bar_w)
 "Aa" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/wood,/area/planets/neutralcity/inside/bar_w)
 "Ab" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/wood,/area/planets/neutralcity/inside/bar_w)
-"Ac" = (/obj/machinery/light/small{icon_state = "bulb1"; dir = 1},/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_sw)
-"Ad" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/freezer,/area/planets/neutralcity/inside/house_sw)
-"Ae" = (/obj/structure/closet/secure_closet/freezer/fridge,/obj/machinery/light{dir = 8},/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_sw)
-"Af" = (/obj/machinery/cooker/grill,/obj/machinery/light{dir = 4},/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_sw)
 "Ag" = (/obj/structure/closet/secure_closet/freezer/fridge,/obj/machinery/light{dir = 8},/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_s)
 "Ah" = (/obj/machinery/cooker/grill,/obj/machinery/light{dir = 4},/turf/simulated/floor/pavement/empty/dark,/area/planets/neutralcity/inside/house_s)
 "Ai" = (/obj/machinery/light/small{dir = 4; pixel_y = 8},/turf/simulated/floor/planet/dirt,/area/planets/neutralcity/inside/ruins_southwest)
@@ -1558,38 +1536,38 @@ abaaaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaAaAaAaAaAaAaAaAaAececfBececaAaAaAaA
 abnFnFnFnFnFnFnFaeaeaeaPcEcEcEbQaPaeaAaAaAaAaAaeaeaeaeaeaeaeaAebebebebebaAaalSlSaaaAebececebececebnEnEnEnEnEnEnEnEnGnGnEnHnEnGnGnEaeaAebebebebebaAaeaeaAecececeMeMeMltnxmimiminympnzmpnAmimiminBltaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abnFnVnVvbnVnWnFaeaebAmeaPaPaPbecEcEaAnZnZnZnZnZnZnZnZnZnZaeaAebebebebebaAlSaeaXlSaAebececebececebnEnInInLnLnMnMnEogogohogohoqotnEaeaAebebebebebaAaeaeaAaAaAaAaAaAaAltnNminOnOnPnQmCnRnSnTnTminUltaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abnFoaoaoaoaoaobaAaebAbAnJbenKbdcEcDaAnZocodoeofoooporosnZaeaAebebebebebaAlSaXaXlSaAebececebececebnEriououououyinEogovogogogogownEaeaAebebebebebaAaeaeaeaeaeaeaeaeaeltnNminNoiojokolomojonnUminUltaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abnFoHoaoaoaoInFaAaeaebenXbdbdbeaPaeaAnZoJododododododoKnZaeaAececfBececaAaanYaaaaaAaaaaaanEnEnEnEnEoxoxoQoQnEoRnEogovogoSogogognEaeaAececfBececaAaeoyoyoyoyoyoyaeaeltnNmiozoAojoBoCoDoEoFoGminUltaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abnFoHoaoaoaoInFaAaeaebenXbdbdbeaPaeaAnZoJododododododoKnZaeaAececfBececaAaanYaaaaaAaAaAaAnEnEnEnEnEoxoxoQoQnEoRnEogovogoSogogognEaeaAececfBececaAaeoyoyoyoyoyoyaeaeltnNmiozoAojoBoCoDoEoFoGminUltaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abnFoLoaoaoMoNnFaAaAaAaAaAaAaAaAaAaAaAnZoOoPodpepfoPodpgphaeaAececfBececaAaeaeaeaeaeaeaeaenEnMAvpnnEnEnEnEnEnEounEogogogpoogpHognEaeaAececfBececaAaeoyoToUoVoWoyaeaeltnNmioXoYmioZpapbmipcpdminUltaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abnFpipjpkoaplnFaeaAnZnZrMrMrMrMnZpmpznZpApBpCnZpDododpEphaeaAececfBececaAaeaeaeaeaeaeaeaenEnMououpIpJououououyinEnEnEqbnEqbnEnEnEaeaAececfBececaAaeoypppqprpsoyaeaeltltptpupvmioZpwpbmipxpyARltltaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abnFpFpGpkoapRnFaeaAnZpSpTpTpTpTpUpzpzpzpzpzpzpVodododpWphaeaAececfBececaAaeaeaeaeaenEnEnEnEnEnEnEnEqcououououououqdqeqeBmqeqeqenEaeaAececfBececaAaeoypKprpqpLoyaeaeltpMmNpNpNpNpOpwpPpNpNpNmNpQltaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abnFpXpYvloapZnFaeaAnZqaqkqlqmqkqupzpzpzpzpzAUnZqvqwodqEnZaeaAececfBececaAaeaeaeaeaenEqnououououounEBnououqxqyqzqznEBoqeqeqeqeBpnEaeaAececfBececaAaeoyqfqgqhqioyaeaeltmNmNpNpNpNpOqjpPpNpNpNmNmNltaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abnFnFnFnFnFnFnFaeaAnZqFqkqGqGqkrcpzpzpzpzpzpznZnZnZpVnZnZaeaAececfBececaAaeaeaeaeaenEqAououououyinEqcounEnEnEnEnEnEqeqeqeqeqeqenEaeaAececfBececaAaeoyqoqpqpqqoyaeaeltmNmNmNmNqrqspwqtqrmNmNmNmNltaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaeaeaeaeaeaeaeaApzpzpzpzpzpzpzpzpzpzpzpzpznZrdrerfrunZaeaAececfBececaAaeaeaeaeaenEouououououounEqHqdnEnEqIqJqKnEnEqLnEnEqLnEnEaeaAececfBececaAaeoyqBqCqCqDoyaAaeltltltltltltASpwATltltltltltltaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaeaeaeaeaeaeaApzpzpzpzpzpzpzpzpzpzpzpzpznZrdrerfrunZaeaAececfBececaAaeaeaeaeaenEouououououounEqHqdnEnEqIqJqKnEnEqLnEnEqLnEnEaeaAececfBececaAaeoyqBqCqCqDoyaeaeltltltltltltASpwATltltltltltltaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abaaaeaAaAaAaAaAaAaArvpzpzpzpzpzpzpzpzpzpzpzpznZrwrfrfrxnZaeaAececfBececaAaeaeaeaeaenEouououououounEqYqZrarbrgrhBqnErqqeqerrqerqnEaeaAececfBececaAaeoyqBqQqRqSqTaAaeaeqMqNqNqOltltngltltqPqUqVqWqXaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abaaaeaAnZrMrMrMrMrMnZnZnZAVpzpzrzqmrApzpzpzAUnZnZrKrfrLnZaeaAececfBececaAaeaeaeaeaenEBrououououourOrtqZranEryrBrCnEqeqerDrEqeqenEaeaAececfBececaAaeoyrnrorpqSoyaAaeaeaeaeaerkrllPlPlPrlrkaeaeaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abaaaeaArMpSpTpTpTpTscsdsepzpzpzqkqkqkpzpzpzqmrAnZsfrfsjnZaeaAececfBececaAaeaeaeaeaenEourNouourNounEsqqZranEnEnEnEnEBoqeqeqeqeBpnEaeaAececfBececaAaeoyqBqCqCqSoyaAaeaeaeaeaeaeaAaAaAaAaAaeaeaeaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abaaaeaAnZqFqkqlqmqkqkpzpzpzpzpzrzqmrApzpzpzqksknZnZslnZnZaeaAececfBececaAaenEnEnEnEnEnEnEnErOnEnEnErtqZrarPrPrPrQnErRqerRrRqerRnEaeaAececfBececaAaeoyrFrGrHrIoyaAaeaeaeaeaeaeaArJrJrJrJrJrJrJrJrJaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaeaAsmpzqkqGqGqkpzpzpzpzpzpzqkqkqkpzpzpzqmrAnZsJtitjnZaeaAececfBececaAaenErSrSrSrSrVrSrSrSnErWrXrtqZqZrYrYqZranErZqerRrRqesanEaeaAececfBececaAaeoyoyoyoyoyoyaAaAaAaAaAaAaAaArTrTrJrTrUrTrJrTrTaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaAsmpzqkqGqGqkpzpzpzpzpzpzqkqkqkpzpzpzqmrAnZsJtitjnZaeaAececfBececaAaenErSrSrSrSrVrSrSrSnErWrXrtqZqZrYrYqZranErZqerRrRqesanEaeaAececfBececaAaeoyoyoyoyoyoyaAaAaAaAsXaAaAaArTrTrJrTrUrTrJrTrTaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abaaaeaAnZpzpzpzpzpzpzAWpzpzpzpzrzAXrApzpzpzAYqknZsJtitislaeaAececfBececaAaenEsgsgsgBsnErSrSBtnEsqqZqZshsnsosospBznEBuqerRrRqeBvnEaeaAececfBececaAaeaeaeaeaeaeaeaeaeaeaeaeaeaeaArJrTsbrTrTrTsbrTrJaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abaaaeaAnZnZnZtutunZnZnZnZtutunZnZnZnZnZtutunZnZnZyYyZzanZaeaAececfBececececrSrSrSrSrSrSrSrSrSsrrtqZqZqZsnsososprassqeqerRrRqerRnEaeaAececfBececaAaeaeaeaeaeaeaeaeaeaeaeaeaeaeaAsirTrTrTrTrTrTrTsiaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abaaaeaAnZzbzczdzdzczbnZzczdzdzczbnZzbzezdzdzezbnZnZzfnZnZaeaAececfBececececstrSrSrSrSstrSrSrSnEswsxsyszqZsAsAqZsBqHqHqHqHqHqHqHqHaeaAececfBececaAaesusususususususususuaeaeaeaArJrTsvrTrTrTsvrTrJaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abaaaeaAnZzdqkqkqkqkzdnZqkqkqkqkzdnZzdqkqkqkqkzdnZzgzgzhAZaeaAececfBececaAaenEsgsgsgBsnEBwrSrSnEnEnEnEnEqZsKsKsKsBqHqHsLsMsNsOsUqHaeaAececfBececaAaesusCsDsEsEsFsFsGsHsuaeaeaeaArTrTrJrTsIrTrJrTrTaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abaaaeaAnZzdrzqGqGrAzdnZrzqGqGrAzdnZzdrzqGzirAzdnZzhzgzgnZaeaAececfBececececrSrSrSrSrSrSrSrSrSnEsVsWsYnEBAsZtathBzqHBxououououyiqHaeaAececfBececaAaesPsQsRsSsSsSsSsTsQsPaeaeaeaArJrJrJrJrJrJrJrJrJaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaeaAnZzdqkqkqkqkzdnZqkqkqkqkzdnZzdqkqkqkqkzdnZzgzhzhzjaeaAececfBececececstrSrSrSrSstrSrSrSnEsVtktktlqZqZqZqZratvoutwApAzAAABqHaeaAececfBececaAaesPtbtctdtetftftgtbsPaesXaeaAaeaeaeaeaeaeaeaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaAnZzdqkqkqkqkzdnZqkqkqkqkzdnZzdqkqkqkqkzdnZzgzhzhzjaeaAececfBececececstrSrSrSrSstrSrSrSnEsVtktktlqZqZqZqZratvoutwApAzAAABqHaeaAececfBececaAaesPtbtctdtetftftgtbsPaeaeaeaAaeaeaeaeaeaeaeaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abaaaeaAnZzkzlzkzlzkzlnZzlzkzlzkzlnZzkzlzkzlzkzlnZzhzgzgzjaeaAebebebebebaAaenEsgsgsgBsnErSrSBtnEsVtksYnEqZACACqZADqHqHqHqHqHqHqHqHaeaAebebebebebaAaesPtbtctmtntotptgtbsPaeaeaeaAtqtrBUtstttqtrtqaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abaaaeaAnZzmzmzmzmzmzmnZzmzmzmzmzmnZzmzmzmzmzmzmnZzjnZzjnZaeaAebebebebebaAaenEnEnEnEnEnEnEnEnEnEsVByAEnEAFAGAHAIAJnEaeaeaeaeaeaeaeaeaAebebebebebaAaesutBtctCtCtCtCtgtDsuaeaeaeaAtttttttttttttttqaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaeaAaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaAebebebebebaAaeaeaeaeaeaeaeaeaeaenEnEnEnEnEnEnEnEnEnEnEaeaeaeaeaeaeaeaeaAebebebebebaAaesusPsPsutEtEsusPtFsuaeaeaeaAtGtttttttttttttqaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaeaAaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaAececfBececaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAececfBececaAaeaeaeaeaeaAaAaeaeaeaeaeaeaeaAtqtHtItttttJtKtqaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaeaAaAaAaAaAaAaAaAaAaeaeaeaAaAaAaAaAaAaAaAaAaAaAaeaeaeaeaAececfBecececeMeMeMecececececececececececececececececececececececeMeMeMecececfBececaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAtqtHtItttttJtKtqaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaetLtLtLtLtLtLtLtLaAaeaeaeaAtMtMtPtMtQtMtPtMtMaAaeaeaeaeaAececececececeMeMeMecececececececececececececececececececececececeMeMeMececececececaAaetNtNtNtNtNtNtOtNtNtNtNtNtNaAtqtHtItttttJtKtqaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaetLtRActLtTtUtVtLaAaeaeaeaAtMtWukulululumuntMaAaeaetxaeaAececfaecfbfbeMtyeMfbfbfbfbfbfbfbfbfbtzfbfbfbfbfbfbfbfbfbfbfbfbfbeMtyeMfbfbecfaececaAaetNuaubuctNudueuftNuguhuitNaAtqtqtqujujtqtqtqaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaetLuotStLAdupuqtLaAaeaeaeaAtPuwuxulululuyuztPaAaeaeaeaeaAececececececeMeMeMecececececececececececececececececececececececeMeMeMececececececaAaetNrmusueutueueueuuueuvurtNaAaAaAaAaAaAaeaeaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaetLtLuAtLtLuBtLtLaAaeaeaeaAtMuLuMulululuNuPtMaAaeaeaeaeaAececececececeMeMeMecececececececececececececececececececececececeMeMeMececececececaAaetNuCuDuetNufueuEtNuFuGuHtNaeuIuJuJuIuKuIuIaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaetLuQtSuXuXtSuYtLaAaetAaeaAtPuZuZulululvavatPaAaeaeaeaeaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAecececececececaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaetNtNtNtNtNtNuRtNtNtNtNtNtNaeuIuSuTuUuVuWuIaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaetLAetSvcvctSAftLaAaeaeaeaAtMuwuxulvmuluyuztMaAaAaAaAaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaAebececebececebaAaevnvovovovnvpvnvovovnaeaeaeaeaeaeaeaeaeaeaetNtNvduiueuiueuivetNtNaeaeuIvfvgvhvivjvkaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaetLvqtStStStSvrtLaAaeaeaeaAtMvsvtvuvvvvvwvxtMtMtMtMtMaevDvDvDvEvDvDvFvFvFvFvFvDvDvDaAebececebececebaAaevnvGvHvGvnvHvIvJvNvnaecLcLrscLvRvRcLcLvSwktNvyvzuiueueueuivAtNtNaeaeuIvivgvivBvCvkaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaetLtLuAtLvVvVtLtLaAaeaeaeaAtMumumvWvXvWumumvYvZAnvZtMaevDwawbwbwbwbwbwbwbwbwbwbxLvDaAebececebececebaAaewfwgvHwgvnvHvHvHvHvnaecLwCwEwEwEwEwFcLybybtNtNtNvKueueuevLtNtNtNaeaeuIvivBviuVvMvkaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
-abaaaeaeaeaAaAaAaAaAaAaAaAaAaAaAtMumumumumumumumtMtMtMwptMaevDwqwbwbwrwbwswswswtwbwbwqvDaAwywzwzwzwzwzwyaAaewfvGvHvGvnvpwAwgwBvnaecLBlwEBBBBwEBCcLybBDtNtNtNtNvTuevUtNtNtNtNaeaeuIuVvivivfviuIaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAebebebebebaAaeaeaeaeaeaeaeaeaeaenEnEnEnEnEnEnEnEnEnEnEaeaeaeaeaeaeaeaeaAebebebebebaAaesusPsPsutEtEsusPtFsuaeaeaeaAtGtttttttttttttqaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaAececfBececaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAececfBececaAaeaeaeaeaeaAaAaeaeaeaeaeaeaeaAtqtHtItttttJtKtqaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaeaeaeaeaeaeaeaeaeaeaeaeaAaAaAaAaAaAaAaAaAaAaAaeaeaeaeaAececfBecececeMeMeMecececececececececececececececececececececececeMeMeMecececfBececaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAtqtHtItttttJtKtqaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaeaAaAaAaAaAaAaAaAaAaeaeaAtMtMtPtMtQtMtPtMtMaAaeaeaeaeaAececececececeMeMeMecececececececececececececececececececececececeMeMeMececececececaAaetNtNtNtNtNtNtOtNtNtNtNtNtNaAtqtHtItttttJtKtqaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaeaAaeaeaeaeaeaeaeaAaeaeaAtMtWukulululumuntMaAaeaetxaeaAececfaecfbfbeMtyeMfbfbfbfbfbfbfbfbfbtzfbfbfbfbfbfbfbfbfbfbfbfbfbeMtyeMfbfbecfaececaAaetNuaubuctNudueuftNuguhuitNaAtqtqtqujujtqtqtqaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaeaAaeaAaAaAaAaAaeaAaeaeaAtPuwuxulululuyuztPaAaeaeaeaeaAececececececeMeMeMecececececececececececececececececececececececeMeMeMececececececaAaetNrmusueutueueueuuueuvurtNaAaAaAaAaAaAaeaeaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaeaAaeaAaetAaeaAaeaAaeaeaAtMuLuMulululuNuPtMaAaeaeaeaeaAececececececeMeMeMecececececececececececececececececececececececeMeMeMececececececaAaetNuCuDuetNufueuEtNuFuGuHtNaeuIuJuJuIuKuIuIaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaeaAaeaAaAaAaAaAaeaAaeaeaAtPuZuZulululvavatPaAaeaeaeaeaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAecececececececaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaetNtNtNtNtNtNuRtNtNtNtNtNtNaeuIuSuTuUuVuWuIaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaeaAaeaeaeaeaeaeaeaAaeaeaAtMuwuxulvmuluyuztMaAaAaAaAaeaeaeaeaeaeaeaeaeaeaeaeaeaeaeaAebececebececebaAaevnvovovovnvpvnvovovnaeaeaeaeaeaeaeaeaeaeaetNtNvduiueuiueuivetNtNaeaeuIvfvgvhvivjvkaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaeaAaAaAaAaAaAaAaAaAaeaeaAtMvsvtvuvvvvvwvxtMtMtMtMtMaevDvDvDvEvDvDvFvFvFvFvFvDvDvDaAebececebececebaAaevnvGvHvGvnvHvIvJvNvnaecLcLrscLvRvRcLcLvSwktNvyvzuiueueueuivAtNtNaeaeuIvivgvivBvCvkaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaeaeaeaeaeaeaeaeaeaeaeaeaAtMumumvWvXvWumumvYvZAnvZtMaevDwawbwbwbwbwbwbwbwbwbwbxLvDaAebececebececebaAaewfwgvHwgvnvHvHvHvHvnaecLwCwEwEwEwEwFcLybybtNtNtNvKueueuevLtNtNtNaeaeuIvivBviuVvMvkaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
+abaaaeaeaeaeaeaeaeaAaAaAaAaAaAaAtMumumumumumumumtMtMtMwptMaevDwqwbwbwrwbwswswswtwbwbwqvDaAwywzwzwzwzwzwyaAaewfvGvHvGvnvpwAwgwBvnaecLBlwEBBBBwEBCcLybBDtNtNtNtNvTuevUtNtNtNtNaeaeuIuVvivivfviuIaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abaaaeaeaeaeaevOvOvPvOvQvQvOvOaAtMwGumumAwumumumvYvZAovZtMaevDvDvDvDvDvDwHwIwRwSvDwTvDvDaewywVwUwUwUyOwyaeaewWvHvHvHvHvHvHvHvHvnaecLBEwEBFBFwEBGcLybybtNtNtNtNtNwctNtNtNtNtNaeaeuIwdviuVuVuVweaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abxpxqxrxpaeaevOwhwiwiwiwiwjvOaAtMtMtMxGtMtMtMtMtMtMtMtMtMaevDxHxIxJxKvDwbwbwsylvDwbAqvDaexMxNxNxNxNxNwyaeaewWvHvHvHvHvHvHvHvHvnaecLcLrscLcLBHcLcLybybtNtNuiwlwmwnuiwluitNtNaeaeuIvivjwovMvjuIaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
 abxpxPxQxpaeaevOAgwiwDwDwiAhvOaAaAaAaAaAaAaAaAaAaAaAaAaAaAaevDwbwbwbwbxRwbwbwbwbwTwbxSvDaewyxTxNxNxNxUwyaeaewfvGvHvGvnvnxVxWxXvnaecLBIwEcLBJBKBLcLBMBDtNtNwuueuiwvuiuewwtNtNaeuIuIwxuIuIuIuIuIaeaeaeaeaaabauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauauau
