@@ -47,13 +47,13 @@
 	GLOB.COVENANT.setup_faction_objectives(list(/datum/objective/colony_capture/cov))
 	next_score_display = world.time + ship_lockdown_duration + SCORE_DISPLAY_DELAY
 
-/datum/game_mode/base_assault/neutral/proc/do_display(var/list/display_to,var/sender_name,var/percentile,var/enemy_percentile)
+/datum/game_mode/base_assault/neutral/proc/do_display(var/list/display_to,var/sender_name,var/percentile,var/enemy_percentile,var/points_ours,var/points_enemy)
 	for(var/datum/mind/mind in display_to)
 		if(mind.current)
 			to_chat(mind.current,"<span class='radio'>\
 			<span class='name'>[sender_name]</span> \
 			<b>\[SYSTEM ALERTS\]</b> \
-			<span class='message'>Capture progress is [percentile]% done. Enemy presence is [enemy_percentile]% done.</span>\
+			<span class='message'>Capture progress is [percentile]% done. Enemy presence is [enemy_percentile]% done. We hold the following points:[points_ours]. The enemy holds the following points:[points_enemy].</span>\
 			</span>")
 
 
@@ -64,8 +64,18 @@
 		var/datum/objective/colony_capture/cap_enemy = locate(/datum/objective/colony_capture/cov) in GLOB.COVENANT.all_objectives
 		var/perc = round(cap.capture_score / gm_max_cap_score,0.1) * 100
 		var/perc_enemy = round(cap_enemy.capture_score/gm_max_cap_score,0.1) * 100
-		do_display(GLOB.UNSC.living_minds,"HIGHCOMM",perc,perc_enemy)
-		do_display(GLOB.COVENANT.living_minds,"Local Command",perc_enemy,perc)
+		var/points_ours = ""
+		for(var/obj/point in cap.controlled_nodes)
+			var/area/a = get_area(point)
+			if(a)
+				points_ours += "[a.name],"
+		var/points_enemy = ""
+		for(var/obj/point in cap_enemy.controlled_nodes)
+			var/area/a = get_area(point)
+			if(a)
+				points_enemy += "[a.name],"
+		do_display(GLOB.UNSC.living_minds,"HIGHCOMM",perc,perc_enemy,points_ours,points_enemy)
+		do_display(GLOB.COVENANT.living_minds,"Local Command",perc_enemy,perc,points_enemy,points_ours)
 
 /datum/game_mode/base_assault/neutral/process()
 	. = ..()
