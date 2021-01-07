@@ -26,7 +26,7 @@
 	attackers = " The Covenant"
 	winning_side = "error"
 	flank_tags = list()
-	var/gm_max_cap_score = 600
+	var/gm_max_cap_score = 1600
 	var/next_score_display = 0
 
 /datum/game_mode/base_assault/neutral/check_finished()
