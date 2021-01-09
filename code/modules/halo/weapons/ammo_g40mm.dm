@@ -91,6 +91,10 @@
 	armor_penetration = 5
 	arming_range = 1
 
+/obj/item/projectile/bullet/g40mm/smoke/launch(atom/target, var/target_zone, var/x_offset=0, var/y_offset=0, var/angle_offset=0)
+	. = ..()
+	kill_count = get_dist(get_turf(loc),target)
+
 /obj/item/projectile/bullet/g40mm/smoke/on_impact(var/atom/target)
 	var/datum/effect/effect/system/smoke_spread/bad/smoke
 	smoke = new  /datum/effect/effect/system/smoke_spread/bad()
@@ -106,6 +110,10 @@
 /obj/item/projectile/bullet/g40mm/illumination
 	damage = 30
 	armor_penetration = 5
+
+/obj/item/projectile/bullet/g40mm/illumination/launch(atom/target, var/target_zone, var/x_offset=0, var/y_offset=0, var/angle_offset=0)
+	. = ..()
+	kill_count = get_dist(get_turf(loc),target)
 
 /obj/item/projectile/bullet/g40mm/illumination/on_impact(var/atom/target)
 	. = ..()
