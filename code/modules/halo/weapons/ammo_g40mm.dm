@@ -93,7 +93,7 @@
 
 /obj/item/projectile/bullet/g40mm/smoke/launch(atom/target, var/target_zone, var/x_offset=0, var/y_offset=0, var/angle_offset=0)
 	. = ..()
-	kill_count = get_dist(get_turf(loc),target)
+	kill_count = get_dist(get_turf(loc),get_turf(target))
 
 /obj/item/projectile/bullet/g40mm/smoke/on_impact(var/atom/target)
 	var/datum/effect/effect/system/smoke_spread/bad/smoke
@@ -113,7 +113,7 @@
 
 /obj/item/projectile/bullet/g40mm/illumination/launch(atom/target, var/target_zone, var/x_offset=0, var/y_offset=0, var/angle_offset=0)
 	. = ..()
-	kill_count = get_dist(get_turf(loc),target)
+	kill_count = get_dist(get_turf(loc),get_turf(target))
 
 /obj/item/projectile/bullet/g40mm/illumination/on_impact(var/atom/target)
 	. = ..()
