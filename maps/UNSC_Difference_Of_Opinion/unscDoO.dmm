@@ -296,7 +296,7 @@
 "fJ" = (/obj/structure/table/steel,/obj/machinery/microwave,/turf/simulated/floor/wood,/area/unscDoO/lounge)
 "fK" = (/turf/simulated/floor/wood,/area/unscDoO/briefing)
 "fL" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/door/firedoor/unsc_DoO,/obj/machinery/door/airlock/halo/maint/DoO_general,/turf/simulated/floor/tiled,/area/unscDoO/MAC)
-"fM" = (/obj/structure/table/steel,/obj/item/clothing/head/kitty,/turf/simulated/floor/wood,/area/unscDoO/lounge)
+"fM" = (/obj/structure/table/steel,/obj/item/clothing/head/kitty,/obj/item/clothing/head/collectable/rabbitears,/obj/item/clothing/head/collectable/tophat,/turf/simulated/floor/wood,/area/unscDoO/lounge)
 "fN" = (/obj/machinery/vending/snack,/turf/simulated/floor/wood,/area/unscDoO/lounge)
 "fO" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4; icon_state = "intact-supply"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{icon_state = "intact-scrubbers"; dir = 4},/turf/simulated/floor/tech/steel,/area/unscDoO/gym)
 "fP" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9; icon_state = "intact-scrubbers"},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{icon_state = "map-supply"; dir = 4},/turf/simulated/floor/tech/steel,/area/unscDoO/gym)
