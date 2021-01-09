@@ -1,4 +1,4 @@
-#define EXPLOSION_DEBRIS_CHANCE 35
+#define EXPLOSION_DEBRIS_CHANCE 30
 
 /obj/structure/destructible/explosion_debris
 	name = "explosion debris"
@@ -7,7 +7,7 @@
 	maxHealth = 300 //This might seem a bit high but remember that the cover will be taking damage anyway from the explosion.
 	health = 300
 	cover_rating = 45
-	explosion_damage_mult = 5
+	explosion_damage_mult = 15
 	deconstruct_tools = list()
 	loot_types = list()
 	scrap_types = list()
