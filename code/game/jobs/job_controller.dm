@@ -103,7 +103,7 @@ var/global/datum/controller/occupations/job_master
 				return 0
 			if(!job.player_old_enough(player.client))
 				return 0
-			if(job.is_restricted(player.client.prefs))
+			if(job.is_restricted(player.client.prefs,player))
 				return 0
 
 			var/position_limit = job.total_positions
@@ -184,7 +184,7 @@ var/global/datum/controller/occupations/job_master
 			if(istype(job, GetJob("Assistant"))) // We don't want to give him assistant, that's boring!
 				continue
 
-			if(job.is_restricted(player.client.prefs))
+			if(job.is_restricted(player.client.prefs,player))
 				continue
 
 			if(job.title in command_positions) //If you want a command position, select it!
