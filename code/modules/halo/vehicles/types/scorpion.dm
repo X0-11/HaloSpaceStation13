@@ -22,7 +22,7 @@
 
 	move_sound = 'code/modules/halo/sounds/scorp_move.ogg'
 
-	vehicle_view_modifier = 1.3
+	vehicle_view_modifier = 1.65
 
 	light_color = "#E1FDFF"
 
