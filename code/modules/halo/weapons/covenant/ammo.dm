@@ -354,14 +354,13 @@
 
 /obj/item/projectile/bullet/covenant/concussion_rifle
 	name = "heavy plasma round"
-	damage = 25 //Same as plasma rifle (When factoring in the aoe), but it has AP!
+	damage = 35 //Same as plasma rifle (When factoring in the aoe), but it has AP!
 	armor_penetration = 25
 	shield_damage = 50
 	step_delay = 0.75 //slower than most
 	icon = 'code/modules/halo/weapons/icons/Covenant_Projectiles.dmi'
 	icon_state = "pulse0"
 	muzzle_type = /obj/effect/projectile/muzzle/cov_red
-	var/aoe_damage = 5
 
 /obj/item/projectile/bullet/covenant/concussion_rifle/launch(atom/target, var/target_zone, var/x_offset=0, var/y_offset=0, var/angle_offset=0)
 	. = ..()
@@ -385,14 +384,11 @@
 		if(dir_move in GLOB.cardinal)
 			lastloc = get_edge_target_turf(m, dir_move)
 		else
-			for(var/i = 0 to world.view - 1)
+			for(var/i = 0 to world.view - 3)
 				var/turf/newloc = get_step(lastloc,dir_move)
 				if(newloc.density == 1)
 					break
 				lastloc = newloc
-		var/mob/living/mob = m
-		if(istype(mob))
-			mob.adjustFireLoss(aoe_damage)
 		spawn()
 			m.throw_at(lastloc,3,1,firer)
 	. = ..()
@@ -408,7 +404,6 @@
 	damage = 0
 	armor_penetration = 0
 	shield_damage = 0
-	aoe_damage = 0
 
 #undef FUEL_ROD_IRRADIATE_RANGE
 #undef FUEL_ROD_IRRADIATE_AMOUNT
