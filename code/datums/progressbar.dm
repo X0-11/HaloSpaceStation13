@@ -2,6 +2,7 @@
 	var/goal = 1
 	var/image/bar
 	var/shown = 0
+	var/process_without_user = 0 //If you're manually manipulating the bar without a mob-user, set this.
 	var/mob/user
 	var/client/client
 
@@ -29,18 +30,19 @@
 
 /datum/progressbar/proc/update(progress)
 //	log_debug("Update [progress] - [goal] - [(progress / goal)] - [((progress / goal) * 100)] - [round(((progress / goal) * 100), 5)]")
-
-	if (!user || !user.client)
-		shown = 0
-		return
-	if (user.client != client)
-		if (client)
-			client.images -= bar
+	if(!process_without_user)
+		if (!user || !user.client)
 			shown = 0
-		client = user.client
+			return
+		if (user.client != client)
+			if (client)
+				client.images -= bar
+				shown = 0
+			client = user.client
 
 	progress = Clamp(progress, 0, goal)
 	bar.icon_state = "prog_bar_[round(((progress / goal) * 100), 5)]"
-	if (!shown && user.is_preference_enabled(/datum/client_preference/show_progress_bar))
-		user.client.images += bar
-		shown = 1
+	if(!process_without_user)
+		if (!shown && user.is_preference_enabled(/datum/client_preference/show_progress_bar))
+			user.client.images += bar
+			shown = 1
