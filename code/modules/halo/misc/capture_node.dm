@@ -106,16 +106,17 @@ GLOBAL_LIST_EMPTY(capture_nodes)
 		return
 	var/amt_capping = check_faction_cap_active(1)
 	if(amt_capping == 0)
-		src.visible_message("<span class='warning'>[faction_capturing] has no members in proximity of capture. Authority not established. Cancelling capture.</span>")
-		faction_capturing = null
-		capture_ticks_remain = -1
-		reset_markers()
-		qdel(cap_bar)
-		cap_bar = null
-		return
-	var/ticks_remove = 1 + ((amt_capping-1)*EXTRAPLAYER_CAP_AMT_INCREASE)
-	capture_ticks_remain = max(0,capture_ticks_remain-min(ticks_remove,EXTRAPLAYER_CAP_AMT_MAX))
-	next_cap_tick_at = world.time + 1 SECOND
+		if(capture_ticks_remain == capture_time)
+			faction_capturing = null
+			reset_markers()
+			qdel(cap_bar)
+			cap_bar = null
+			return
+		capture_ticks_remain = min(capture_time,capture_ticks_remain+4)
+	else
+		var/ticks_remove = 1 + ((amt_capping-1)*EXTRAPLAYER_CAP_AMT_INCREASE)
+		capture_ticks_remain = max(0,capture_ticks_remain-min(ticks_remove,EXTRAPLAYER_CAP_AMT_MAX))
+		next_cap_tick_at = world.time + 1 SECOND
 	if(!cap_bar)
 		cap_bar = new (null,capture_time, src)
 		cap_bar.process_without_user = 1
