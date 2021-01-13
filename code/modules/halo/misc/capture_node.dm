@@ -1,7 +1,7 @@
 GLOBAL_LIST_EMPTY(capture_nodes)
 #define FALLBACK_MOBSPAWN_AMOUNT 6
 #define EXTRAPLAYER_CAP_AMT_INCREASE 0.25
-#define EXTRAPLAYER_CAP_AMT_MAX 2.5
+#define EXTRAPLAYER_CAP_AMT_MAX 2
 
 /obj/machinery/computer/capture_node
 	name = "Sovereignty Console"
@@ -13,7 +13,7 @@ GLOBAL_LIST_EMPTY(capture_nodes)
 	var/list/capturing_factions = list("UNSC","Insurrection","Covenant")
 	var/list/faction_frequencies = list()
 	var/list/faction_languages = list()
-	var/capture_time = 210
+	var/capture_time = 180
 	var/faction_capturing
 	var/capture_ticks_remain = -1
 	var/datum/progressbar/cap_bar
@@ -97,6 +97,8 @@ GLOBAL_LIST_EMPTY(capture_nodes)
 		return
 	if(capture_ticks_remain == 0)
 		capture_ticks_remain = -1
+		if(control_faction)
+			control_markers(null,faction_capturing)
 		control_markers(faction_capturing,faction_capturing)
 		faction_capturing = null
 		qdel(cap_bar)
