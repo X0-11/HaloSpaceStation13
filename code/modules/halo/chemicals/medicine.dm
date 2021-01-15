@@ -5,7 +5,7 @@
 #define BIOFOAM_COST_FIXWOUNDS 0.1
 #define BIOFOAM_COST_REMOVESHRAP 0.2
 
-#define POLYPSEUDOMORPHINE_PAINKILL 400
+#define POLYPSEUDOMORPHINE_PAINKILL 350
 
 
 /datum/reagent/triadrenaline
@@ -276,7 +276,7 @@
 
 /datum/reagent/polypseudomorphine
 	name = "Polypseudomorphine"
-	description = "A powerful painkiller that can cause a loss of awareness in smaller doses, and full unconsciousness in higher doses. No more than 10u should be administered."
+	description = "A powerful painkiller that can cause a loss of awareness in smaller doses, and full unconsciousness in higher doses. No more than 10u should be administered. Due to the heavy sedative effects, it quickly neutralises any stimulants in the body."
 	taste_description = "chalk"
 	reagent_state = LIQUID
 	color = "#C8A5DC"
@@ -287,14 +287,17 @@
 
 /datum/reagent/polypseudomorphine/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	M.add_chemical_effect(CE_PAINKILLER, POLYPSEUDOMORPHINE_PAINKILL)
+	for(var/datum/reagents/reag_hold in list(M.bloodstr,M.ingested,M.touching))
+		reag_hold.remove_reagent(/datum/reagent/hyperzine,100)
+		reag_hold.remove_reagent(/datum/reagent/hyperzine_concentrated,100)
 	var/intensity = 3
 	var/quarterOD = overdose/4
 	if(volume > quarterOD*3)
-		intensity = 6
+		intensity = 7
 	else if(volume > quarterOD*2)
-		intensity = 5
+		intensity = 6
 	else if(volume > quarterOD)
-		intensity = 4
+		intensity = 5
 	M.overlay_fullscreen("suppress",SUPPRESSION_FULLSCREEN_TYPE,intensity)
 
 /datum/reagent/polypseudomorphine/overdose(var/mob/living/carbon/M)
