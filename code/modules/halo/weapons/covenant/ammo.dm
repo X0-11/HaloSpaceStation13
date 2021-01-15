@@ -364,7 +364,7 @@
 
 /obj/item/projectile/bullet/covenant/concussion_rifle/on_impact(var/atom/A)
 	playsound(A, 'code/modules/halo/sounds/conc_rifle_explode.ogg', 100, 1)
-	for(var/atom/movable/m in range(1,loc) + range(1,A))
+	for(var/atom/movable/m in range(1,A))
 		if(m.anchored)
 			continue
 		if(istype(m,/obj/effect))
@@ -380,7 +380,7 @@
 		if(dir_move in GLOB.cardinal)
 			lastloc = get_edge_target_turf(m, dir_move)
 		else
-			for(var/i = 0 to world.view - 3)
+			for(var/i = 0 to world.view - 2)
 				var/turf/newloc = get_step(lastloc,dir_move)
 				if(newloc.density == 1)
 					break
