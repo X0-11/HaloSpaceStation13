@@ -18,6 +18,7 @@
 	silenced = 1
 	one_hand_penalty = 1
 	scope_zoom_amount = 1.1
+	slowdown_general = 0
 
 	item_icons = list(
 		slot_l_hand_str = 'code/modules/halo/weapons/icons/Weapon_Inhands_left.dmi',
