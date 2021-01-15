@@ -101,6 +101,7 @@ GLOBAL_LIST_EMPTY(capture_nodes)
 			control_markers(null,faction_capturing)
 		control_markers(faction_capturing,faction_capturing)
 		faction_capturing = null
+		overlays -= cap_bar
 		qdel(cap_bar)
 		cap_bar = null
 		return
@@ -109,6 +110,7 @@ GLOBAL_LIST_EMPTY(capture_nodes)
 		if(capture_ticks_remain == capture_time)
 			faction_capturing = null
 			reset_markers()
+			overlays -= cap_bar
 			qdel(cap_bar)
 			cap_bar = null
 			return
