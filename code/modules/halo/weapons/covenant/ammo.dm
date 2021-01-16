@@ -1,6 +1,7 @@
-#define NEEDLER_EMBED_PROB 45
+ #define NEEDLER_EMBED_PROB 45
 #define NEEDLER_SHARD_DET_TIME 10 SECONDS
-#define NEEDLER_SHRAPNEL_AP 40
+#define NEEDLER_SHRAPNEL_AP 50
+#define NEEDLER_SUPERCOMBINE_SHRAPNEL_DAMAGE_MULT 3
 #define FUEL_ROD_IRRADIATE_RANGE 2
 #define FUEL_ROD_IRRADIATE_AMOUNT 10
 
@@ -138,7 +139,7 @@
 	icon_state = "Needler Shot"
 	embed = 1
 	sharp = 1
-	var/max_track_steps = 3 // 4 tiles worth of tracking
+	var/max_track_steps = 5
 	var/shards_to_explode = 6
 	var/shard_name = "Needle shrapnel"
 	var/mob/locked_target
@@ -159,7 +160,7 @@
 			for(var/obj/I in embedded_shards)
 				var/obj/item/weapon/material/shard/shrapnel/needleshrap/needle = I
 				if(istype(needle))
-					needle.our_dam *= 2
+					needle.our_dam *= NEEDLER_SUPERCOMBINE_SHRAPNEL_DAMAGE_MULT
 					needle.die_at = 0
 					needle.process()
 				else
@@ -186,7 +187,7 @@
 	if(ismob(target))
 		locked_target = target //Setting target directly if we've clicked on them.
 	if(isturf(target))
-		for(var/mob/M in target.contents)//Otherwise search the contents of the clicked turf, and take the first mob we find as a target.
+		for(var/mob/living/M in target.contents)//Otherwise search the contents of the clicked turf, and take the first mob we find as a target.
 			locked_target = M
 			break
 	. = ..()
@@ -350,8 +351,8 @@
 
 /obj/item/projectile/bullet/covenant/concussion_rifle
 	name = "heavy plasma round"
-	damage = 35 //Same as plasma rifle (When factoring in the aoe), but it has AP!
-	armor_penetration = 25
+	damage = 35
+	armor_penetration = 30
 	shield_damage = 50
 	step_delay = 0.75 //slower than most
 	icon = 'code/modules/halo/weapons/icons/Covenant_Projectiles.dmi'
