@@ -10,7 +10,7 @@
 	max_shots = 100
 	slowdown_general = 0
 	fire_delay = 5 //Lower damage projectile, so we fire just slightly faster.
-	dispersion = list(0.45)
+	dispersion = list(0)
 	var/overcharge = 0
 	var/overcharge_type = /obj/item/projectile/bullet/covenant/plasmapistol/overcharge
 	projectile_type = /obj/item/projectile/bullet/covenant/plasmapistol

@@ -24,7 +24,7 @@
 		slot_belt_str = 'code/modules/halo/weapons/icons/Belt_Weapons.dmi',
 		)
 
-	dispersion = list(0.4) //Maxes out at just about 1 tile @ 7 tiles range. Should rarely actually deviate to that tile, though.
+	dispersion = list(0)
 	hud_bullet_row_num = 6
 	hud_bullet_reffile = 'code/modules/halo/icons/hud_display/hud_bullet_7x8.dmi'
 	hud_bullet_iconstate = "bigpistol"
