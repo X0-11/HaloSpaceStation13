@@ -7,7 +7,7 @@
 	slot_flags = SLOT_BELT|SLOT_HOLSTER|SLOT_BACK
 	fire_sound = 'code/modules/halo/sounds/haloplasmapistol.ogg'
 	charge_meter = 1
-	max_shots = 100
+	max_shots = 125
 	slowdown_general = 0
 	fire_delay = 5 //Lower damage projectile, so we fire just slightly faster.
 	dispersion = list(0)

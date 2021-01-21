@@ -167,6 +167,7 @@
 		"Guns" = -1,
 		/obj/item/weapon/gun/energy/plasmapistol = 0,
 		/obj/item/weapon/gun/projectile/mauler = 0,
+		/obj/item/weapon/gun/projectile/type51carbine = 0,
 		/obj/item/weapon/gun/projectile/spiker = 0,
 		/obj/item/weapon/gun/energy/plasmarifle/brute = 0,
 		/obj/item/weapon/gun/launcher/grenade/brute_shot = 0,
