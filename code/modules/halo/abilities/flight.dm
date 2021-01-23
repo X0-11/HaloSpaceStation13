@@ -28,6 +28,7 @@
 		if(message_flight)
 			visible_message("[message_flight]")
 	else
+		Stun(2)
 		flight_ticks_remain = 0
 		change_elevation(-flight_elevation)
 		if(message_land)
