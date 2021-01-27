@@ -12,7 +12,7 @@
 	icon_template = 'code/modules/halo/unsc/r_Augmented_Human_template.dmi'
 	flags = NO_MINOR_CUT
 	appearance_flags = HAS_HAIR_COLOR | HAS_SKIN_TONE | HAS_LIPS | HAS_EYE_COLOR
-	total_health = 250 //Same base health as sangheili
+	total_health = 230 //Same base health as sangheili
 	spawn_flags = SPECIES_CAN_JOIN
 	brute_mod = 0.85 //Lower amount of brute damage taken than sangheili
 	burn_mod = 0.85 //ditto for burn
