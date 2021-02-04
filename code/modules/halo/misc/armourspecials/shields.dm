@@ -96,7 +96,9 @@
 	connectedarmour.verbs += /obj/item/clothing/suit/armor/special/proc/toggle_eva_mode
 
 /datum/armourspecials/shields/proc/toggle_eva_mode(var/mob/toggler)
-
+	if(toggler.incapacitated())
+		to_chat(toggler,"<span class = 'warning'>You can't do that in your current state!</span>")
+		return
 	src.eva_mode_active = !src.eva_mode_active
 	if(eva_mode_active)
 		connectedarmour.visible_message("[toggler] reroutes their shields, prioritising atmospheric and pressure containment.")
