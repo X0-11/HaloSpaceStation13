@@ -75,7 +75,9 @@
 //Some extra jobstuff for mgalekgolo and spartans
 
 /datum/job/unsc/spartan_two
-	poplock_max = 2
+	total_positions = 1
+	spawn_positions = 1
+	poplock_max = 1
 	poplock_divisor = 12
 
 /datum/job/covenant/mgalekgolo
