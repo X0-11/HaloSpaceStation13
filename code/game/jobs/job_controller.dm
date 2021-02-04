@@ -130,7 +130,11 @@ var/global/datum/controller/occupations/job_master
 					var/hostilefaction_multiplier = 1
 					if(player_pop_nonfaction > 0 && player_pop_faction > 0)
 						hostilefaction_multiplier = min(round(player_pop_nonfaction / player_pop_faction),1)
-					var/amt_job = max(round((player_pop_nonfaction * hostilefaction_multiplier)/poplocked.poplock_divisor),0)
+
+					var/initialpos = initial(poplocked.total_positions)
+					var/max_job_amt = poplocked.poplock_max + initialpos
+					var/amt_job_pre = initialpos + round((player_pop_nonfaction * hostilefaction_multiplier)/poplocked.poplock_divisor)
+					var/amt_job = max(min(max_job_amt,amt_job_pre),0)
 
 					if(amt_job > 0)
 						if(poplocked.total_positions == 0)
