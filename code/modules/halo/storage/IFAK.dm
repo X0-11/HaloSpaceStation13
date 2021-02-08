@@ -1,7 +1,7 @@
 
 /obj/item/clothing/accessory/storage/IFAK
 	name = "Infantry First Aid Kit"
-	desc = "A tailor made pouch with partitions for specific medical supplies."
+	desc = "A tailor made pouch with partitions for specific medical supplies. Attach this to your uniform."
 	icon = 'code/modules/halo/icons/objs/ifak.dmi'
 	icon_state = "ifak"
 	slots = 7

@@ -12,6 +12,7 @@
 	caliber = "12.7mm"
 	slot_flags = SLOT_BELT|SLOT_HOLSTER
 	one_hand_penalty = 1
+	fire_delay = 4 //Lower mag cap than the plaspistol, so we'll let it fire faster.
 	fire_sound = 'code/modules/halo/sounds/Magnum_Fire_New.wav'
 	reload_sound = 'code/modules/halo/sounds/Magnum_Reload_New.wav'
 	load_method = MAGAZINE

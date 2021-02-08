@@ -37,7 +37,7 @@
 
 /obj/item/weapon/gun/energy/plasmapistol/New()
 	. = ..()
-	overcharge_cost = charge_cost * 4
+	overcharge_cost = charge_cost * 2
 
 /obj/item/weapon/gun/energy/plasmapistol/attack_self(var/mob/user)
 	if(power_supply.charge >= overcharge_cost)
@@ -58,17 +58,19 @@
 			projectile_type = overcharge_type
 			charge_cost = overcharge_cost
 			overcharge = 1
+			fire_delay = initial(fire_delay)*2
 			overlays += "overcharge"
 			set_light(3, 1, "66FF00")
 			burst = 1
 			fire_delay = initial(fire_delay) * 3 //triples the fire delay.
-			heat_per_shot = overheat_capacity
+			heat_per_shot = initial(heat_per_shot)*2
 		else
 			if(user && !silent)
 				visible_message("<span class='notice'>[user.name]'s [src]'s lights darken</span>","<span class='notice'>You deactivate your [src]'s overcharge</span>")
 			projectile_type = initial(projectile_type)
 			overcharge = 0
 			charge_cost = initial(charge_cost)
+			fire_delay = initial(fire_delay)
 			overlays -= "overcharge"
 			set_light(0, 0, "66FF00")
 			burst = initial(burst)

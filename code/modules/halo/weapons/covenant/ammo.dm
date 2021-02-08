@@ -41,6 +41,7 @@
 
 /obj/item/projectile/bullet/covenant/plasmapistol/overcharge
 	damage = 60
+	armor_penetration = 40
 	icon_state = "Overcharged_Plasmapistol shot"
 
 /obj/item/projectile/bullet/covenant/plasmapistol/overcharge/on_impact(var/atom/impacted)
