@@ -10,7 +10,7 @@
 	var/capacity = 1
 	var/desc_ammo_name = "rounds"
 	var/list/ammo_spawnwith = list()
-	var/load_time = 1//The time it takes to load one round from the box to the weapon
+	var/load_time = 1 SECOND//The time it takes to load one round from the box to the weapon
 
 /obj/item/ammo_box/Initialize()
 	.=..()

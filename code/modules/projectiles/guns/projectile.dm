@@ -65,7 +65,7 @@
 	to_chat(user,"<span class ='notice'>You start loading the [name] from the [box.name]</span>")
 	box.loading = 1
 	for(var/ammo in box.contents)
-		if(do_after(user,box.load_time SECONDS,box, same_direction = 1))
+		if(do_after(user,box.load_time,box, 1, 1, INCAPACITATION_DEFAULT, 0, 0, 1))
 			load_ammo(ammo,user)
 			continue
 		break
