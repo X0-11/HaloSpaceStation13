@@ -32,6 +32,7 @@
 
 /obj/item/projectile/bullet/covenant/plasmapistol
 	damage = 45
+	armor_penetration = 20
 	icon = 'code/modules/halo/weapons/icons/Covenant_Projectiles.dmi'
 	icon_state = "Plasmapistol Shot"
 	muzzle_type = /obj/effect/projectile/muzzle/cov_green
@@ -41,6 +42,7 @@
 
 /obj/item/projectile/bullet/covenant/plasmapistol/overcharge
 	damage = 60
+	shield_damage = -50 //EMP does most of the work.
 	armor_penetration = 40
 	icon_state = "Overcharged_Plasmapistol shot"
 
@@ -272,9 +274,9 @@
 
 /obj/item/projectile/bullet/covenant/needles/rifleneedle
 	name = "Rifle Needle"
-	damage = 30
-	armor_penetration = 20
-	shield_damage = 20
+	damage = 35
+	armor_penetration = 40
+	shield_damage = 5
 	shrapnel_damage = 10
 	shards_to_explode = 3
 	shard_name = "Rifle Needle shrapnel"

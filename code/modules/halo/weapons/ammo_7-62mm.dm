@@ -50,9 +50,9 @@
 	projectile_type = /obj/item/projectile/bullet/m120
 
 /obj/item/projectile/bullet/m120
-	damage = 40
-	armor_penetration = 20
-	shield_damage = 20
+	damage = 35
+	armor_penetration = 40
+	shield_damage = 5
 	tracer_type = /obj/effect/projectile/dmr_trail
 	tracer_delay_time = 0.5 SECONDS
 	steps_between_delays = 3

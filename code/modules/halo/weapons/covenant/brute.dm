@@ -1,5 +1,6 @@
 
-
+#define BRUTE_SHOT_GRENADE_MAX_THROW_DIST 6
+#define BRUTE_SHOT_GRENADE_MIN_THROW_DIST 2
 
 /* SPIKE GRENADE */
 
@@ -409,6 +410,11 @@
 		src.overlays += gren
 
 		grensleft -= 1
+
+/obj/item/weapon/grenade/brute_shot/throw_at(atom/target, range, speed, thrower)
+	throw_range = max(BRUTE_SHOT_GRENADE_MAX_THROW_DIST * (1 - (amount/max_amount)),BRUTE_SHOT_GRENADE_MIN_THROW_DIST)
+	range = throw_range
+	. = ..()
 
 /obj/item/weapon/grenade/toxic_gas
 	name = "toxic gas grenade"

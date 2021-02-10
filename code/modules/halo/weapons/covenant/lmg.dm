@@ -17,7 +17,6 @@
 	w_class = ITEM_SIZE_HUGE
 	irradiate_non_cov = 7
 	move_delay_malus = 1.5
-	slowdown_general = 1
 	item_icons = list(
 		slot_l_hand_str = 'code/modules/halo/weapons/icons/Weapon_Inhands_left.dmi',
 		slot_r_hand_str = 'code/modules/halo/weapons/icons/Weapon_Inhands_right.dmi',
@@ -27,11 +26,11 @@
 	matter = list("nanolaminate" = 2)
 	hud_bullet_usebar = 1
 
-	overheat_capacity = 121 //4 bursts, overheating on first round of 5th burst
+	overheat_capacity = 121
 	overheat_fullclear_delay = 35
 	overheat_sfx = 'code/modules/halo/sounds/plasrifle_overheat.ogg'
 
-	sustain_time = 4.5 SECONDS
+	sustain_time = 3.0 SECONDS
 	sustain_delay = 1.5
 
 	alt_charge_method = 1

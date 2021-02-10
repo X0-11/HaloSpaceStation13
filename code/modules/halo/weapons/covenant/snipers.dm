@@ -138,7 +138,7 @@
 	hud_bullet_row_num = 7
 	hud_bullet_reffile = 'code/modules/halo/icons/hud_display/hud_bullet_7x8.dmi'
 	hud_bullet_iconstate = "bigneedle"
-	accuracy = -1
+	accuracy = -2
 	scoped_accuracy = 2
 	wielded_item_state = "needlerifle-wielded"
 	matter = list("nanolaminate" = 1)

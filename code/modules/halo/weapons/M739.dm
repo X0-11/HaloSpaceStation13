@@ -28,7 +28,7 @@
 	move_delay_malus = 1.5
 	slowdown_general = 1
 
-	sustain_time = 4.5 SECONDS
+	sustain_time = 3.0 SECONDS
 	sustain_delay = 1.5
 
 /obj/item/weapon/gun/projectile/m739_lmg/update_icon()
