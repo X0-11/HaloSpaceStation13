@@ -166,6 +166,7 @@
 					/obj/item/weapon/storage/pocketstore/hardcase/tools = 0,
 					"Miscellaneous" = -1,
 					/obj/item/flight_item/bullfrog_pack = 0,
+					/obj/item/stack/barbedwire/fifteen = 0,
 					/obj/item/weapon/armor_patch = 0,
 					/obj/item/weapon/storage/firstaid/unsc = 0,
 					/obj/item/device/binoculars = 0,
@@ -177,6 +178,7 @@
 		/obj/item/weapon/storage/box/large/armorset/eva = 3,
 		/obj/item/clothing/accessory/storage/IFAK = 20,
 		/obj/item/weapon/storage/firstaid/unsc = 6,
+		/obj/item/stack/barbedwire/fifteen = 15,
 		/obj/item/flight_item/bullfrog_pack = 1
 		)
 
@@ -323,6 +325,7 @@
 					"Miscellaneous" = -1,
 					/obj/item/weapon/storage/firstaid/unsc = 0,
 					/obj/item/device/binoculars = 0,
+					/obj/item/stack/barbedwire/fifteen = 0,
 					/obj/item/weapon/armor_patch = 0,
 					/obj/item/weapon/armor_patch/mini = 0,
 					/obj/item/drop_pod_beacon = 0
@@ -334,6 +337,7 @@
 					/obj/item/weapon/storage/box/large/armorset/odst/medic = 2,
 					/obj/item/weapon/storage/box/large/armorset/odst/engineer = 2,
 					/obj/item/weapon/storage/box/large/armorset/odst/squadleader = 2,
+					/obj/item/stack/barbedwire/fifteen = 5,
 					/obj/item/clothing/accessory/storage/IFAK = 20,
 					/obj/item/weapon/storage/firstaid/unsc = 6,
 					)
@@ -524,10 +528,12 @@
 					"Miscellaneous" = -1,
 					/obj/item/flight_item/bullfrog_pack = 0,
 					/obj/item/weapon/armor_patch = 0,
-					/obj/item/weapon/armor_patch/mini = 0
+					/obj/item/weapon/armor_patch/mini = 0,
+					/obj/item/stack/barbedwire/fifteen = 0,
 					)
 	amounts = list(\
 		/obj/item/clothing/accessory/storage/IFAK = 20,
+		/obj/item/stack/barbedwire/fifteen = 15,
 		/obj/item/flight_item/bullfrog_pack = 1,
 		)
 
