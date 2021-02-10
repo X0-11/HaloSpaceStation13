@@ -121,7 +121,7 @@ var/global/datum/controller/occupations/job_master
 					var/player_pop_nonfaction = 0
 					var/player_pop_faction = 0
 					for(var/client/C in GLOB.clients)
-						if(!C.mob || !istype(C.mob,/mob/living) || isnull(poplocked.spawn_faction))
+						if(!C.mob || C.mob.faction == null || istype(C.mob,/mob/observer) || isnull(poplocked.spawn_faction))
 							continue
 						if(C.mob.faction == poplocked.spawn_faction)
 							player_pop_faction++
@@ -341,6 +341,9 @@ var/global/datum/controller/occupations/job_master
 
 					if(jobban_isbanned(player, job.title,job.is_whitelisted))
 						Debug("DO isbanned failed, Player: [player], Job:[job.title]")
+						continue
+
+					if(job.is_restricted(player.client.prefs,player))
 						continue
 
 					if(!job.player_old_enough(player.client))
