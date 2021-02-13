@@ -15,7 +15,7 @@
 	var/overcharge_type = /obj/item/projectile/bullet/covenant/plasmapistol/overcharge
 	projectile_type = /obj/item/projectile/bullet/covenant/plasmapistol
 	screen_shake = 0
-	irradiate_non_cov = 10
+	irradiate_non_cov = 7
 	var/overcharge_cost = 1
 	salvage_components = list(/obj/item/plasma_core)
 	matter = list("nanolaminate" = 1)
@@ -141,7 +141,7 @@
 	hud_bullet_reffile = 'code/modules/halo/icons/hud_display/hud_bullet_5x6.dmi'
 	hud_bullet_iconstate = "needle"
 	is_heavy = 1
-	irradiate_non_cov = 5
+	irradiate_non_cov = 2
 	slowdown_general = 0
 	matter = list("nanolaminate" = 1)
 

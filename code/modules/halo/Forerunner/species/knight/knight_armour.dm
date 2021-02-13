@@ -35,6 +35,7 @@
 	sprite_sheets = list("Knight" = 'code/modules/halo/forerunner/species/knight/knight_armour.dmi')
 	canremove = 0
 	unacidable = 1
+	cant_hold = list()
 
 /obj/item/weapon/storage/belt/knight
 	name = "Knight Munitions Storage"
