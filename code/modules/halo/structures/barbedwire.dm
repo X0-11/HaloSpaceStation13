@@ -10,7 +10,7 @@
 	anchored = 1
 	throwpass = 1
 	var/first_dir = 0
-	var/damage = 20
+	var/damage = 15
 	var/health = 10
 	var/mat_decon = /obj/item/stack/material/steel
 
