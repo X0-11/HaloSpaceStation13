@@ -206,7 +206,7 @@
 	item_state = "blank"
 	w_class = ITEM_SIZE_HUGE
 	slot_flags = SLOT_BACK
-	force = 40 //Less than sword due to afterattack ability
+	force = 45 //Less than sword due to afterattack ability
 	edge = 0
 	sharp = 0
 	armor_penetration = 70
