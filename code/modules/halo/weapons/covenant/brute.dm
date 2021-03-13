@@ -16,7 +16,7 @@
 	"Jiralhanae" = 'code/modules/halo/covenant/species/jiralhanae/jiralhanae_gear.dmi'
 	)
 
-	force = 35
+	force = 30
 	armor_penetration = 70
 
 	sharp = 1
@@ -65,7 +65,7 @@
 	burst = 3
 	edge = 1
 	sharp = 1
-	force = 40
+	force = 35
 	is_heavy = 1
 	armor_penetration = 70
 	accuracy = -1
@@ -142,7 +142,7 @@
 	fire_sound = 'code/modules/halo/sounds/mauler_firing.ogg'
 	edge = 1
 	sharp = 1
-	force = 40
+	force = 35
 	is_heavy = 1
 	armor_penetration = 70
 	accuracy = -1
@@ -206,7 +206,7 @@
 	item_state = "blank"
 	w_class = ITEM_SIZE_HUGE
 	slot_flags = SLOT_BACK
-	force = 50 //Less than sword due to afterattack ability
+	force = 40 //Less than sword due to afterattack ability
 	edge = 0
 	sharp = 0
 	armor_penetration = 70
@@ -273,7 +273,7 @@
 	fire_sound = 'code/modules/halo/sounds/bruteshotfire.ogg'
 	var/reload_sound = 'code/modules/halo/sounds/bruteshotreload.ogg'
 	var/reload_time = 30
-	force = 50
+	force = 40
 	edge = 1
 	armor_penetration = 70
 	item_state_slots = list(slot_l_hand_str = "bruteshot", slot_r_hand_str = "bruteshot", slot_back_str = "bruteshot back")
