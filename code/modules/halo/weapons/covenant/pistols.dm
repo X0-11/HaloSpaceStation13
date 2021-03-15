@@ -63,7 +63,7 @@
 			set_light(3, 1, "66FF00")
 			burst = 1
 			fire_delay = initial(fire_delay) * 3 //triples the fire delay.
-			heat_per_shot = initial(heat_per_shot)*2
+			heat_per_shot = initial(heat_per_shot)*3
 		else
 			if(user && !silent)
 				visible_message("<span class='notice'>[user.name]'s [src]'s lights darken</span>","<span class='notice'>You deactivate your [src]'s overcharge</span>")

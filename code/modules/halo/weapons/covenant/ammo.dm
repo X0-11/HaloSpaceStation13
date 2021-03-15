@@ -41,9 +41,9 @@
 	damage = 20
 
 /obj/item/projectile/bullet/covenant/plasmapistol/overcharge
-	damage = 60
+	damage = 55
 	shield_damage = -50 //EMP does most of the work.
-	armor_penetration = 40
+	armor_penetration = 25 //Slightly lower AP than the magnum baseline due to slightly higher base damage.
 	icon_state = "Overcharged_Plasmapistol shot"
 
 /obj/item/projectile/bullet/covenant/plasmapistol/overcharge/on_impact(var/atom/impacted)

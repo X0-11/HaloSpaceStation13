@@ -2,7 +2,7 @@
 /* M224 Rounds */
 //used by: M6D, M6S
 
-/obj/item/ammo_casing/m224
+/obj/item/ammo_casing/m224 //Civvie ammo.
 	desc = "A 12.7mm bullet casing."
 	caliber = "12.7mm"
 	projectile_type = /obj/item/projectile/bullet/m224
@@ -29,15 +29,15 @@
 /* M225 Rounds */
 //used by: M6D, M6S
 
-/obj/item/ammo_casing/m225
+/obj/item/ammo_casing/m225 //Standard Issue UNSC
 	desc = "A 12.7mm HE bullet casing."
 	caliber = "12.7mm"
 	projectile_type = /obj/item/projectile/bullet/m225
 
 /obj/item/projectile/bullet/m225
-	damage = 55
+	damage = 50
 	shield_damage = -10 //Let's make the shield damage a bit more reasonable.
-	armor_penetration = 40
+	armor_penetration = 30
 
 /* M228 Rounds */
 //used by: M6D, M6S

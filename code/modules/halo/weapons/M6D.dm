@@ -7,7 +7,7 @@
 	icon = 'code/modules/halo/weapons/icons/Weapon Sprites.dmi'
 	icon_state = "magnum"
 	item_state = "halo_pistol"
-	magazine_type = /obj/item/ammo_magazine/m6d/m224
+	magazine_type = /obj/item/ammo_magazine/m6d/m225
 	allowed_magazines = list(/obj/item/ammo_magazine/m6d/m224,/obj/item/ammo_magazine/m6d/m225, /obj/item/ammo_magazine/m6d/m228)
 	caliber = "12.7mm"
 	slot_flags = SLOT_BELT|SLOT_HOLSTER
@@ -114,6 +114,8 @@
 	fire_sound = 'code/modules/halo/sounds/MagnumShotSoundEffect.ogg'
 	reload_sound = 'code/modules/halo/sounds/MagnumReloadSoundEffect.ogg'
 
+	magazine_type = /obj/item/ammo_magazine/m6d/m224
+
 	one_hand_penalty = 0
 
 /obj/item/weapon/gun/projectile/m6d_magnum/civilian/update_icon()
@@ -130,6 +132,8 @@
 	fire_sound = 'code/modules/halo/sounds/MagnumShotSoundEffect.ogg'
 	reload_sound = 'code/modules/halo/sounds/MagnumReloadSoundEffect.ogg'
 	desc = "Common handgun accessible to civilians with a lack of a scope, in drab gray GCPD colors. Takes 12.7mm calibre magazines sized for an M6D."
+
+	magazine_type = /obj/item/ammo_magazine/m6d/m224
 
 /obj/item/weapon/gun/projectile/m6d_magnum/police/police/update_icon()
 	. = ..()

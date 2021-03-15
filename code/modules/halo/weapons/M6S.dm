@@ -7,7 +7,7 @@
 	icon = 'code/modules/halo/weapons/icons/Weapon Sprites.dmi'
 	icon_state = "SOCOM"
 	item_state = "halo_spistol"
-	magazine_type = /obj/item/ammo_magazine/m6s/m224
+	magazine_type = /obj/item/ammo_magazine/m6s
 	allowed_magazines = list(/obj/item/ammo_magazine/m6s)
 	caliber = "12.7mm"
 	slot_flags = SLOT_BELT|SLOT_HOLSTER
