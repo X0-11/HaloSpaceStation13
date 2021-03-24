@@ -1,4 +1,4 @@
-#define NEEDLER_EMBED_PROB 45
+#define NEEDLER_EMBED_PROB 60
 #define NEEDLER_SHARD_DET_TIME 10 SECONDS
 #define NEEDLER_SHRAPNEL_AP 50
 #define NEEDLER_SUPERCOMBINE_SHRAPNEL_DAMAGE_MULT 3
@@ -159,7 +159,7 @@
 		if(shard.name == shard_name)
 			embedded_shards += shard
 		if(embedded_shards.len >=shards_to_explode)
-			explosion(get_turf(L),-1,-1,3,5,guaranteed_damage = 100,guaranteed_damage_range = 1)
+			explosion(get_turf(L),-1,-1,2,5,guaranteed_damage = 35,guaranteed_damage_range = 1)
 			for(var/obj/I in embedded_shards)
 				var/obj/item/weapon/material/shard/shrapnel/needleshrap/needle = I
 				if(istype(needle))
