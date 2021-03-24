@@ -27,7 +27,7 @@
 	hud_bullet_usebar = 1
 
 	overheat_capacity = 121
-	overheat_fullclear_delay = 35
+	overheat_fullclear_delay = 3.5 SECONDS
 	overheat_sfx = 'code/modules/halo/sounds/plasrifle_overheat.ogg'
 
 	sustain_time = 3.0 SECONDS

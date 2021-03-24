@@ -86,7 +86,7 @@
 	advanced_covenant = 1
 	overheat_sfx = 'code/modules/halo/sounds/beam_rifle_overheat.ogg'
 	overheat_capacity = 4 //SRS mag equiv, but overheats on 4th click
-	overheat_fullclear_delay = 40
+	overheat_fullclear_delay = 4 SECONDS
 	hud_bullet_usebar = 1
 
 	alt_charge_method = 1
