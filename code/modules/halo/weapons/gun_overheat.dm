@@ -76,7 +76,7 @@
 		visible_message("\icon[src] <span class = 'warning'>[M]'s [src] overheats!</span>",\
 			"\icon[src] <span class = 'warning'>Your [src] overheats!</span>",)
 	else
-		visible_message("\icon[src] <span class = 'warning'>[src] overheats!</span<")
+		visible_message("\icon[src] <span class = 'warning'>[src] overheats!</span>")
 	overheat_sfx(M)
 
 /obj/item/weapon/gun/proc/clear_overheat()
