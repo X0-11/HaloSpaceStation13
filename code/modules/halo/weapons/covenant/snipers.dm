@@ -132,13 +132,13 @@
 	load_method = MAGAZINE
 	reload_sound = 'code/modules/halo/sounds/cov_needlerifle_reload.ogg'
 	one_hand_penalty = -1
-	dispersion = list(0.26)
+	dispersion = list(0)
 	scope_zoom_amount = 3
 	is_scope_variable = 1
 	hud_bullet_row_num = 7
 	hud_bullet_reffile = 'code/modules/halo/icons/hud_display/hud_bullet_7x8.dmi'
 	hud_bullet_iconstate = "bigneedle"
-	accuracy = -2
+	accuracy = -1
 	scoped_accuracy = 2
 	wielded_item_state = "needlerifle-wielded"
 	matter = list("nanolaminate" = 1)
