@@ -87,7 +87,7 @@
 		heat_bar = null
 
 /obj/item/weapon/gun/proc/check_overheat()
-	if(heat_current >= overheat_capacity)
+	if(overheat_capacity > 0 && heat_current >= overheat_capacity)
 		to_chat(src.loc,"\icon[src] <span class='warning'>[src] clunks as you pull the trigger, \
 			it has overheated and needs to ventilate heat...</span>")
 		overheat_sfx(src.loc)
