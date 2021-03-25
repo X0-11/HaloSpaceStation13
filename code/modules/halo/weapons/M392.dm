@@ -74,5 +74,5 @@
 	fire_delay = 7
 	burst_delay = 1
 	burst = 2
-	accuracy = -1
+	accuracy = -2
 	scoped_accuracy = 0
