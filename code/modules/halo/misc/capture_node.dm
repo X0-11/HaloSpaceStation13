@@ -14,6 +14,7 @@ GLOBAL_LIST_EMPTY(capture_nodes)
 	var/list/faction_frequencies = list()
 	var/list/faction_languages = list()
 	var/capture_time = 180
+	var/last_cap_tick_time
 	var/faction_capturing
 	var/capture_ticks_remain = -1
 	var/datum/progressbar/cap_bar
@@ -86,6 +87,7 @@ GLOBAL_LIST_EMPTY(capture_nodes)
 			faction_capturing = userfaction
 			capture_ticks_remain = capture_time
 			next_cap_tick_at = world.time + 1 SECOND
+			last_cap_tick_time = world.time
 		else
 			to_chat(user,"\icon[src] <span class='warning'>Your faction has no interest in controlling [src].</span>")
 			return
@@ -107,24 +109,26 @@ GLOBAL_LIST_EMPTY(capture_nodes)
 		return
 	var/amt_capping = check_faction_cap_active(1)
 	if(amt_capping == 0)
-		if(capture_ticks_remain == capture_time)
+		if(capture_ticks_remain >= capture_time)
 			faction_capturing = null
 			reset_markers()
 			overlays -= cap_bar
 			qdel(cap_bar)
 			cap_bar = null
-			return
-		capture_ticks_remain = min(capture_time,capture_ticks_remain+4)
+		else
+			capture_ticks_remain = min(capture_time,capture_ticks_remain+3)
 	else
-		var/ticks_remove = 1 + ((amt_capping-1)*EXTRAPLAYER_CAP_AMT_INCREASE)
+		var/deltaticks = (world.time - last_cap_tick_time)/10
+		var/ticks_remove = (1 + ((amt_capping-1)*EXTRAPLAYER_CAP_AMT_INCREASE)) * deltaticks
 		capture_ticks_remain = max(0,capture_ticks_remain-min(ticks_remove,EXTRAPLAYER_CAP_AMT_MAX))
-		next_cap_tick_at = world.time + 1 SECOND
 	if(!cap_bar)
 		cap_bar = new (null,capture_time, src)
 		cap_bar.process_without_user = 1
+	last_cap_tick_time = world.time
+	next_cap_tick_at = world.time + 1 SECOND
 	overlays -= cap_bar.bar
-	overlays += cap_bar.bar
 	cap_bar.update(capture_time-capture_ticks_remain)
+	overlays += cap_bar.bar
 
 /obj/machinery/computer/capture_node/proc/contest_markers(var/trigger_faction)
 	var/area/A = get_area(src)
