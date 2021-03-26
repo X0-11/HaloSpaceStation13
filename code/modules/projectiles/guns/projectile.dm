@@ -30,8 +30,8 @@
 	var/allowed_magazines	    	//magazine types that may be loaded. Can be a list or single path
 	var/auto_eject = 0		    	//if the magazine should automatically eject itself when empty.
 	var/auto_eject_sound = null
-	var/speed_reload_time = 1		//How long it takes to speed reload this gun in seconds. Set to -1 to disable.
-	var/tactical_reload_time = 1.5	//How long it takes to tactically reload this gun in seconds. Set to -1 to disable.
+	var/speed_reload_time = 0.4		//How long it takes to speed reload this gun in seconds. Set to -1 to disable.
+	var/tactical_reload_time = 0.5	//How long it takes to tactically reload this gun in seconds. Set to -1 to disable.
 
 	var/is_jammed = 0           	//Whether this gun is jammed
 	var/jam_chance = 0          	//Chance it jams on fire
