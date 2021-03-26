@@ -32,7 +32,7 @@
 
 /obj/item/projectile/bullet/covenant/plasmapistol
 	damage = 45
-	armor_penetration = 20
+	armor_penetration = 15
 	icon = 'code/modules/halo/weapons/icons/Covenant_Projectiles.dmi'
 	icon_state = "Plasmapistol Shot"
 	muzzle_type = /obj/effect/projectile/muzzle/cov_green
@@ -43,7 +43,7 @@
 /obj/item/projectile/bullet/covenant/plasmapistol/overcharge
 	damage = 55
 	shield_damage = -50 //EMP does most of the work.
-	armor_penetration = 25 //Slightly lower AP than the magnum baseline due to slightly higher base damage.
+	armor_penetration = 20 //Slightly lower AP than the magnum baseline due to slightly higher base damage.
 	icon_state = "Overcharged_Plasmapistol shot"
 
 /obj/item/projectile/bullet/covenant/plasmapistol/overcharge/on_impact(var/atom/impacted)
