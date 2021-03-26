@@ -19,6 +19,7 @@
 	flash_protection = FLASH_PROTECTION_MAJOR
 	armor = list(melee = 60, bullet = 40, laser = 30,energy = 30, bomb = 25, bio = 30, rad = 30)
 	armor_thickness = 25
+	armor_thickness_max = 25
 	unacidable = 1
 	canremove = 1
 	species_restricted = list("Knight")
@@ -59,6 +60,7 @@
 
 	armor = list(melee = 55, bullet = 50, laser = 55, energy = 55, bomb = 40, bio = 25, rad = 25)
 	armor_thickness = 25
+	armor_thickness_max = 25
 	max_suitstore_w_class = ITEM_SIZE_HUGE
 	unacidable = 0
 	canremove = 1
