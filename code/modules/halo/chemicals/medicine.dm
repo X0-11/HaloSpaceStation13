@@ -312,6 +312,9 @@
 	taste_description = "metal"
 	reagent_state = LIQUID
 
+/datum/reagent/iron/huragok/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+	affect_ingest(M, alien, removed)
+
 #undef POLYPSEUDOMORPHINE_PAINKILL
 #undef BIOFOAM_COST_STOPBLEED
 #undef BIOFOAM_COST_MENDBONE
