@@ -306,6 +306,12 @@
 	M.Paralyse(6)
 	holder.remove_reagent(/datum/reagent/polypseudomorphine,volume)
 
+/datum/reagent/iron/huragok
+	name = "Blood Restoration Solution"
+	description = "Deals with blood loss."
+	taste_description = "metal"
+	reagent_state = LIQUID
+
 #undef POLYPSEUDOMORPHINE_PAINKILL
 #undef BIOFOAM_COST_STOPBLEED
 #undef BIOFOAM_COST_MENDBONE
