@@ -7,8 +7,8 @@
 	icon = 'code/modules/halo/weapons/icons/Weapon Sprites.dmi'
 	icon_state = "SOCOM"
 	item_state = "halo_spistol"
-	magazine_type = /obj/item/ammo_magazine/m6s
-	allowed_magazines = list(/obj/item/ammo_magazine/m6s)
+	magazine_type = /obj/item/ammo_magazine/m6s/m225
+	allowed_magazines = list(/obj/item/ammo_magazine/m6s,/obj/item/ammo_magazine/m6s/m225,/obj/item/ammo_magazine/m6s_m228)
 	caliber = "12.7mm"
 	slot_flags = SLOT_BELT|SLOT_HOLSTER
 	fire_sound = 'code/modules/halo/sounds/Magnum_SOCOM_Fire.wav'
