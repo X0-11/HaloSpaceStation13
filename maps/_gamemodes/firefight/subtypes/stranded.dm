@@ -32,6 +32,9 @@
 	overmind.comms_channel = null
 
 //An important override for the ghost role flood
+/datum/ghost_role/flood_combat_form
+	objects_spawn_on = list(/obj/effect/landmark/flood_spawn,/obj/effect/landmark/spawn_medium,/obj/structure/biomass)
+
 /datum/ghost_role/flood_combat_form/unique_role_checks(var/mob/observer/ghost/ghost,var/list/possible_spawns)//Used to check some special circumstances, like welded vents for mice.
 	var/datum/game_mode/firefight/gm = ticker.mode
 	if(!istype(gm))

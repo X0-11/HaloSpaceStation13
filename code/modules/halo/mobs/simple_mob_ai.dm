@@ -126,7 +126,7 @@ also using astar would have a performance impact due to eg hordes
 				//we couldn't path to our current assault target, try to find a new one next tick
 				stop_pathing(0)
 
-	else if(!assault_target || world.time >= path_timeout)
+	else if(!assault_turf || !assault_target || world.time >= path_timeout)
 		//we don't have a valid assault target so immediately stop pathing to it
 		stop_pathing(0)
 
