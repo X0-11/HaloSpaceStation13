@@ -1,5 +1,5 @@
 /mob/living/death()
 	if(hiding)
 		hiding = FALSE
-	mobs_in_sector["[last_z]"] -= src
+	GLOB.mobs_in_sectors["[last_z]"] -= src
 	. = ..()
