@@ -47,7 +47,7 @@
 		var/datum/robot_component/C = components[V]
 		if(C.installed != 1)
 			var/init_ex_type = initial(C.external_type)
-			if(isnull(init_ex_type) || (!isnull(initial(C.external_type)) && !C.wrapped))
+			if(isnull(init_ex_type) || !C.wrapped)
 				C.repair()
 		var/heal_brute = 0
 		var/heal_burn = 0
