@@ -11,11 +11,9 @@
 	name = "\improper Geminus City - North"
 	icon_state = "yellow"
 
-
 /area/planets/Geminus/outdoor/south
 	name = "\improper Geminus City - South"
 	icon_state = "blue"
-
 
 /area/planets/Geminus/outdoor/west
 	name = "\improper Geminus City - West"
