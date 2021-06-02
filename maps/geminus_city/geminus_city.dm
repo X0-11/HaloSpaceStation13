@@ -32,9 +32,9 @@
 	#include "invasion_geminus.dm"
 
 	//#include "geminuscity_4.dmm"
-	#include "geminuscity_3.dmm"
-	#include "geminuscity_2.dmm"
 	#include "geminuscity_1.dmm"
+	#include "geminuscity_2.dmm"
+	#include "geminuscity_3.dmm"
 
 	#include "../faction_bases/complex046/complex046.dm"
 
