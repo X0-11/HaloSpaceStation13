@@ -155,11 +155,11 @@
 /area/planets/Geminus/indoor/cargo
 	name = "\improper Cargo"
 	icon_state = "quart"
-
+/*
 /area/planets/Geminus/indoor/disposal_bay
 	name = "\improper Disposal Bay"
 	icon_state = "blue"
-
+*/
 /*
 /area/planets/Geminus/indoor/museum
 	name = "\improper Geminus Museum"
@@ -187,10 +187,11 @@
 /area/planets/Geminus/indoor/tech_storage
 	name = "\improper Tech Shop"
 	icon_state = "green"
-
+/*
 /area/planets/Geminus/indoor/mining
 	name = "\improper Mine"
 	icon_state = "mining"
+*/
 
 /area/planets/Geminus/indoor/armory
 	name = "\improper City Police Armory"
@@ -211,10 +212,11 @@
 /area/planets/Geminus/outdoor/space_elevator
 	name = "\improper Space Elevator"
 	icon_state = "observatory"
-
+/*
 /area/planets/Geminus/outdoor/spaceport
 	name = "\improper Spaceport"
 	icon_state = "hangar"
+*/
 
 //COLONY MAC//
 /area/planets/Geminus/outdoor/MAC
