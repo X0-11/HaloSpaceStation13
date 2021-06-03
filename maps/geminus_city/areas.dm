@@ -82,17 +82,17 @@
 /area/planets/Geminus/indoor/courtroom
 	name = "\improper Courtroom"
 	icon_state = "courtroom"
-
+/*
 /area/planets/Geminus/indoor/living1nw
 	name = "\improper Northwest Appartment Level 1"
 	icon_state = "courtroom"
-
+*/
 /area/planets/Geminus/indoor/living1ne
-	name = "\improper Northeast Appartment Level 1"
+	name = "\improper Northeast Apartment Level 1"
 	icon_state = "courtroom"
 
 /area/planets/Geminus/indoor/living1sw
-	name = "\improper Southwest Appartment Level 1"
+	name = "\improper Southwest Apartment Level 1"
 	icon_state = "courtroom"
 
 /*/area/planets/Geminus/indoor/living2nw
@@ -219,6 +219,7 @@
 */
 
 //COLONY MAC//
+/*
 /area/planets/Geminus/outdoor/MAC
 	name = "\improper Geminus MAC"
 	icon_state = "firingrange"
@@ -226,7 +227,7 @@
 /area/planets/Geminus/outdoor/MAC/upper
 	name = "\improper Geminus MAC - Upper Level"
 	icon_state = "firingrange"
-
+*/
 //UNDERGROUND//
 /area/geminus_underground
 	name = "\improper Geminus Underground Northeast"
