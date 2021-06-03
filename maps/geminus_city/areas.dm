@@ -86,7 +86,7 @@
 /area/planets/Geminus/indoor/living1nw
 	name = "\improper Northwest Appartment Level 1"
 	icon_state = "courtroom"
-*/
+
 /area/planets/Geminus/indoor/living1ne
 	name = "\improper Northeast Apartment Level 1"
 	icon_state = "courtroom"
@@ -95,21 +95,22 @@
 	name = "\improper Southwest Apartment Level 1"
 	icon_state = "courtroom"
 
-/*/area/planets/Geminus/indoor/living2nw
+/area/planets/Geminus/indoor/living2nw
 	name = "\improper Northwest Appartment Level 2"
-	icon_state = "courtroom"*/
+	icon_state = "courtroom"
 
-/*/area/planets/Geminus/indoor/living2ne
+/area/planets/Geminus/indoor/living2ne
 	name = "\improper Northeast Appartment Level 2"
-	icon_state = "courtroom"*/
+	icon_state = "courtroom"
 
-/*/area/planets/Geminus/indoor/living2sw
+/area/planets/Geminus/indoor/living2sw
 	name = "\improper Southwest Appartment Level 2"
-	icon_state = "courtroom"*/
+	icon_state = "courtroom"
 
-/*/area/planets/Geminus/indoor/labs1
+/area/planets/Geminus/indoor/labs1
 	name = "\improper Research and development level 1"
-	icon_state = "courtroom"*/
+	icon_state = "courtroom"
+*/
 
 
 /area/planets/Geminus/indoor/chapel
