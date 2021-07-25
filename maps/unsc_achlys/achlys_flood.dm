@@ -39,12 +39,13 @@
 	icon_state = "guard_infected1"
 	icon_living = "guard_infected1"
 	icon_dead = "guard_infected1_dead"
+	spawn_with_gun = pick(list(/obj/item/weapon/gun/projectile/shotgun/pump/m45_ts/achlys),list(/obj/item/weapon/gun/projectile/m6d_magnum/police/achlys),
+						list(/obj/item/weapon/gun/projectile/ma37_ar/achlys),list(/obj/item/weapon/gun/projectile/shotgun/pump/m45_ts/police/achlys))
+
 
 /mob/living/simple_animal/hostile/flood/combat_form/prisoner/guard/New()
 	inventory = pick(list(/obj/item/ammo_magazine/ma37/m118),list(/obj/item/ammo_magazine/m6d/m224),list(/obj/item/ammo_box/shotgun),\
 				list(/obj/item/weapon/melee/baton/humbler),list(/obj/item/ammo_box/shotgun/beanbag),list(/obj/item/weapon/melee/telebaton))
-	spawn_with_gun = pick(list(/obj/item/weapon/gun/projectile/shotgun/pump/m45_ts/achlys),list(/obj/item/weapon/gun/projectile/m6d_magnum/police/achlys),
-						list(/obj/item/weapon/gun/projectile/ma37_ar/achlys),list(/obj/item/weapon/gun/projectile/shotgun/pump/m45_ts/police/achlys))
 
 /mob/living/simple_animal/hostile/flood/combat_form/prisoner/mutated/guard
 	desc = "Some kind of monster with shredded remains of a gray jumpsuit stuck to it's mishappen body."
