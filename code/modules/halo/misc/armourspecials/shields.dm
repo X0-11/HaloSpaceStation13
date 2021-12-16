@@ -261,7 +261,7 @@
 
 /datum/armourspecials/shields/spartan
 	shieldoverlay = new /obj/effect/overlay/shields/spartan
-	shield_recharge_delay = 8 SECONDS
+	shield_recharge_delay = 7 SECONDS
 
 /datum/armourspecials/shields/elite
 	shields_recharge_sound = 'code/modules/halo/sounds/shields/EliteRecharge.ogg'
