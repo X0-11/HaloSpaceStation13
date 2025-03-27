@@ -9,8 +9,8 @@ on:
       - alpha
     
 env:
-  BYOND_MAJOR: 514
-  BYOND_MINOR: 1589
+  BYOND_MAJOR: 516
+  BYOND_MINOR: 1659
     
 jobs:
   code-tests:
