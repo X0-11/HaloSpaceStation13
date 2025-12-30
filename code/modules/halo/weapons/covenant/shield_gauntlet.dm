@@ -15,7 +15,7 @@
 
 	var/shield_max_charge = 380
 	var/shield_current_charge = 380
-	var/list/shield_colour_values = list("#0000FF","#00FFFF","#FFFF00","#FFA500","#FF2600")		//highest charge to lowest charge
+	var/list/shield_colour_values = list()
 	var/shield_recharge_delay = 6 SECONDS //The delay between taking damage and starting to recharge, in ticks.
 	var/shield_next_charge
 	var/active_slowdown_amount = 0.8 //Bracing to hide behind the shield.
@@ -254,86 +254,18 @@
 		if(istype(M))
 			to_chat(M,"\icon[connected_shield] <span class='info'>[src] is now at [shield_charge_string()].</span>")
 
-
-
-
-/obj/item/clothing/gloves/shield_gauntlet/ant/update_icon()
-	if(connected_shield)
-		//our gauntlets are active
-		icon_state = "gauntlet_active"
-
-		//work out which damage indicator we are at
-		//deep blue -> light blue -> yellow -> orange -> red
-		var/shield_colour
-		if(shield_current_charge < 1 * shield_max_charge / 5)
-			shield_colour = shield_colour_values_ant[5]
-		else if(shield_current_charge < 2 * shield_max_charge / 5)
-			shield_colour = shield_colour_values_ant[4]
-		else if(shield_current_charge < 3 * shield_max_charge / 5)
-			shield_colour = shield_colour_values_ant[3]
-		else if(shield_current_charge < 4 * shield_max_charge / 5)
-			shield_colour = shield_colour_values_ant[2]
-		else
-			shield_colour = shield_colour_values_ant[1]
-
-		//set the inhand shield colour
-		connected_shield.color = shield_colour
-
-		var/mob/living/user = src.loc
-		if(istype(user))
-			if(user.l_hand == connected_shield)
-				user.update_inv_l_hand()
-			else if(user.r_hand == connected_shield)
-				user.update_inv_r_hand()
-
-	else if(overloaded)
-		icon_state = "gauntlet_overloaded"
-	else
-		icon_state = "gauntlet"
-
-	update_action_icon()
-
-/obj/item/clothing/gloves/shield_gauntlet/ant/proc/update_action_icon()
-	action.button.UpdateIcon()
-	if(connected_shield)
-		action.button.maptext = "[shield_percent_string()]"
-	else
-		action.button.maptext = null
-
-/obj/item/clothing/gloves/shield_gauntlet/ant/Process()
-	if(shield_current_charge >= shield_max_charge)
-		STOP_PROCESSING(SSobj, src)
-		shield_next_charge = 0
-		return
-
-	//dont start recharging until we are ready
-	if(world.time > shield_next_charge)
-		//always take 10 ticks to get to full
-		shield_current_charge += shield_max_charge / 15
-
-		///dont overflow
-		if(shield_current_charge > shield_max_charge)
-			shield_current_charge = shield_max_charge
-
-		//automatically come back up after an overload
-		var/mob/M = src.loc
-		if(overloaded)
-			overloaded = 0
-			shield_current_charge = shield_max_charge / 2
-			if(try_activate())
-				//tell our holder
-				to_chat(M,"\icon[connected_shield] <span class='notice'>[src] flares back to life!</span>")
-			else
-				update_icon()
-		else
-			update_icon()
-
-		if(istype(M))
-			to_chat(M,"\icon[connected_shield] <span class='info'>[src] is now at [shield_charge_string()].</span>")
-
 #undef GAUNTLET_WARNING_DELAY
 
 //shield subtype defines//
+
+/obj/item/clothing/gloves/shield_gauntlet/major
+	name = "Kig-Yar Point Defense Gauntlet"
+	desc = "A wrist-worn gauntlet that contains a directional shield generator, allowing it to provide protection from gunfire in the direction the user is facing."
+	species_restricted = list("Kig-Yar")
+	body_parts_covered = HANDS
+	armor = list(melee = 30, bullet = 40, laser = 10, energy = 25, bomb = 15, bio = 0, rad = 0)
+	siemens_coefficient = 0.15
+	shield_colour_values = list("#ff0000","#ff0044","#ff00d9","#5100ff","#0000ff") //highest charge to lowest charge
 
 /obj/item/clothing/gloves/shield_gauntlet/kigyar
 	name = "Kig-Yar Point Defense Gauntlet"
@@ -342,6 +274,7 @@
 	body_parts_covered = HANDS
 	armor = list(melee = 30, bullet = 40, laser = 10, energy = 25, bomb = 15, bio = 0, rad = 0)
 	siemens_coefficient = 0.15
+	shield_colour_values = list("#0000FF","#5100ff","#ff00d9","#ff0044","#ff0000")
 
 /obj/item/clothing/gloves/shield_gauntlet/unsc
 	name = "Experimental UNSC Energy-Shield Gauntlet"
@@ -350,8 +283,7 @@
 	body_parts_covered = HANDS
 	armor = list(melee = 30, bullet = 40, laser = 10, energy = 25, bomb = 15, bio = 0, rad = 0)
 	siemens_coefficient = 0.15
-
-var/list/shield_colour_values_ant = list("#0c6700","#15ff00","#ffff00","#FFA500","#FF2600")
+	shield_colour_values = list("#0000FF","#5100ff","#ff00d9","#ff0044","#ff0000")
 
 /obj/item/clothing/gloves/shield_gauntlet/ant
 	name = "Modified Kig-Yar Shield Gauntlet"
@@ -360,3 +292,4 @@ var/list/shield_colour_values_ant = list("#0c6700","#15ff00","#ffff00","#FFA500"
 	body_parts_covered = HANDS
 	armor = list(melee = 30, bullet = 40, laser = 10, energy = 25, bomb = 15, bio = 0, rad = 0)
 	siemens_coefficient = 0.15
+	shield_colour_values = list("#FEF001","#ffc003","#FD9A01","#FD6104","#F00505")
