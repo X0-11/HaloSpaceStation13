@@ -376,6 +376,19 @@
 	head = /obj/item/clothing/head/helmet/sangheili/socks
 	l_pocket = /obj/item/weapon/grenade/plasma
 
+///////Antonio72\\\\\\\\
+
+//Kig-Yar
+
+/obj/item/clothing/gloves/shield_gauntlet/ant
+	name = "Modified Kig-Yar Shield Gauntlet"
+	desc = "A wrist-worn gauntlet that contains a directional shield generator. It allows protection from gunfire in the direction the user is facing."
+	species_restricted = list("Kig-Yar")
+	body_parts_covered = HANDS
+	armor = list(melee = 30, bullet = 40, laser = 10, energy = 25, bomb = 15, bio = 0, rad = 0)
+	siemens_coefficient = 0.15
+	shield_colour_values = list("#FEF001","#ffc003","#FD9A01","#FD6104","#F00505")
+
 
 ///////Vampire132978123\\\\\\\\
 
