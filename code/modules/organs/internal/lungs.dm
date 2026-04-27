@@ -275,9 +275,9 @@
 		if(breath.temperature <= species.cold_level_1)
 			if(prob(20))
 				to_chat(owner, "<span class='danger'>You feel your face freezing and icicles forming in your lungs!</span>")
-			if(breath.temperature >= species.cold_level_3 && breath.temperature < species.cold_level_2)
+			if (breath.temperature < species.cold_level_3)
 				damage = COLD_GAS_DAMAGE_LEVEL_3
-			else if(breath.temperature >= species.cold_level_2 && breath.temperature < species.cold_level_1)
+			else if (breath.temperature < species.cold_level_2)
 				damage = COLD_GAS_DAMAGE_LEVEL_2
 			else
 				damage = COLD_GAS_DAMAGE_LEVEL_1
@@ -288,12 +288,12 @@
 			if(prob(20))
 				to_chat(owner, "<span class='danger'>You feel your face burning and a searing heat in your lungs!</span>")
 
-			if(breath.temperature >= species.heat_level_1 && breath.temperature < species.heat_level_2)
-				damage = HEAT_GAS_DAMAGE_LEVEL_1
-			else if(breath.temperature >= species.heat_level_2 && breath.temperature < species.heat_level_3)
+			if (breath.temperature > species.heat_level_3)
+				damage = HEAT_GAS_DAMAGE_LEVEL_3
+			else if (breath.temperature > species.heat_level_2)
 				damage = HEAT_GAS_DAMAGE_LEVEL_2
 			else
-				damage = HEAT_GAS_DAMAGE_LEVEL_3
+				damage = HEAT_GAS_DAMAGE_LEVEL_1
 
 			owner.apply_damage(damage, BURN, BP_HEAD, used_weapon = "Excessive Heat")
 			owner.fire_alert = 2
