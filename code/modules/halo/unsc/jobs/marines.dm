@@ -67,3 +67,14 @@
 	faction_whitelist = null
 
 	radio_speech_size = RADIO_SPEECH_SPECIALIST
+
+/datum/job/unsc/skirmseppie
+	title = "T-Vaoan Seperatist"
+	total_positions = 2
+	spawn_positions = 2
+	outfit_type = /decl/hierarchy/outfit/skirmisher_unsc
+	access = list(access_unsc,access_unsc_bridge,access_unsc_medical,access_unsc_armoury,access_unsc_supplies,access_unsc_oni,access_unsc_cargo)
+	whitelisted_species = list(/datum/species/kig_yar_skirmisher)
+	faction_whitelist = null
+
+	radio_speech_size = RADIO_SPEECH_SPECIALIST
