@@ -70,10 +70,10 @@
 
 /datum/job/unsc/skirmseppie
 	title = "T-Vaoan Seperatist"
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 1
+	spawn_positions = 1
 	outfit_type = /decl/hierarchy/outfit/skirmisher_unsc
-	access = list(access_unsc,access_unsc_bridge,access_unsc_medical,access_unsc_armoury,access_unsc_supplies,access_unsc_oni,access_unsc_cargo)
+	access = list(access_unsc,access_unsc_medical,)
 	whitelisted_species = list(/datum/species/kig_yar_skirmisher)
 	faction_whitelist = null
 
