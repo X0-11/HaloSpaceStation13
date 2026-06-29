@@ -76,5 +76,6 @@
 	access = list(access_unsc,access_unsc_medical,)
 	whitelisted_species = list(/datum/species/kig_yar_skirmisher)
 	faction_whitelist = null
+ pop_balance_mult = 1.5
 
 	radio_speech_size = RADIO_SPEECH_SPECIALIST
