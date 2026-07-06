@@ -73,7 +73,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	outfit_type = /decl/hierarchy/outfit/skirmisher_unsc
-	access = list(access_unsc,access_unsc_medical,access_unsc_marine,access_unsc_armory)
+	access = list(access_unsc,access_unsc_medical,access_unsc_marine,access_unsc_armoury)
 	whitelisted_species = list(/datum/species/kig_yar_skirmisher)
 	faction_whitelist = null
 	pop_balance_mult = 1.5
